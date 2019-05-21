@@ -1,0 +1,281 @@
+/***********************/
+/****** VARIABLES ******/
+/***********************/
+
+$sitePad: 40px;
+$gutter: 20px;
+$green: #C7D317;
+$grey: #4a4a4a;
+$sansSerif: 'GT Eesti Pro Text';
+
+/***********************/
+/**** MEDIA QUERIES ****/
+/***********************/
+
+$mobile-width: 600px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+$extraLarge-width: 1600px;
+
+@mixin mobile {
+  @media (max-width: #{$mobile-width}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$mobile-width}) and (max-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin extraLarge {
+  @media (min-width: #{$extraLarge-width}) {
+    @content;
+  }
+}
+
+/***********************/
+/******** RESET ********/
+/***********************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/***********************/
+/****** TYPOGRAPHY *****/
+/***********************/
+
+@font-face {
+  font-family: 'GT Eesti Pro Text';
+  src: url('../fonts/GTEestiProText-Regular.eot');
+  src: url('../fonts/GTEestiProText-Regular.eot') format('embedded-opentype'),
+       url('../fonts/GTEestiProText-Regular.woff2') format('woff2'),
+       url('../fonts/GTEestiProText-Regular.woff') format('woff'),
+       url('../fonts/GTEestiProText-Regular.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Text';
+  src: url('../fonts/GTEestiProText-Bold.eot');
+  src: url('../fonts/GTEestiProText-Bold.eot') format('embedded-opentype'),
+       url('../fonts/GTEestiProText-Bold.woff2') format('woff2'),
+       url('../fonts/GTEestiProText-Bold.woff') format('woff'),
+       url('../fonts/GTEestiProText-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+/***********************/
+/******* STYLES ********/
+/***********************/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  transition: .2s all ease;
+}
+
+body {
+  background: #fff;
+  font-family: $sansSerif;
+  font-weight: 500;
+  font-smoothing: antialiased;
+  font-size: 18px;
+}
+
+section {
+  padding: 30px $sitePad;
+}
+
+h1 {
+  color: $green;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0 0 20px;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 20px 0 10px;
+}
+
+h3 {
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+  margin: 0 0 10px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 10px;
+
+  a {
+    &:link,
+    &:active,
+    &:visited {
+      color: $green;
+    }
+    &:hover {
+      opacity: .8;
+    }
+  }
+}
+
+strong {
+  font-weight: 700;
+}
+
+footer {
+  background: $grey;
+  color: white;
+  padding: 50px $sitePad;
+}
+
+footer a {
+  &:link,
+  &:active,
+  &:visited {
+    color: white;
+  }
+}
+
+.photoBG {
+  min-height: 100vh;
+  background: url('../img/bg.jpg') no-repeat left center;
+  background-size: cover;
+  color: #fff;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  background-attachment: fixed;
+}
+
+.greyBG {
+  background: #F6F6F6;
+}
+
+.landingText {
+  display: flex;
+  align-items: center;
+
+  @include mobile {
+    flex-direction: column;
+  }
+}
+
+.landingText__column {
+  flex: 1;
+
+  h1 {
+    font-size: 90px;
+    color: #fff;
+  }
+
+  p {
+    font-size: 28px;
+  }
+}
+
+.landingText__column--right {
+  border-left: 5px solid #fff;
+  padding-left: 20px;
+}
+
+.subSection {
+  display: flex;
+  margin: 40px auto;
+
+  @include mobile {
+    flex-direction: column;
+  }
+}
+
+.subSection__column {
+  flex: 1;
+  margin-left: $gutter;
+
+  @include mobile {
+    margin-left: 0;
+  }
+
+  &:first-of-type {
+    margin-left: 0;
+  }
+
+}
+
+.subSection__column--flex2 {
+  flex: 2;
+
+  @include mobile {
+    flex: 1;
+  }
+}
+
+.notificationBar {
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  background: $grey;
+  color: #fff;
+  text-align: center;
+  top: -40px;
+  min-height: 30px;
+  padding: 10px 0;
+}
+
+.green {
+  color: $green;
+}

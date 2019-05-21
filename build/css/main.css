@@ -1,0 +1,190 @@
+/***********************/
+/****** VARIABLES ******/
+/***********************/
+/***********************/
+/**** MEDIA QUERIES ****/
+/***********************/
+/***********************/
+/******** RESET ********/
+/***********************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/***********************/
+/****** TYPOGRAPHY *****/
+/***********************/
+@font-face {
+  font-family: 'GT Eesti Pro Text';
+  src: url("../fonts/GTEestiProText-Regular.eot");
+  src: url("../fonts/GTEestiProText-Regular.eot") format("embedded-opentype"), url("../fonts/GTEestiProText-Regular.woff2") format("woff2"), url("../fonts/GTEestiProText-Regular.woff") format("woff"), url("../fonts/GTEestiProText-Regular.ttf") format("truetype");
+  font-weight: 500; }
+
+@font-face {
+  font-family: 'GT Eesti Pro Text';
+  src: url("../fonts/GTEestiProText-Bold.eot");
+  src: url("../fonts/GTEestiProText-Bold.eot") format("embedded-opentype"), url("../fonts/GTEestiProText-Bold.woff2") format("woff2"), url("../fonts/GTEestiProText-Bold.woff") format("woff"), url("../fonts/GTEestiProText-Bold.ttf") format("truetype");
+  font-weight: 700; }
+
+/***********************/
+/******* STYLES ********/
+/***********************/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  transition: .2s all ease; }
+
+body {
+  background: #fff;
+  font-family: "GT Eesti Pro Text";
+  font-weight: 500;
+  font-smoothing: antialiased;
+  font-size: 18px; }
+
+section {
+  padding: 30px 40px; }
+
+h1 {
+  color: #C7D317;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0 0 20px; }
+
+h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 20px 0 10px; }
+
+h3 {
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+  margin: 0 0 10px; }
+
+p {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 10px; }
+  p a:link, p a:active, p a:visited {
+    color: #C7D317; }
+  p a:hover {
+    opacity: .8; }
+
+strong {
+  font-weight: 700; }
+
+footer {
+  background: #4a4a4a;
+  color: white;
+  padding: 50px 40px; }
+
+footer a:link, footer a:active, footer a:visited {
+  color: white; }
+
+.photoBG {
+  min-height: 100vh;
+  background: url("../img/bg.jpg") no-repeat left center;
+  background-size: cover;
+  color: #fff;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  background-attachment: fixed; }
+
+.greyBG {
+  background: #F6F6F6; }
+
+.landingText {
+  display: flex;
+  align-items: center; }
+  @media (max-width: 600px) {
+    .landingText {
+      flex-direction: column; } }
+
+.landingText__column {
+  flex: 1; }
+  .landingText__column h1 {
+    font-size: 90px;
+    color: #fff; }
+  .landingText__column p {
+    font-size: 28px; }
+
+.landingText__column--right {
+  border-left: 5px solid #fff;
+  padding-left: 20px; }
+
+.subSection {
+  display: flex;
+  margin: 40px auto; }
+  @media (max-width: 600px) {
+    .subSection {
+      flex-direction: column; } }
+
+.subSection__column {
+  flex: 1;
+  margin-left: 20px; }
+  @media (max-width: 600px) {
+    .subSection__column {
+      margin-left: 0; } }
+  .subSection__column:first-of-type {
+    margin-left: 0; }
+
+.subSection__column--flex2 {
+  flex: 2; }
+  @media (max-width: 600px) {
+    .subSection__column--flex2 {
+      flex: 1; } }
+
+.notificationBar {
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  background: #4a4a4a;
+  color: #fff;
+  text-align: center;
+  top: -40px;
+  min-height: 30px;
+  padding: 10px 0; }
+
+.green {
+  color: #C7D317; }
