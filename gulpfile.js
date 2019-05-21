@@ -31,7 +31,7 @@ function watch() {
 // });
 
 
-gulp.task('default', gulp.parallel('watch'));
+// gulp.task('default', gulp.parallel('watch'));
 
 exports.style = style;
 exports.watch = watch;
