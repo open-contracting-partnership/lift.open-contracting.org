@@ -3,7 +3,7 @@
 /***********************/
 
 $sitePad: 40px;
-$gutter: 20px;
+$gutter: 40px;
 $green: #C7D317;
 $grey: #4a4a4a;
 $sansSerif: 'GT Eesti Pro Text';
@@ -134,6 +134,11 @@ body {
 
 section {
   padding: 30px $sitePad;
+
+  @include mobile {
+    padding-left: calc(#{$sitePad} / 2);
+    padding-right: calc(#{$sitePad} / 2);
+  }
 }
 
 h1 {
@@ -154,6 +159,10 @@ h3 {
   border-bottom: 2px solid white;
   padding-bottom: 5px;
   margin: 0 0 10px;
+
+  @include mobile {
+    margin-top: 20px;
+  }
 }
 
 p {
@@ -181,6 +190,10 @@ footer {
   background: $grey;
   color: white;
   padding: 50px $sitePad;
+
+  @include mobile {
+    padding: 10px calc(#{$sitePad} / 2) 20px;
+  }
 }
 
 footer a {
@@ -200,6 +213,13 @@ footer a {
   display: flex;
   align-items: center;
   background-attachment: fixed;
+
+  @include mobile {
+    padding-top: 100px;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 0;
+  }
 }
 
 .greyBG {
@@ -209,9 +229,11 @@ footer a {
 .landingText {
   display: flex;
   align-items: center;
+  width: 100%;
 
   @include mobile {
     flex-direction: column;
+    width: 95%;
   }
 }
 
@@ -221,6 +243,10 @@ footer a {
   h1 {
     font-size: 90px;
     color: #fff;
+
+    @include mobile {
+      font-size: 60px;
+    }
   }
 
   p {
@@ -231,6 +257,10 @@ footer a {
 .landingText__column--right {
   border-left: 5px solid #fff;
   padding-left: 20px;
+
+  @include mobile {
+    border: 0;
+  }
 }
 
 .subSection {
@@ -273,7 +303,7 @@ footer a {
   text-align: center;
   top: -40px;
   min-height: 30px;
-  padding: 10px 0;
+  padding: 10px $sitePad;
 }
 
 .green {

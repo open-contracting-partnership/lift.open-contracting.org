@@ -83,6 +83,10 @@ body {
 
 section {
   padding: 30px 40px; }
+  @media (max-width: 600px) {
+    section {
+      padding-left: calc(40px / 2);
+      padding-right: calc(40px / 2); } }
 
 h1 {
   color: #C7D317;
@@ -100,6 +104,9 @@ h3 {
   border-bottom: 2px solid white;
   padding-bottom: 5px;
   margin: 0 0 10px; }
+  @media (max-width: 600px) {
+    h3 {
+      margin-top: 20px; } }
 
 p {
   font-size: 18px;
@@ -117,6 +124,9 @@ footer {
   background: #4a4a4a;
   color: white;
   padding: 50px 40px; }
+  @media (max-width: 600px) {
+    footer {
+      padding: 10px calc(40px / 2) 20px; } }
 
 footer a:link, footer a:active, footer a:visited {
   color: white; }
@@ -130,28 +140,42 @@ footer a:link, footer a:active, footer a:visited {
   display: flex;
   align-items: center;
   background-attachment: fixed; }
+  @media (max-width: 600px) {
+    .photoBG {
+      padding-top: 100px;
+      background-position: center;
+      background-attachment: fixed;
+      min-height: 0; } }
 
 .greyBG {
   background: #F6F6F6; }
 
 .landingText {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  width: 100%; }
   @media (max-width: 600px) {
     .landingText {
-      flex-direction: column; } }
+      flex-direction: column;
+      width: 95%; } }
 
 .landingText__column {
   flex: 1; }
   .landingText__column h1 {
     font-size: 90px;
     color: #fff; }
+    @media (max-width: 600px) {
+      .landingText__column h1 {
+        font-size: 60px; } }
   .landingText__column p {
     font-size: 28px; }
 
 .landingText__column--right {
   border-left: 5px solid #fff;
   padding-left: 20px; }
+  @media (max-width: 600px) {
+    .landingText__column--right {
+      border: 0; } }
 
 .subSection {
   display: flex;
@@ -162,7 +186,7 @@ footer a:link, footer a:active, footer a:visited {
 
 .subSection__column {
   flex: 1;
-  margin-left: 20px; }
+  margin-left: 40px; }
   @media (max-width: 600px) {
     .subSection__column {
       margin-left: 0; } }
@@ -184,7 +208,7 @@ footer a:link, footer a:active, footer a:visited {
   text-align: center;
   top: -40px;
   min-height: 30px;
-  padding: 10px 0; }
+  padding: 10px 40px; }
 
 .green {
   color: #C7D317; }
