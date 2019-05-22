@@ -176,16 +176,22 @@ footer a:link, footer a:active, footer a:visited {
       margin-bottom: 50px; } }
 
 #lift path {
-  fill: #4a4a4a; }
+  fill: white; }
   @media (max-width: 600px) {
     #lift path {
       fill: #C7D317; } }
 
 #oo path {
-  fill: #C7D317; }
+  fill: white; }
+  @media (max-width: 600px) {
+    #oo path {
+      fill: #C7D317; } }
 
 #opencontractingpartnership path {
-  fill: white; }
+  fill: #4a4a4a; }
+  @media (max-width: 600px) {
+    #opencontractingpartnership path {
+      fill: white; } }
 
 .landingText {
   display: flex;
