@@ -160,7 +160,7 @@ footer a:link, footer a:active, footer a:visited {
         left: 0;
         width: 100%;
         height: 100%;
-        background: #C7D317;
+        background: #4a4a4a;
         opacity: .8;
         z-index: 0; } }
 
@@ -174,6 +174,12 @@ footer a:link, footer a:active, footer a:visited {
     .logo {
       float: none;
       margin-bottom: 50px; } }
+
+#lift path {
+  fill: #4a4a4a; }
+  @media (max-width: 600px) {
+    #lift path {
+      fill: #C7D317; } }
 
 .landingText {
   display: flex;
