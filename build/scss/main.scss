@@ -262,10 +262,23 @@ footer a {
 
 #lift path {
   fill: $grey;
+  // fill: white;
+  // fill: $green;
 
   @include mobile {
     fill: $green;
   }
+}
+
+#oo path {
+  fill: $green;
+  // fill: $grey;
+  // fill: white;
+}
+
+#opencontractingpartnership path {
+  fill: white;
+  // fill: $grey;
 }
 
 .landingText {

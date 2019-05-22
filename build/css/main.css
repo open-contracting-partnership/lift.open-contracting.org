@@ -181,6 +181,12 @@ footer a:link, footer a:active, footer a:visited {
     #lift path {
       fill: #C7D317; } }
 
+#oo path {
+  fill: #C7D317; }
+
+#opencontractingpartnership path {
+  fill: white; }
+
 .landingText {
   display: flex;
   align-items: center;
