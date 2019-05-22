@@ -167,6 +167,14 @@ footer a:link, footer a:active, footer a:visited {
 .greyBG {
   background: #F6F6F6; }
 
+.logo {
+  width: 200px;
+  float: right; }
+  @media (max-width: 600px) {
+    .logo {
+      float: none;
+      margin-bottom: 50px; } }
+
 .landingText {
   display: flex;
   align-items: center;
@@ -182,21 +190,32 @@ footer a:link, footer a:active, footer a:visited {
   .landingText__column h1 {
     font-size: 90px;
     color: #fff; }
+    @media (min-width: 600px) and (max-width: 768px) {
+      .landingText__column h1 {
+        font-size: 75px; } }
     @media (max-width: 600px) {
       .landingText__column h1 {
         font-size: 60px; } }
   .landingText__column p {
-    font-size: 28px; }
-    @media (max-width: 600px) {
+    font-size: 26px; }
+    @media (min-width: 600px) and (max-width: 768px) {
       .landingText__column p {
         font-size: 24px; } }
+    @media (max-width: 600px) {
+      .landingText__column p {
+        font-size: 22px; } }
+
+.landingText__column--left {
+  justify-content: center;
+  display: flex; }
 
 .landingText__column--right {
   border-left: 5px solid #fff;
   padding-left: 20px; }
   @media (max-width: 600px) {
     .landingText__column--right {
-      border: 0; } }
+      border: 0;
+      padding: 0; } }
 
 .subSection {
   display: flex;
@@ -230,6 +249,9 @@ footer a:link, footer a:active, footer a:visited {
   top: -40px;
   min-height: 30px;
   padding: 10px 40px; }
+  @media (max-width: 600px) {
+    .notificationBar {
+      font-size: 14px; } }
 
 .green {
   color: #C7D317; }
