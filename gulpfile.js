@@ -24,14 +24,8 @@ function watch() {
   gulp.watch('build/js/*.js').on('change', browserSync.reload);
 }
 
-// gulp.task('css', () => {
-//     return gulp.src('build/css/*.css')
-//         .pipe(postcss())
-//         .pipe(gulp.dest('dist/css'));
-// });
+gulp.task('default', watch);
 
-
-// gulp.task('default', gulp.parallel('watch'));
 
 exports.style = style;
 exports.watch = watch;

@@ -10,7 +10,7 @@ The landing page is an `index.html` file hosted on Github pages.
 
 While the structure is bare bones, there are still some basic build processes involved. The page uses [Gulp](https://gulpjs.com/), so [Node.js](https://nodejs.org/en/) and Gulp's CLI will need to be installed before you're ready to start contributing. It the Gulp CLI isn't already installed run `sudo npm install --global gulp-cli`.
 
-After cloning the repo to your computer `cd` to the directory and run `npm install`. This will install Gulp and its dependencies. Once everything is installed run `gulp watch` and BrowserSync will launch the page, and watch for changes to the SCSS files.
+After cloning the repo to your computer `cd` to the directory and run `npm install`. This will install Gulp and its dependencies. Once everything is installed run `gulp` and BrowserSync will launch the page, and watch for changes to the SCSS files.
 
 ### CSS
 
