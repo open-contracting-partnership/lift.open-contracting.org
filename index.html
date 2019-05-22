@@ -77,7 +77,7 @@
               <div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group">
                 <details>
                   <summary>
-                    We will treat your information with respect. You can change your mind at any time by clicking the unsubscribe link in the footer of any email you receive from us, or by contacting us at info@open-contracting.org. For more information about our privacy practices please visit our website.
+                    We will treat your information with respect. You can change your mind at any time by clicking the unsubscribe link in the footer of any email you receive from us, or by contacting us at info@open-contracting.org.
                   </summary>
                   <div class="content__gdpr">
                       <label>How we'll communicate with you</label>
@@ -182,7 +182,7 @@ $(document).ready(function() {
 $("a[href$='#signup']").click(function(e) {
   e.preventDefault();
   $('html, body').animate({
-      scrollTop: ($('#signup').first().offset().top)
+      scrollTop: ($('#signup').first().offset().top - 40)
   },500);
 })
 

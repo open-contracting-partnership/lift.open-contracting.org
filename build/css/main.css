@@ -468,7 +468,8 @@ input {
   display: inline;
   width: auto; }
 
-#mergeRow-gdpr {
+#mergeRow-gdpr,
+#mergeRow-gdpr p {
   margin-top: 20px;
   font-size: 14px;
   line-height: 1.4; }

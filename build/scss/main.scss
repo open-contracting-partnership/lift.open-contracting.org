@@ -426,7 +426,8 @@ input {
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {border:2px solid #e85c41;}
 
 #mc-embedded-subscribe-form input[type=checkbox]{display: inline; width: auto;}
-#mergeRow-gdpr {
+#mergeRow-gdpr,
+#mergeRow-gdpr p {
   margin-top: 20px;
   font-size: 14px;
   line-height: 1.4;
