@@ -1,18 +1,24 @@
 {
-  "name": "ocp-impact",
+  "name": "ocp-lift",
   "version": "1.0.0",
-  "description": "Landing page for OCP's impact program",
-  "main": "index.js",
+  "description": "Landing page for the OCP Lift program",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/open-contracting-partnership/lift.git"
+  },
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Adam Parker",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^9.5.1",
     "browser-sync": "^2.26.5",
+    "cssnano": "^4.1.10",
     "gulp": "^4.0.2",
-    "gulp-clean-css": "^4.2.0",
     "gulp-postcss": "^8.0.0",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
   }
 }

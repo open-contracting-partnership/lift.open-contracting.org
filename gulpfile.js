@@ -1,14 +1,20 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-var cleanCSS = require('gulp-clean-css');
+// var cleanCSS = require('gulp-clean-css');
 var browserSync = require('browser-sync').create();
-// let postcss = require('gulp-postcss');
+var postcss = require("gulp-postcss");
+var autoprefixer = require("autoprefixer");
+var cssnano = require("cssnano");
+var sourcemaps = require("gulp-sourcemaps");
 
 function style() {
   return gulp.src('build/scss/main.scss')
     .pipe(sass())
+    .on("error", sass.logError)
     .pipe(gulp.dest('build/css'))
-    .pipe(cleanCSS({compatibility: 'ie8'}))
+    .pipe(sourcemaps.init())
+    .pipe(postcss([autoprefixer(), cssnano()]))
+    .pipe(sourcemaps.write())
     .pipe(gulp.dest('dist/css'))
     .pipe(browserSync.stream());
 }
