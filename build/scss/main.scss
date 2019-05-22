@@ -464,3 +464,7 @@ input {
 }
 #mergeRow-gdpr fieldset label {font-weight: normal;}
 #mc-embedded-subscribe-form .mc_fieldset{border:none;min-height: 0px;padding-bottom:0px;}
+
+::placeholder {
+  color: gray;
+}

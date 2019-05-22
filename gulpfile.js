@@ -13,7 +13,10 @@ function style() {
     .on("error", sass.logError)
     .pipe(gulp.dest('build/css'))
     .pipe(sourcemaps.init())
-    .pipe(postcss([autoprefixer(), cssnano()]))
+    .pipe(postcss([autoprefixer({
+      browsers: ['> .5% or last 2 versions'],
+      cascade: false
+    }), cssnano()]))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('dist/css'))
     .pipe(browserSync.stream());
