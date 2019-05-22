@@ -54,15 +54,15 @@ table {
 /****** TYPOGRAPHY *****/
 /***********************/
 @font-face {
-  font-family: 'GT Eesti Pro Text';
-  src: url("../fonts/GTEestiProText-Regular.eot");
-  src: url("../fonts/GTEestiProText-Regular.eot") format("embedded-opentype"), url("../fonts/GTEestiProText-Regular.woff2") format("woff2"), url("../fonts/GTEestiProText-Regular.woff") format("woff"), url("../fonts/GTEestiProText-Regular.ttf") format("truetype");
+  font-family: 'GT Eesti Pro Display';
+  src: url("../fonts/GTEestiProDisplay-Regular.eot");
+  src: url("../fonts/GTEestiProDisplay-Regular.eot") format("embedded-opentype"), url("../fonts/GTEestiProDisplay-Regular.woff2") format("woff2"), url("../fonts/GTEestiProDisplay-Regular.woff") format("woff"), url("../fonts/GTEestiProDisplay-Regular.ttf") format("truetype");
   font-weight: 500; }
 
 @font-face {
-  font-family: 'GT Eesti Pro Text';
-  src: url("../fonts/GTEestiProText-Bold.eot");
-  src: url("../fonts/GTEestiProText-Bold.eot") format("embedded-opentype"), url("../fonts/GTEestiProText-Bold.woff2") format("woff2"), url("../fonts/GTEestiProText-Bold.woff") format("woff"), url("../fonts/GTEestiProText-Bold.ttf") format("truetype");
+  font-family: 'GT Eesti Pro Display';
+  src: url("../fonts/GTEestiProDisplay-Bold.eot");
+  src: url("../fonts/GTEestiProDisplay-Bold.eot") format("embedded-opentype"), url("../fonts/GTEestiProDisplay-Bold.woff2") format("woff2"), url("../fonts/GTEestiProDisplay-Bold.woff") format("woff"), url("../fonts/GTEestiProDisplay-Bold.ttf") format("truetype");
   font-weight: 700; }
 
 /***********************/
@@ -76,7 +76,7 @@ table {
 
 body {
   background: #fff;
-  font-family: "GT Eesti Pro Text";
+  font-family: "GT Eesti Pro Display";
   font-weight: 500;
   font-smoothing: antialiased;
   font-size: 18px; }
