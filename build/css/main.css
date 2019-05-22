@@ -76,10 +76,11 @@ table {
 
 body {
   background: #fff;
-  font-family: "GT Eesti Pro Display";
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-smoothing: antialiased;
-  font-size: 18px; }
+  font-size: 18px;
+  color: #4a4a4a; }
 
 section {
   padding: 80px 40px; }
@@ -89,14 +90,17 @@ section {
 
 h1 {
   color: #C7D317;
+  font-family: "GT Eesti Pro Display";
   font-size: 46px;
   font-weight: 700;
-  line-height: 1;
+  line-height: .93;
   margin: 0 0 20px; }
 
 h2 {
+  font-family: "GT Eesti Pro Display";
   font-size: 26px;
   font-weight: 700;
+  color: #4a4a4a;
   margin: 20px 0 10px; }
 
 h3 {
@@ -132,19 +136,33 @@ footer a:link, footer a:active, footer a:visited {
 
 .photoBG {
   min-height: 100vh;
-  background: url("../img/bg.jpg") no-repeat left center;
+  background: url("../img/bg.jpg") no-repeat left center #C7D317;
   background-size: cover;
   color: #fff;
   margin: 0;
   display: flex;
   align-items: center;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  position: relative; }
   @media (max-width: 600px) {
     .photoBG {
+      background-image: url("../img/bg_mobile.jpg");
       padding-top: 100px;
-      background-position: center;
-      background-attachment: fixed;
+      background-position: left;
+      background-attachment: scroll;
       min-height: 0; } }
+  .photoBG::before {
+    content: ''; }
+    @media (max-width: 600px) {
+      .photoBG::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #C7D317;
+        opacity: .8;
+        z-index: 0; } }
 
 .greyBG {
   background: #F6F6F6; }
@@ -152,11 +170,12 @@ footer a:link, footer a:active, footer a:visited {
 .landingText {
   display: flex;
   align-items: center;
-  width: 100%; }
+  width: 100%;
+  position: relative;
+  z-index: 2; }
   @media (max-width: 600px) {
     .landingText {
-      flex-direction: column;
-      width: 95%; } }
+      flex-direction: column; } }
 
 .landingText__column {
   flex: 1; }
@@ -168,6 +187,9 @@ footer a:link, footer a:active, footer a:visited {
         font-size: 60px; } }
   .landingText__column p {
     font-size: 28px; }
+    @media (max-width: 600px) {
+      .landingText__column p {
+        font-size: 24px; } }
 
 .landingText__column--right {
   border-left: 5px solid #fff;
@@ -232,7 +254,7 @@ input {
   font-size: 1.4em; }
 
 #mc_embed_signup input {
-  border: 1px solid #ABB0B2;
+  border: 0px solid #ABB0B2;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px; }
@@ -287,12 +309,7 @@ input {
   clear: none;
   float: left;
   display: inline-block;
-  width: 46%;
-  margin-right: 4%; }
-
-* html #mc_embed_signup .size1of2 {
-  margin-right: 2%;
-  /* Fix for IE6 double margins. */ }
+  width: 46%; }
 
 #mc_embed_signup .mc-field-group label {
   display: block;
@@ -332,8 +349,7 @@ input {
 
 #mc_embed_signup .indicates-required {
   text-align: right;
-  font-size: 11px;
-  margin-right: 4%; }
+  font-size: 11px; }
 
 #mc_embed_signup .asterisk {
   color: #e85c41;
@@ -408,7 +424,6 @@ input {
 #mc_embed_signup #num-subscribers span {
   padding: .5em;
   border: 1px solid #ccc;
-  margin-right: .5em;
   font-weight: bold; }
 
 #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
@@ -426,3 +441,20 @@ input {
 
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
   border: 2px solid #e85c41; }
+
+#mc-embedded-subscribe-form input[type=checkbox] {
+  display: inline;
+  width: auto; }
+
+#mergeRow-gdpr {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 1.4; }
+
+#mergeRow-gdpr fieldset label {
+  font-weight: normal; }
+
+#mc-embedded-subscribe-form .mc_fieldset {
+  border: none;
+  min-height: 0px;
+  padding-bottom: 0px; }

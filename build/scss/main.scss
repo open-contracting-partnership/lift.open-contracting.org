@@ -7,7 +7,8 @@ $gutter: 40px;
 $green: #C7D317;
 $grey: #4a4a4a;
 $lightGrey: #F5F5F5;
-$sansSerif: 'GT Eesti Pro Display';
+$eesti: 'GT Eesti Pro Display';
+$openSans: 'Open Sans', sans-serif;
 
 /***********************/
 /**** MEDIA QUERIES ****/
@@ -127,10 +128,11 @@ table {
 
 body {
   background: #fff;
-  font-family: $sansSerif;
+  font-family: $openSans;
   font-weight: 500;
   font-smoothing: antialiased;
   font-size: 18px;
+  color: $grey;
 }
 
 section {
@@ -143,15 +145,18 @@ section {
 
 h1 {
   color: $green;
+  font-family: $eesti;
   font-size: 46px;
   font-weight: 700;
-  line-height: 1;
+  line-height: .93;
   margin: 0 0 20px;
 }
 
 h2 {
+  font-family: $eesti;
   font-size: 26px;
   font-weight: 700;
+  color: $grey;
   margin: 20px 0 10px;
 }
 
@@ -206,19 +211,36 @@ footer a {
 
 .photoBG {
   min-height: 100vh;
-  background: url('../img/bg.jpg') no-repeat left center;
+  background: url('../img/bg.jpg') no-repeat left center $green;
   background-size: cover;
   color: #fff;
   margin: 0;
   display: flex;
   align-items: center;
   background-attachment: fixed;
+  position: relative;
 
   @include mobile {
+    background-image: url('../img/bg_mobile.jpg');
     padding-top: 100px;
-    background-position: center;
-    background-attachment: fixed;
+    background-position: left;
+    background-attachment: scroll;
     min-height: 0;
+  }
+
+  &::before {
+    content: '';
+
+    @include mobile {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: $green;
+      opacity: .8;
+      z-index: 0;
+    }
   }
 }
 
@@ -230,10 +252,11 @@ footer a {
   display: flex;
   align-items: center;
   width: 100%;
+  position: relative;
+  z-index: 2;
 
   @include mobile {
     flex-direction: column;
-    width: 95%;
   }
 }
 
@@ -251,6 +274,10 @@ footer a {
 
   p {
     font-size: 28px;
+
+    @include mobile {
+      font-size: 24px;
+    }
   }
 }
 
@@ -322,7 +349,7 @@ input {
 /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
 #mc_embed_signup form {display:block; position:relative; text-align:left;}
 #mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
-#mc_embed_signup input {border: 1px solid #ABB0B2; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+#mc_embed_signup input {border: 0px solid #ABB0B2; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
 #mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
 #mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
 #mc_embed_signup input:focus {border-color:#333;}
@@ -332,8 +359,7 @@ input {
 #mc_embed_signup .nowrap {white-space:nowrap;}
 
 #mc_embed_signup .mc-field-group {clear:left; position:relative; width:96%; padding-bottom:3%; min-height:50px;}
-#mc_embed_signup .size1of2 {clear:none; float:left; display:inline-block; width:46%; margin-right:4%;}
-* html #mc_embed_signup .size1of2 {margin-right:2%; /* Fix for IE6 double margins. */}
+#mc_embed_signup .size1of2 {clear:none; float:left; display:inline-block; width:46%;}
 #mc_embed_signup .mc-field-group label {display:block; margin-bottom:3px;}
 #mc_embed_signup .mc-field-group input {display:block; width:100%; padding:8px 0; text-indent:2%;}
 #mc_embed_signup .mc-field-group select {display:inline-block; width:99%; padding:5px 0; margin-bottom:2px;}
@@ -344,7 +370,7 @@ input {
 #mc_embed_signup .datefield .monthfield input, #mc_embed_signup .datefield .dayfield input{width:30px;}
 #mc_embed_signup .datefield label, #mc_embed_signup .phonefield-us label{display:none;}
 
-#mc_embed_signup .indicates-required {text-align:right; font-size:11px; margin-right:4%;}
+#mc_embed_signup .indicates-required {text-align:right; font-size:11px;}
 #mc_embed_signup .asterisk {color:#e85c41; font-size:150%; font-weight:normal; position:relative; top:5px;}
 #mc_embed_signup .clear {clear:both;}
 
@@ -361,7 +387,16 @@ input {
 
 #mc-embedded-subscribe {clear:both; width:auto; display:block; margin:1em 0 1em 5%;}
 #mc_embed_signup #num-subscribers {font-size:1.1em;}
-#mc_embed_signup #num-subscribers span {padding:.5em; border:1px solid #ccc; margin-right:.5em; font-weight:bold;}
+#mc_embed_signup #num-subscribers span {padding:.5em; border:1px solid #ccc; font-weight:bold;}
 
 #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {display:inline-block; margin:2px 0 1em 0; padding:5px 10px; background-color:rgba(255,255,255,0.85); -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; font-size:14px; font-weight:normal; z-index:1; color:#e85c41;}
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {border:2px solid #e85c41;}
+
+#mc-embedded-subscribe-form input[type=checkbox]{display: inline; width: auto;}
+#mergeRow-gdpr {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+#mergeRow-gdpr fieldset label {font-weight: normal;}
+#mc-embedded-subscribe-form .mc_fieldset{border:none;min-height: 0px;padding-bottom:0px;}
