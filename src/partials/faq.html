@@ -1,0 +1,78 @@
+<main class="faq">
+  <div class="container">
+    <section>
+      <div class="section--textOnly">
+        <div class="heroText">
+          <h1>{{faq.heading}}</h1>
+          <p>{{{faq.text}}}</p>
+        </div>
+        <h2>
+          {{faq.applications.heading}}
+        </h2>
+        {{#each faq.applications.questions}}
+        <details>
+          <summary>
+            {{this.summary}}
+          </summary>
+          {{{this.details}}}
+        </details>
+        {{/each}}
+        <h2>
+          {{faq.project.heading}}
+        </h2>
+        {{#each faq.project.questions}}
+        <details>
+          <summary>
+            {{this.summary}}
+          </summary>
+          {{{this.details}}}
+        </details>
+        {{/each}}
+        <h2>
+          {{faq.team.heading}}
+        </h2>
+        {{#each faq.team.questions}}
+        <details>
+          <summary>
+            {{this.summary}}
+          </summary>
+          {{{this.details}}}
+        </details>
+        {{/each}}
+        <h2>
+          {{faq.context.heading}}
+        </h2>
+        {{#each faq.context.questions}}
+        <details>
+          <summary>
+            {{this.summary}}
+          </summary>
+          {{{this.details}}}
+        </details>
+        {{/each}}
+        <h2>
+          {{faq.funding.heading}}
+        </h2>
+        {{#each faq.funding.questions}}
+        <details>
+          <summary>
+            {{this.summary}}
+          </summary>
+          {{{this.details}}}
+        </details>
+        {{/each}}
+        <h2>
+          {{faq.program.heading}}
+        </h2>
+        {{#each faq.program.questions}}
+        <details>
+          <summary>
+            {{this.summary}}
+          </summary>
+          {{{this.details}}}
+        </details>
+        {{/each}}
+      </div>
+    </section>
+  </div>
+</main>

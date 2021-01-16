@@ -1,0 +1,618 @@
+###############################
+# Generic Info           ######
+###############################
+
+lang: es
+title: Open Contracting Lift
+gtm: GTM-5ZQRJS9
+smcard: meta-img-ocp-lift.jpg
+urlprefix: es/
+
+meta:
+  title: Open Contracting Lift
+  description: Open Contracting Lift is an exciting new program that will help teams of bold procurement reformers propel their ambitious plans towards systemic change.
+  keywords: open contracting, lift
+  canonical: https://lift.open-contracting.org
+  ogtitle: Open Contracting Lift
+
+applyCTA: 
+  text: Postularse Ahora
+  url:
+  #### details is optional
+  details: Deadline March 12
+
+###############################
+# Navigation             ######
+###############################
+
+nav:
+  apply: Postularse
+  program: Programa
+  faq: Preguntas frecuentes
+  language: Idioma
+
+###############################
+# Homepage               ######
+###############################
+
+home:
+
+  ## 01. Hero Section
+
+  hero:
+
+    headline: Mejorar los servicios públicos.
+
+    text: Usted quiere que la recuperación de la pandemia sea rápida, justa y eficaz. Open Contracting Lift es nuestro programa de aceleración de impacto que ayuda a equipos audaces que impulsan reformas en materia de contratación en todo el mundo a avanzar con sus ideas y producir un cambio. <strong>¿Cómo tiene previsto utilizar la contratación abierta* para favorecer una recuperación inclusiva y eficaz?</strong>
+
+  ## 02. Intro Section
+
+  intro:
+
+    leftCol:
+
+      text: Open Contracting Lift es el programa que hemos creado para ayudar a los equipos audaces que impulsan reformas en materia de contratación en todo el mundo a llevar adelante sus ideas de proyectos y producir un cambio sistémico.
+
+    rightCol:
+
+      text: >
+        <p>El objetivo que usted tiene podr&iacute;a ser utilizar la contrataci&oacute;n abierta para favorecer una recuperaci&oacute;n inclusiva y eficaz mediante lo siguiente:</p>
+        <ul>
+        <li><strong>Ampliaci&oacute;n de las oportunidades econ&oacute;micas</strong>: generar m&aacute;s oportunidades para que empresas de mujeres, minor&iacute;as o locales participen en la contrataci&oacute;n p&uacute;blica, o desarrollar la capacidad de las peque&ntilde;as empresas locales para que puedan competir por contratos p&uacute;blicos y conseguirlos.&nbsp;</li>
+        <li><strong>Mejora de la infraestructura y los servicios p&uacute;blicos</strong>: abastecer a los hospitales de manera justa con los mejores medicamentos y equipos de protecci&oacute;n, equipar las escuelas p&uacute;blicas con los insumos y la infraestructura que necesitan para prestar servicios a los estudiantes y sus familias, generar viviendas p&uacute;blicas de mayor calidad o ampliar el acceso al transporte p&uacute;blico asequible y ecol&oacute;gico.&nbsp;&nbsp;</li>
+        <li><strong>Aumento de la efectividad y la rendici&oacute;n de cuentas del gobierno</strong>: asegurar mayor integridad mediante el monitoreo y la incidencia, aumentar la competencia y reducir las contrataciones a un &uacute;nico proveedor, usar datos y perspectivas en la toma de decisiones o trabajar de manera m&aacute;s eficiente para reducir el costo asociado con la emisi&oacute;n de contratos p&uacute;blicos.</li>
+        </ul>
+        <p>A lo largo de 18 meses, se brindar&aacute; una capacitaci&oacute;n completa y orientada espec&iacute;ficamente a sus necesidades, dictada por importantes expertos y colegas para ofrecer mejores bienes, obras y servicios, y ampliar las oportunidades econ&oacute;micas a todos mediante estrategias de contrataci&oacute;n nuevas o mejores. Lo ayudaremos a transformar su excelente idea en un plan de acci&oacute;n s&oacute;lido, conseguir aceptaci&oacute;n y fortalecer su capacidad durante la ejecuci&oacute;n. Los equipos ser&aacute;n elegibles para recibir asistencia directa por hasta USD 30.000 seg&uacute;n las necesidades y el avance del equipo, as&iacute; como 200 horas de asistencia t&eacute;cnica y apoyo de OCP.&nbsp;</p>
+  
+    quote:
+      text: >
+        “Lift ayudó a acelerar el proceso de aprendizaje Es cierto que ya estábamos aprendiendo, pero este programa nos ayudó a hacerlo más rápido. Además, el apoyo político y la asistencia técnica fueron realmente de ayuda para alcanzar los hitos que nos habíamos propuesto en términos de apertura de datos”.
+      attribution: 
+
+    text: >
+      <p>Queremos escuchar las nuevas ideas que tengan para emplear la contrataci&oacute;n abierta con el fin de favorecer una recuperaci&oacute;n inclusiva y eficaz. Para obtener m&aacute;s inspiraci&oacute;n, consulte<a href="https://www.open-contracting.org/implement/lift/"> c&oacute;mo los equipos de todo el mundo</a> han utilizado Lift para lograr que sus proyectos de reforma avancen m&aacute;s r&aacute;pido.</p>
+
+  ## 03. Why Apply Section
+
+  whyApply:
+
+    heading: Razones para postularse
+
+    text: A usted le interesa contribuir a una recuperación más inclusiva y mejor que atienda las necesidades de las comunidades marginadas o sin representación suficiente. Reconoce que con la reducción de los presupuestos públicos, debemos aprovechar al máximo todos los recursos disponibles. Considera que las contrataciones son un mecanismo que puede propiciar mejores resultados. 
+
+    quote1:
+      text: >
+        “Si quiere generar un mayor o mejor impacto, este programa es ideal para usted”.
+      attribution: 
+
+    left:
+      heading: Impulse sus aspiraciones de reforma.
+      text: Obtenga mejores resultados de su proyecto de reforma con el respaldo de un líder internacional en reforma sobre contrataciones. Apoyaremos sus iniciativas para crear y ofrecer un plan sólido que le permita alcanzar sus metas ambiciosas utilizando estrategias de contratación pública efectivas.
+
+    center:
+      heading: Aprenda en forma global y genere cambios a nivel local.
+      text: Con 200 horas de asistencia técnica, usted recibirá orientación muy específica  sobre cómo utilizar la contratación pública para conseguir mejores resultados para su proyecto. Aprenda qué funciona y qué errores se deben evitar al generar aceptación, usar datos abiertos y ejecutar estrategias de contratación impulsadas por resultados con proveedores y partes interesadas. También recibirá asistencia directa por hasta USD 30.000 según las necesidades y el avance de su equipo.
+
+    right:
+      heading: Súmese a una comunidad de impulsores de reformas.
+      text: Conéctese con colegas experimentados que han llevado adelante reformas exitosas y han superado desafíos similares. Trabaje en colaboración con expertos que pueden ayudarlo a adaptar soluciones exitosas a su contexto. Comparta su historia y el progreso que ha alcanzado, y participe en foros regionales y globales para presentar sus proyectos.
+
+    quote2:
+      text: >
+        “Describiría a Lift como un socio excelente; es contar con alguien que apoya tu idea descabellada. Alguien que cree en tu cambio, te mantiene encaminado y te obliga a rendir cuentas (¡de buena manera!) con respecto a tu propia hipótesis y tus ideas”. 
+      attribution: 
+
+  ## 04. Who Can Apply Section
+
+  whoApply:
+
+    heading: ¿Quiénes pueden postularse?
+
+    text: Puede ser un organismo gubernamental, organización de la sociedad civil, de medios de comunicación, académica o de tecnología, o un emprendedor social. También es posible postularse como una coalición de actores. Nuestros equipos más fuertes hasta el momento han reunido a múltiples actores de organismos gubernamentales y del gobierno y la sociedad civil.
+
+    left1:
+      heading: Objetivos y planes para generar impacto a partir de la contratación.
+      text: Lift está abierto a equipos de todo el mundo que trabajan para mejorar la calidad de bienes, obras o servicios públicos, o generar oportunidades económicas con el fin de favorecer una recuperación inclusiva y eficaz de la pandemia. Usted tiene una meta clara en mente y un problema que está intentando solucionar, a nivel nacional, regional y metropolitano.
+
+    right1:
+      heading: Proyectos con aceptación e impulso, en todos los niveles de madurez.
+      text: Su proyecto de reforma ya cuenta con la aceptación y el apoyo de algunos líderes de alto nivel que pueden ayudar a que el proyecto avance y supere la oposición. Los equipos pueden estar trabajando en proyectos que se encuentren en diferentes etapas de desarrollo. Es posible que usted esté emprendiendo una nueva iniciativa o que esté abocado a perfeccionar y llevar a mayor escala una solución que ya puso a prueba. A fin de que puedan considerarse para el programa, los proyectos deben demostrar que tienen el apoyo de altos líderes.
+
+
+    left2:
+      heading: Equipos que tienen la capacidad y el poder de impulsar el cambio.
+      text: >
+        El propósito primordial de Lift es que usted tenga la capacidad para hacer realidad su gran idea. Usted ha formado un equipo dispuesto a dedicar una cantidad de tiempo significativa para impulsar este proyecto en forma semanal, cuenta con datos e infraestructura de TI y tiene un presupuesto para financiar su tiempo y sus actividades esenciales. Le interesa que la comunidad le comunique cómo puede satisfacer mejor sus necesidades durante la recuperación.
+
+    right2:
+      heading: Equipos que reúnen a aliados en la reforma.
+      text: >
+        Exigimos que los equipos de Lift abocados a las reformas estén integrados por miembros de diferentes organismos u organizaciones. Esto se debe a que hemos comprobado que los equipos abocados a reformas que se muestran más sólidos por lo general trabajan entre diferentes sectores y organizaciones.
+
+    bottomLinkText: Más información sobre nuestros criterios de elegibilidad 
+
+    quote:
+      text: >
+        “Esta oportunidad es para personas que promuevan reformas y tengan iniciativa propia, no para quienes esperan que OCP intervenga y haga todo por ellas; OCP es un socio leal que lo acompaña para que pueda impulsar los cambios”.  
+      attribution: 
+
+  ## 05. Apply Section
+
+  apply:
+
+    heading: Postularse
+
+###############################
+# Apply Page             ######
+###############################
+
+apply:
+
+  heading: Permítanos ayudarlo con la carga pesada.
+
+  text: ¿Está preparado para subir de nivel? Consulte los recursos a continuación para generar su mejor postulación. La fecha límite para postularse es el 12 de marzo de 2021.
+
+  ## 01. Resources Section
+
+  resources:
+
+    heading: Recursos
+
+    eligible:
+      heading: Averigüe si es elegible.
+      text: >
+        <p>Todos los postulantes deben:</p>
+        <ul>
+        <li>Tener un proyecto cuyo objeto sea utilizar la contrataci&oacute;n abierta para favorecer una recuperaci&oacute;n inclusiva y eficaz.</li>
+        <li>Contar con un equipo con al menos dos miembros claves: alguien que pueda generar respaldo pol&iacute;tico y tenga habilidad para los tr&aacute;mites burocr&aacute;ticos (al que llamamos Gestor de relaciones) y alguien que pueda desenvolverse en el sistema de contrataciones (al que llamamos Experto en contrataciones); y si el proyecto requiere una soluci&oacute;n tecnol&oacute;gica, se deber&aacute; contar adem&aacute;s con un experto t&eacute;cnico. Tambi&eacute;n requerimos que un miembro del equipo pueda desempe&ntilde;arse como L&iacute;der de equipo y tenga autoridad para coordinar el equipo e impulsar el avance del proyecto.</li>
+        <li>Contar con un equipo que re&uacute;na distintos departamentos u organizaciones.</li>
+        <li>Poder dedicar una cantidad significativa de energ&iacute;a y tiempo a este proyecto para llevar adelante su idea y avanzar en forma constante.</li>
+        <li>Poder ejecutar el proyecto con la infraestructura t&eacute;cnica y la capacidad del equipo existentes.</li>
+        <li>Trabajar en un pa&iacute;s considerado &ldquo;Bueno&rdquo;, &ldquo;Satisfactorio&rdquo;, &ldquo;Problem&aacute;tico&rdquo; o &ldquo;Dif&iacute;cil&rdquo; seg&uacute;n el<a href="https://rsf.org/en/ranking_table"> &Iacute;ndice Mundial de Libertad de Prensa 2020</a>. Consulte la<a href="https://docs.google.com/document/d/1ig2PPKuCcJD4kfy6jPAGdOvyTUhbGaR1SAE_T9SXehs/edit%23heading=h.6qoh1weisd32"> Gu&iacute;a para la puntuaci&oacute;n de postulaciones</a> para conocer los detalles).</li>
+        <li>Tener un nivel de ingl&eacute;s profesional para aprovechar los seminarios e intercambios grupales.</li>
+        <li>Estar dispuesto a participar plenamente en el programa de 18 meses.</li>
+        </ul>
+    applicationTips:
+      heading: Obtenga consejos para destacarse en la postulación.
+      text: >
+        <p>La postulaci&oacute;n a Lift estar&aacute; abierta durante ocho semanas, hasta el 12 de marzo de 2021. Lea el<a href="https://docs.google.com/presentation/d/1lHVSnPUozaJdD9EJMXz_MHf05lsB6449yqDcS_aQYbY/edit%23slide=id.p"> Manual para postulantes de Lift</a> y participe en nuestros seminarios <a href="https://www.open-contracting.org/events/">web informativos</a> para informarse sobre qu&eacute; debe saber antes de postularse.</p>
+
+    inspired:
+      heading: Obtenga inspiración.
+      text: >
+        <p>Consulte<a href="https://www.open-contracting.org/implement/lift/"> c&oacute;mo los equipos de todo el mundo</a> han utilizado Lift para lograr que sus proyectos de reforma avancen m&aacute;s r&aacute;pido. A su vez,<a href="https://reboot.org/2017/03/01/process-product-user-centered-design-can-create-impact-government/"> estos</a><a href="https://reboot.org/case-studies/context-driven-programming-for-governance-reform-nigeria/"> estudios de casos</a> muestran de qu&eacute; formas hemos ayudado a distintos gobiernos a llevar adelante reformas ambiciosas.</p>
+
+    contact:
+      heading: Póngase en contacto.
+      text: >
+        <p>¿Tiene más preguntas? Envíe un correo electrónico a la gerenta del programa Lift, <a href="mailto:ksklar@open-contracting.org">ksklar@open-contracting.org</a>.</p>
+
+  ## 02. Selection Section
+
+  selection:
+    heading: Selección
+
+    ### note no <p> tags
+    text: >
+      Las postulaciones se calificarán con hasta 25 puntos en total en función de los siguientes criterios claves:
+
+    leftCol:
+      heading: El potencial impacto del proyecto propuesto para mejorar la calidad de bienes, obras o servicios públicos y la solidez del plan para alcanzar los objetivos del proyecto
+      subhead:
+
+    centerCol:
+      heading: El poder para realizar cambios que tiene el equipo, incluidos la aceptación política y el apoyo de actores interesados clave
+      subhead:
+
+    rightCol:
+      heading: La capacidad del equipo central para implementar el proyecto y mitigar los desafíos
+      subhead:
+
+    ### note no <p> tags
+    text2: >
+      Para un desglose detallado de las pautas de puntuaci&oacute;n, consulte la<a href="https://docs.google.com/document/d/1kHdJEyy4UGlvTIAD1WyTAyaRP9R7Z9QylZvEJvGxlSY/edit%23heading=h.8n1acpx88qc"> Gu&iacute;a para la puntuaci&oacute;n de postulaciones</a>.
+
+    process:
+      heading: El proceso.
+      text: >
+        <p>Hemos elaborado un proceso de postulaci&oacute;n de tres pasos:</p>
+        <ol>
+        <li>Postulaci&oacute;n escrita breve, abierta al p&uacute;blico.</li>
+        <li>Postulaci&oacute;n escrita larga, mediante invitaci&oacute;n &uacute;nicamente. Se seleccionar&aacute;n hasta 21 equipos.&nbsp;</li>
+        <li>Entrevistas y ejercicio, mediante invitaci&oacute;n &uacute;nicamente. Se seleccionar&aacute;n hasta 11 equipos.&nbsp;&nbsp;</li>
+        </ol>
+        <p>Los ganadores se anunciar&aacute;n en junio. Se seleccionar&aacute;n hasta 7 equipos para participar en Lift.</p>
+        <p>El personal de OCP evaluará todas las postulaciones escritas breves. Las postulaciones escritas largas se compartirán con un comité asesor de expertos no pertenecientes a OCP, que las revisará y nos transmitirá sus consideraciones.</p>
+    
+    notSelected:
+      heading: Si su equipo no es seleccionado.
+      text: >
+        <p>Lift es un programa altamente competitivo. Todos los postulantes ser&aacute;n notificados tan pronto como sea posible si no son seleccionador para avanzar al proceso de postulaci&oacute;n. Tambi&eacute;n ofreceremos retroalimentaci&oacute;n directa sobre las presentaciones e identificaremos maneras alternativas en las que podemos trabajar con usted.</p>
+        <p>Lift es solo una manera en la brindamos apoyo a nuestros socios. Tambi&eacute;n organizamos con frecuencia llamadas comunitarias, que se anuncian en el<a href="https://groups.google.com/a/open-contracting.org/forum/?utm_medium=email&amp;utm_source=footer%23!forum/standard-discuss"> grupo de Google de OCDS</a>, el<a href="https://www.open-contracting.org/latest-news/"> bolet&iacute;n informativo</a>, en las p&aacute;ginas de<a href="https://twitter.com/opencontracting"> Twitter</a> y<a href="https://www.facebook.com/OpenContracting/"> Facebook</a>, y en medios sociales. Puede comunicarse con el equipo de OCP escribiendo a info@open-contracting.org si tiene preguntas sobre la ejecuci&oacute;n del est&aacute;ndar de datos.</p>
+
+  ## 03. Experts Section
+
+  experts:
+    heading: Advisory Committee
+    text: This is the steller team who will evaluate our top applications.  
+
+    bios:
+
+      bio1:
+        name: Michael P. Cañares
+        text: Strategy Advisor, Step Up Consultants
+        img: michael-canares.jpg
+
+      bio2:
+        name: Camilo Cetina
+        text: Main Lead, Integrity & Digital Innovation at CAF – Development Bank of Latin America
+        img: camilo-cetina.jpg
+
+      bio3:
+        name: Amira El-Sayed
+        text: Principal, Civic Empowerment, Luminate
+        img: amira-el-sayed.jpg
+
+      bio4:
+        name: Jáchym Hercher
+        text: Product Team Manager, Seznam.cz
+        img: jachym-hercher.jpg
+
+      bio5:
+        name: Elena Hoffnagle
+        text: Project Leader, Government Performance Lab at the Harvard Kennedy School
+        img: elena-hoffnagle.jpg
+
+      bio6:
+        name: Seember Nyager
+        text: 
+        img: seember-nyager.jpg
+
+###############################
+# Program Page           ######
+###############################
+
+program:
+
+  heading: Cómo funciona el programa.
+
+  ## 01. Intro Section
+
+  text1: >
+    <p>Nos interesa contactarnos con todo tipo de equipos que tengan grandes ideas para utilizar la<a href="https://www.open-contracting.org/why-open-contracting/%23what-is-open-contracting"> contrataci&oacute;n abierta</a> con el fin de favorecer una recuperaci&oacute;n inclusiva y eficaz de la pandemia.</p>
+    <p>Los equipos se seleccionar&aacute;n a trav&eacute;s de un proceso competitivo. Se elegir&aacute;n hasta siete equipos. Se brindar&aacute; apoyo personalizado en ingl&eacute;s, espa&ntilde;ol, franc&eacute;s o ruso. El aprendizaje grupal y parte del asesoramiento de expertos se brindar&aacute;n en ingl&eacute;s &uacute;nicamente. Los equipos que participen deber&aacute;n tener dominio profesional del ingl&eacute;s para aprovechar lo que ofrece la comunidad de Lift.</p>
+    <p>El programa consta de dos partes. Sugerimos consultar el<a href="https://docs.google.com/presentation/d/1lHVSnPUozaJdD9EJMXz_MHf05lsB6449yqDcS_aQYbY/edit%23slide=id.p"> Manual para postulantes de Lift</a> para conocer los detalles.</p>
+
+  leftCol:
+    heading: >
+      Parte 1: <span class="teal">Desarrollo de las bases</span>
+    subhead: de julio a septiembre de 2021, 3 meses
+    text: Los equipos transforman sus ideas en un plan de acción detallado, perfeccionan su plan en función de la participación de actores interesados y desarrollan estrategias de reforma sólidas para la ejecución y el monitoreo del impacto.
+
+  rightCol:
+    heading: >
+      Parte 2: <span class="blue">Ejecución</span>
+    subhead: de octubre de 2021 a diciembre de 2022, 15 meses
+    text: Los equipos reciben asistencia práctica personalizada mientras desarrollan, prueban e incorporan las mejores prácticas de contratación en sus contextos y monitorean su impacto.
+
+  ## 02. What to Expect Section
+
+  expect:
+    heading: Cronograma previsto
+
+    text: >
+      <ul>
+      <li>Apertura de postulaciones: 19 de enero</li>
+      <li>Seminarios web informativos: febrero</li>
+      <li>Cierre de postulaciones: 12 de marzo</li>
+      <li>Se invita a los finalistas a presentar una postulaci&oacute;n completa y se notifica a todos los dem&aacute;s: 19 de abril</li>
+      <li>Entrevistas: mayo/junio</li>
+      <li>Anuncio de los equipos seleccionados; junio</li>
+      <li>Taller Liftoff I para dise&ntilde;ar/perfeccionar proyectos: principios/mediados de julio, a confirmar</li>
+      <li>Fase de Desarrollo de las bases: julio - septiembre de 2021</li>
+      <li>Taller Liftoff II de preparaci&oacute;n para la ejecuci&oacute;n: octubre de 2021</li>
+      <li>Fase de ejecuci&oacute;n: octubre de 2021 - diciembre de 2022</li>
+      </ul>
+
+  ## 03. Your Commitment Section
+
+  commitment:
+    heading: Su compromiso
+
+    ### note: no paragraph tags here
+    text: >
+      Los equipos deben estar preparados para asumir los siguientes compromisos:
+
+    leftCol:
+      heading: En el proceso de postulación
+
+      text: >
+        <ul>
+        <li>Completar una postulaci&oacute;n breve, de 10 preguntas, en la que nos cuente sobre su proyecto de reforma, equipo y contexto. Esta postulaci&oacute;n no deber&iacute;a llevarle m&aacute;s de 3 horas.</li>
+        <li>Si es seleccionado para avanzar, deber&aacute; completar un cuestionario de postulaci&oacute;n adicional para darnos m&aacute;s detalles sobre su proyecto, equipo y contexto. Tambi&eacute;n es posible que se lo invite a participar en una ronda de entrevistas y a realizar un ejercicio breve.</li>
+        </ul>
+        <p>Queremos ayudarlo a preparar su mejor postulaci&oacute;n. Consulte nuestros<a href="https://lift.open-contracting.org/apply/"> recursos para la postulaci&oacute;n</a>.</p>
+
+    rightCol:
+      heading: Durante el programa
+
+      text: >
+        <ul>
+        <li>Lo m&aacute;s importante: <strong>trabajar de manera proactiva para alcanzar los hitos del proyecto</strong> en su plan. Esto implica avanzar todas las semanas en el proyecto de reforma que ha creado y perfeccionado durante los talleres LiftOff.&nbsp;</li>
+        <li><strong>Taller Liftoff</strong>, de 4 d&iacute;as, destinado a 4 miembros de su equipo con el fin de poner en marcha el programa en julio, y un taller Liftoff adicional de 4 d&iacute;as para iniciar la ejecuci&oacute;n en octubre. Estos talleres se dictar&aacute;n en la modalidad presencial o virtual, seg&uacute;n las posibilidades que tenga el equipo de reunirse en forma segura.</li>
+        <li><strong>Llamadas peri&oacute;dicas para reportarse </strong>con asesores del programa de OCP cada 2 semanas, con al menos 1 miembro del equipo de cada departamento u organizaci&oacute;n participante.</li>
+        <li><strong>Reuniones de trabajo peri&oacute;dicas del equipo, sin OCP</strong>, para impulsar su proyecto.</li>
+        <li>Desarrollar y utilizar un <strong>plan</strong><strong>de Monitoreo, Aprendizaje y Participaci&oacute;n (</strong><strong><em>Monitoring, Learning, and Engagement,</em></strong><strong> MEL) </strong>para adaptar y hacer un seguimiento de su progreso en cuanto a la reforma.</li>
+        </ul>
+        <p>Cuanto m&aacute;s avance, mayor ser&aacute; el apoyo que pueda recibir de OCP en t&eacute;rminos de asistencia t&eacute;cnica y financiamiento.</p>
+     
+###############################
+# FAQ Page               ######
+###############################
+
+faq:
+
+  heading: Todo lo que necesita saber.
+
+  ## 01. Intro Section
+
+  text: >
+    &iquest;No encuentra las respuestas que est&aacute; buscando? Consulte el<a href="https://docs.google.com/presentation/d/1lHVSnPUozaJdD9EJMXz_MHf05lsB6449yqDcS_aQYbY/edit%23slide=id.p"> Manual para postulantes de Lift</a> o comun&iacute;quese con Kaye Sklar, gerenta del programa Lift. Lo instamos a visitar regularmente este espacio ya que se agregar&aacute;n preguntas a medida que las recibamos.
+
+
+  ### Applications Category
+
+  applications:
+
+    heading: Postulación
+
+    questions:
+
+      question1:
+        summary: ¿Qué características tiene una buena postulación?
+        details: >
+          <p>Las mejores solicitudes comienzan con el planteo de un objetivo o problema muy espec&iacute;fico que se relaciona con el uso de la contrataci&oacute;n para impulsar una recuperaci&oacute;n inclusiva y eficaz. Tal vez le interese mejorar la calidad de los comedores escolares o de la infraestructura escolar, ampliar el acceso al transporte p&uacute;blico confiable, organizar adquisiciones p&uacute;blicas que sean m&aacute;s ecol&oacute;gicas o brindar m&aacute;s oportunidades de contrataci&oacute;n a empresas propiedad de mujeres o de minor&iacute;as. En su postulaci&oacute;n, sea lo m&aacute;s espec&iacute;fico posible respecto de la manera en que contar con mejores procesos de contrataci&oacute;n lo ayudar&aacute; a alcanzar estos objetivos.</p>
+          <p>Tenga en cuenta que Lift no est&aacute; destinado al desarrollo de capacidades generales sobre contrataci&oacute;n abierta o incidencia. Si bien la capacitaci&oacute;n, los talleres y las publicaciones y herramientas e incidencia de OCDS son importantes, no pueden constituir la totalidad de su proyecto de Lift; deben ser solo un medio para conseguir su objetivo.</p>
+          <p>Asimismo, le recomendamos que sea claro sobre c&oacute;mo medir&aacute; y har&aacute; el seguimiento del avance respecto de sus objetivos. Por ejemplo, las posibles m&eacute;tricas podr&iacute;an ser la cantidad de empresas propiedad de mujeres que ganan contratos, la retroalimentaci&oacute;n brindada por residentes sobre la calidad de los alimentos o la limpieza de los parques p&uacute;blicos, los proyectos de infraestructura completados en el plazo establecido y con el presupuesto acordado, etc.</p>
+
+      question2:
+        summary: ¿Cuáles son las preguntas clave en las que debo pensar antes de presentar una postulación?
+        details: >
+          <p>Requerimos que responda todas las preguntas y presente una postulaci&oacute;n completa. Para conseguir la mejor postulaci&oacute;n posible, conc&eacute;ntrese especialmente en desarrollar respuestas concretas a estas cuatro preguntas:</p>
+          <ul>
+          <li>&iquest;Cu&aacute;l es el problema que procura abordar a trav&eacute;s de Lift?
+          <ul>
+          <li><em>Consejo:</em> Conc&eacute;ntrese en un objetivo o problema espec&iacute;fico relacionado con la calidad de bienes, obras o servicios p&uacute;blicos, o el acceso a oportunidades. Explique cu&aacute;l es la relaci&oacute;n de este problema con una recuperaci&oacute;n inclusiva y eficaz de la pandemia.</li>
+          </ul>
+          </li>
+          <li>&iquest;Cu&aacute;l es la soluci&oacute;n a este problema?
+          <ul>
+          <li><em>Consejo:</em> Piense m&aacute;s all&aacute; de la implementaci&oacute;n del OCDS, del lanzamiento de una nueva plataforma o herramienta o de la realizaci&oacute;n de talleres. En cambio, explique cu&aacute;l es el futuro que le interesa que ocurra y los resultados concretos que prev&eacute; para el final del programa Lift en junio de 2022.</li>
+          </ul>
+          </li>
+          <li>&iquest;Cu&aacute;les son sus &ldquo;poderes&rdquo; para concretar el cambio, y qu&eacute; persona de poder lo ayudar&aacute; a conseguir este cambio?
+          <ul>
+          <li><em>Consejo:</em> Lift es para equipos que pueden lograr mejoras medibles en bienes, obras y servicios p&uacute;blicos o ampliar las oportunidades econ&oacute;micas como parte del apoyo a una recuperaci&oacute;n inclusiva y eficaz. Esto requiere que los equipos de Lift tengan el poder de producir un cambio. Es posible que deba hacer cambios en las reglamentaciones o pol&iacute;ticas, actualizar datos o la infraestructura de TI o reconsiderar procesos; hacer esto suele requerir aceptaci&oacute;n pol&iacute;tica y mandatos s&oacute;lidos para el cambio. Considere qu&eacute; estrategias organizativas o relaciones clave le dan el poder de concretar su trabajo.&nbsp;</li>
+          </ul>
+          </li>
+          <li>&iquest;Qui&eacute;nes integran su equipo central, y por qu&eacute; participan?
+          <ul>
+          <li><em>Consejo: </em>Lift es para equipos que tienen habilidades y representan los organismos u organizaciones que son integrales para el &eacute;xito del proyecto. Por ejemplo, si su proyecto se relaciona con mejorar la calidad de las viviendas p&uacute;blicas mediante la reforma de las contrataciones, ser&aacute; conveniente contar con alguien en el equipo que pertenezca al organismo de viviendas p&uacute;blicas.&nbsp;</li>
+          </ul>
+          </li>
+          </ul>
+        
+      question3:
+        summary: Me interesa postularme. ¿Puedo obtener ayuda con la postulación?
+        details: >
+          <p>&iexcl;S&iacute;! Puede recibir m&aacute;s orientaci&oacute;n con respecto a la postulaci&oacute;n a Lift por los siguientes medios:</p>
+          <ul>
+          <li><a href="https://docs.google.com/presentation/d/1lHVSnPUozaJdD9EJMXz_MHf05lsB6449yqDcS_aQYbY/edit%23slide=id.p">Lea</a> el Manual para postulantes de Lift.</li>
+          <li><a href="https://lift.open-contracting.org/es/apply">Asista</a> a uno de los pr&oacute;ximos seminarios web informativos o<a href="https://www.youtube.com/watch?v=kRoVyAFEMXA&amp;list=PL7sSifLpWd8jwmCtslEW16WRMTu1Tp7To"> vea</a> las grabaciones de los primeros seminarios web.</li>
+          <li>Inscr&iacute;base para recibir ayuda durante el<a href="https://calendly.com/ocp-dopoku"> horario de atenci&oacute;n</a></li>
+          <li>Inscr&iacute;base para que le notifiquen sobre Preguntas y respuestas y recursos adicionales,</li>
+          <li>Correo electr&oacute;nico: info@open-contracting.org</li>
+          </ul>
+      
+      question4:
+        summary: ¿Puedo postularme en un idioma que no sea inglés?
+        details: >
+          <p>Sí. Aceptaremos postulaciones en español, francés, ruso e inglés.</p>
+
+      question5:
+        summary: ¿Puedo presentar más de un proyecto?
+        details: >
+          No, queremos que nos presente su mejor idea, la más ingeniosa. 
+
+  ### Project Category
+
+  project:
+    
+    heading: Proyecto
+
+    questions:
+      
+      question6:
+        summary: ¿En qué etapa o escala debe encontrarse mi proyecto para que pueda postularme? ¿Tiene que ser una idea, prototipo o un producto viable mínimo (minimum viable product, MVP)? ¿Debe concentrarse en el ámbito local o global?
+        details: >
+          <p>Lift está abierto a proyectos en diferentes etapas de desarrollo y escala. Es posible que usted esté emprendiendo una nueva iniciativa, o que esté abocado a perfeccionar y llevar a mayor escala una solución que ya puso a prueba. Pedimos que su proyecto tenga apoyo de líderes, lo que podría incluir un presupuesto para su trabajo, un defensor político o un mandato formal. También es posible que usted esté abocado a resolver problemas en su región, país o ciudad. No es necesario que su proyecto pueda implementarse a escala mundial.</p>
+
+      question8:
+        summary: ¿Hay algún sector o tema en el que Lift tenga un interés en particular?
+        details: >
+          <p>No, estamos abiertos a una amplia variedad de sectores. Usted reúne los requisitos para Lift siempre que trabaje para lograr una recuperación más inclusiva y eficaz aumentando la apertura en las contrataciones, independientemente del sector. Por ejemplo, podría estar dedicado a temas de educación, salud, infraestructura, transporte o a ampliar las oportunidades económicas.</p>
+
+      question9:
+        summary: ¿Mi proyecto puede ser para implementar el Estándar de Datos para las Contrataciones Abiertas (OCDS) o el OC4IDS?
+        details: >
+          <p>Buscamos proyectos que vayan m&aacute;s all&aacute; de la ejecuci&oacute;n del<a href="https://www.open-contracting.org/data-standard/"> OCDS</a> u OC4IDS. Su proyecto deber&iacute;a concentrarse en mejorar un bien, obra o servicio p&uacute;blico utilizando el OCDS como herramienta para alcanzar ese objetivo. Sin embargo, la ejecuci&oacute;n del OCDS u OC4IDS puede ser una parte de su proyecto.</p>
+          <p>Si se concentra exclusivamente en la ejecuci&oacute;n del OCDS u OC4IDS, Lift no es para usted. De todos modos, comun&iacute;quese con nuestro servicio de asistencia escribiendo a data@open-contracting.org, cuyos representantes est&aacute;n dispuestos a ayudar a cualquier persona interesada en ejecutar el OCDS.</p>
+
+      question10:
+        summary: ¿Se exige la adopción y/o implementación del Estándar de Datos para las Contrataciones Abiertas (OCDS) u OC4IDS a fin de ser elegible para el programa?
+        details: >
+          <p>No, pero esperamos que su iniciativa de reforma favorezca una mayor accesibilidad de la informaci&oacute;n o los datos. Lift puede proporcionar asistencia para la ejecuci&oacute;n del<a href="https://www.open-contracting.org/data-standard/"> OCDS</a> u OC4IDS si es parte de su proyecto.</p>
+          <p>&iquest;Le interesa obtener m&aacute;s informaci&oacute;n sobre el OCDS u OC4IDS? Visite el<a href="https://www.open-contracting.org/data-standard/"> sitio web de OCP</a> para obtener informaci&oacute;n y recursos.</p>
+
+  ### Team Category
+
+  team:
+
+    heading: Equipo
+
+    questions:
+
+      question11:
+        summary: ¿Cómo puedo saber si mi equipo es el candidato adecuado para este programa?
+        details: >
+          <p>Este programa orientado al impacto es ideal para equipos que:</p>
+          <ol>
+          <li>Se concentran en mejorar la calidad de bienes, obras o servicios p&uacute;blicos,</li>
+          <li>Tienen experiencia en la generaci&oacute;n de respaldo pol&iacute;tico y se han desenvuelto en el sistema de contrataciones,</li>
+          <li>Trabajan en un contexto que cuenta con la infraestructura t&eacute;cnica para llevar a cabo su proyecto, y</li>
+          <li>Pueden invertir el tiempo necesario durante el transcurso del programa y est&aacute;n decididos a hacerlo.</li>
+          </ol>
+          <p>Open Contracting Lift no es para equipos que solo necesitan asistencia para el desarrollo de herramientas o la ejecuci&oacute;n del<a href="http://standard.open-contracting.org/"> Est&aacute;ndar de Datos para las Contrataciones Abiertas</a>.</p>
+          <p>Para obtener una lista completa de requisitos de elegibilidad, consulte la secci&oacute;n<a href="https://lift.open-contracting.org/es/apply"> Postularse</a>.</p>
+
+      question12:
+        summary: ¿Cuál debe ser el tamaño de mi equipo? ¿Qué roles y habilidades claves debe tener mi equipo para tener éxito en el programa?
+        details: >
+          <p>Los equipos de postulantes deben incluir, como m&iacute;nimo:</p>
+          <ol>
+          <li><strong>Gestor de relaciones</strong>, que tiene habilidad para los tr&aacute;mites burocr&aacute;ticos y para generar aceptaci&oacute;n pol&iacute;tica,</li>
+          <li><strong>Experto en contrataciones</strong>, que tiene conocimientos profundos del sistema de contrataci&oacute;n.</li>
+          </ol>
+          <p>Adem&aacute;s, exigimos que un miembro del equipo pueda desempe&ntilde;arse como <strong>L&iacute;der de equipo,</strong> que tiene autoridad y capacidad para coordinar el equipo e impulsar el avance del proyecto. Si su proyecto requiere una soluci&oacute;n t&eacute;cnica, su equipo debe contar tambi&eacute;n con un <strong>experto t&eacute;cnico</strong> que pueda ayudar a desarrollar su soluci&oacute;n.</p>
+          <p>Sugerimos que su equipo est&eacute; compuesto por entre 3 y 10 personas para que la gesti&oacute;n sea f&aacute;cil.</p>
+
+      question13:
+        summary: ¿Mi equipo debe ser una organización o una colaboración de varias organizaciones?
+        details: >
+          <p>Si bien aceptamos equipos de una organización, nos interesan especialmente los equipos que representan alianzas de colaboración. En el pasado, hemos visto que los equipos que reúnen a múltiples actores interesados heterogéneos, pertenecientes a diferentes grupos y organismos gubernamentales, son más eficaces en el logro del cambio.</p>
+
+      question14:
+        summary: ¿Cuántos equipos se seleccionarán?
+        details: >
+          <p>Seleccionaremos hasta 7 equipos para el programa.</p>
+
+  ### Context / Country Category
+
+  context:
+
+    heading: Contexto/País
+
+    questions:
+
+      question15:
+        summary: ¿Cómo determinan la elegibilidad del país? ¿Hay países en los que Lift tenga un interés en particular?
+        details: >
+          <p>Lift utiliza el<a href="https://rsf.org/en/ranking_table?sort=desc&amp;order=Ranking">&Iacute;ndice Mundial de Libertad de Prensa 2020</a> de Reporters Sans Frontiers. Lift est&aacute; abierto a pa&iacute;ses considerados &ldquo;Buenos&rdquo;, &ldquo;Satisfactorios&rdquo;, &ldquo;Problem&aacute;ticos&rdquo; o &ldquo;Dif&iacute;ciles&rdquo; seg&uacute;n este &iacute;ndice. Lift no trabajar&aacute; en pa&iacute;ses que se considera que est&aacute;n en una &ldquo;situaci&oacute;n muy grave&rdquo; (color: negro) seg&uacute;n el &iacute;ndice.</p>
+          <p>Lift considerar&aacute; trabajar en pa&iacute;ses que se entiende que est&aacute;n en una &ldquo;situaci&oacute;n dif&iacute;cil&rdquo; (color: rojo) seg&uacute;n el &iacute;ndice cuando los postulantes puedan demostrar durante el proceso de postulaci&oacute;n que existe colaboraci&oacute;n entre los actores gubernamentales y de la sociedad civil seleccionados y un espacio parcialmente seguro en el que la sociedad civil pueda trabajar.</p>
+          <p>No estamos interesados en ning&uacute;n pa&iacute;s en particular, sino en una extensi&oacute;n geogr&aacute;fica para que la cohorte de Lift incluya una combinaci&oacute;n heterog&eacute;nea de contextos.</p>
+
+  ### Funding / Costs Category
+
+  funding:
+
+    heading: Financiamiento/Costos
+
+    questions:
+
+      question16:
+        summary: ¿Puedo postularme si recibo financiamiento o apoyo de otra fuente?
+        details: >
+          <p>Sí, admitimos todo tipo de proyectos, incluidos los que reciben ayuda de otras fuentes.</p>
+
+      question17:
+        summary: ¿Existe algún costo para participar en el programa?
+        details: >
+          <p>Participar no implica ningún costo, aunque se esperará que dedique alrededor de 1 día por semana de tiempo del personal al programa. Lift cubrirá todos sus gastos de viaje en relación con el programa para los eventos de Lift presenciales. Todos los postulantes ya deberían contar con financiamiento para actividades esenciales del proyecto y tiempo del personal.</p>
+
+      question18:
+        summary: ¿Hay financiamiento disponible al completar el programa?
+        details: >
+          <p>Los equipos participantes son elegibles para recibir asistencia directa por hasta USD 30.000 para financiar actividades o productos finales según las necesidades y el avance del equipo durante el programa, así como 200 horas de asistencia técnica y apoyo de OCP. Todas las decisiones de financiamiento se tomarán en colaboración con el equipo y Lift de OCP.</p>
+
+  ### How the program works Category
+
+  program:
+
+    heading: Cómo Funciona El Programa
+
+    questions:
+
+      question19:
+        summary: ¿Dónde se realizarán los talleres Liftoff?
+        details: >
+          <p>Actualmente estamos planificando realizar el taller inicial en forma remota o presencial en su región, según las consideraciones sanitarias. El segundo taller Liftoff de octubre podrá realizarse en forma presencial en su región, o podría ser un encuentro de toda la cohorte en una ubicación a confirmar. La decisión definitiva dependerá de la procedencia de los postulantes y de cuál sea la ubicación más factible para sus visas y viajes, y de que los viajes internacionales sean seguros y viables en ese momento.</p>
+
+      question20:
+        summary: ¿Quiénes son los asesores y expertos?
+        details: >
+          <p>Los participantes recibirán apoyo de un equipo central de asesores de OCP que tienen vasta experiencia en el desarrollo de reformas sociales y de contratación pública. Las personas que lo asesoren serán seleccionadas sobre la base de sus necesidades específicas y lo ayudarán a aplicar las mejores prácticas en áreas tales como compromiso con el usuario, uso de datos, gestión de cambios, y diseño y gestión de contratos.</p>
+
+      question21:
+        summary: ¿Qué puede ayudarme a lograr Lift?
+        details: >
+          <p>Esperamos que los equipos logren un impacto mensurable al final del programa, que d&eacute; por resultado una recuperaci&oacute;n m&aacute;s inclusiva y eficaz. El resultado se medir&aacute; de acuerdo con indicadores de desempe&ntilde;o clave que son dise&ntilde;ados con equipos participantes en la primera fase del programa.</p>
+          <p>A su vez, prevemos que la mayor&iacute;a de los proyectos avanzar&aacute;n en los siguientes resultados:</p>
+          <ul>
+          <li>Generar efectivamente el apoyo de l&iacute;deres para impulsar un mandato s&oacute;lido para su proyecto.</li>
+          <li>Mejorar el uso de datos abiertos y sistemas de datos abiertos para gestionar, monitorear y mejorar la calidad de la provisi&oacute;n de bienes, obras y servicios p&uacute;blicos o ampliar el acceso a oportunidades.</li>
+          <li>Establecer nuevas maneras de trabajar con contratos p&uacute;blicos para que los procesos de contrataci&oacute;n y los contratos generen los resultados deseados.</li>
+          </ul>
+          <p>Para obtener inspiraci&oacute;n, consulte qu&eacute;<a href="https://www.open-contracting.org/implement/lift/">han logrado otros equipos a trav&eacute;s de Lift</a>.</p>
+
+      question22:
+        summary: ¿Puedo beneficiarme incluso si no participo?
+        details: >
+          <p>&iexcl;Por supuesto! Durante todo el programa, OCP documentar&aacute; las nuevas herramientas, enfoques y ejemplos de avances que surjan. Con el fin de beneficiar al campo en general, compartiremos esta orientaci&oacute;n en forma peri&oacute;dica a trav&eacute;s de blogs y eventos.</p>
+          <p>Tambi&eacute;n puede recibir apoyo mediante otros recursos y compromisos de OCP. Obtenga m&aacute;s informaci&oacute;n sobre estos en el<a href="https://www.open-contracting.org/resources/"> sitio web de OCP</a>.</p>
+
+      question23:
+        summary: ¿Quién está detrás del programa Open Contracting Lift?
+        details: >
+          <p>La Alianza para las Contrataciones Abiertas (OCP) es una colaboraci&oacute;n que abre espacios de di&aacute;logo entre gobiernos, empresas, la sociedad civil y los especialistas en tecnolog&iacute;a para lograr la transparencia de los documentos y datos relacionados con las contrataciones y negociaciones de los gobiernos. Trabajamos en distintos sectores y a lo largo de todo el proceso de contrataciones gubernamentales para que los gobiernos ahorren tiempo y dinero, a fin de brindar mejores bienes y servicios a los ciudadanos y generar un entorno de negocios m&aacute;s favorable para todos. Obtenga m&aacute;s informaci&oacute;n en open-contracting.org.</p>
+
+      question24:
+        summary: ¿Qué apoyo ofrecerá el programa Open Contracting Lift a mi equipo?
+        details: >
+          <p>Durante la <strong>Parte 1</strong>:<strong> Desarrollo de las bases,</strong> que tiene lugar desde julio de 2021 hasta septiembre de 2021 OCP apoyar&aacute; sus esfuerzos para desarrollar planes de reforma s&oacute;lidos que est&aacute;n basados en la investigaci&oacute;n de usuarios y tengan fuerte aceptaci&oacute;n de actores interesados clave, adem&aacute;s de desarrollar estrategias de reforma para la ejecuci&oacute;n y el monitoreo del impacto.</p>
+          <p><strong>Durante la Parte 2: Ejecuci&oacute;n</strong>, que tiene lugar desde octubre de 2021 hasta diciembre de 2022. OCP apoyar&aacute; su trabajo para ejecutar sus planes, superar obst&aacute;culos y generar apoyo institucional amplio para sus reformas, as&iacute; como para reconocer su avance durante el proceso.&nbsp;</p>
+          <p>Consulte el<a href="http://bit.ly/Lift-handbook">Manual para postulantes de Lift</a> para conocer m&aacute;s sobre c&oacute;mo funciona cada parte y qu&eacute; apoyo puede esperar de Lift de OCP.</p>
+          <ul>
+          <li>Apertura de postulaciones: 15 de enero</li>
+          <li>Seminarios web informativos: febrero</li>
+          <li>Cierre de postulaciones: 12 de marzo</li>
+          <li>Se invita a los finalistas a presentar una postulaci&oacute;n completa, se notifica a todos los dem&aacute;s: 19 de abril</li>
+          <li>Entrevistas: mayo/junio</li>
+          <li>Anuncio de los equipos seleccionados; junio</li>
+          <li>Taller Liftoff I: principios/mediados de julio, a confirmar</li>
+          <li>Desarrollo de las bases: julio - septiembre de 2021</li>
+          <li>Taller Liftoff II: octubre</li>
+          <li>Ejecuci&oacute;n: octubre de 2021 - diciembre de 2022</li>
+          </ul>
+
+###############################
+# Footer                 ######
+###############################
+
+footer:
+  about:
+    heading: Acerca de
+    text: >
+      <a href="https://www.open-contracting.org/es/about/">Acerca de Open Contracting Partnership</a>
+
+  contact: 
+    heading: Contacto
+    text: >
+      Para más información, contacta <a href="mailto:info@open-contracting.org">info@open-contracting.org</a>
+
+  privacy:
+    heading: Privacidad
+    text: >
+      <a href="https://www.open-contracting.org/es/terms-of-use/">Política de Privacidad</a>
+
+  form:
+    heading: Mantente informado
