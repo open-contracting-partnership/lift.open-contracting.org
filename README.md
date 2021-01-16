@@ -9,7 +9,7 @@ The site uses Node.js for development functions. If you don't already have it in
 
 That's it–the site should be installed locally.
 
-- `npm run start` launches a local version at localhost:8000. 
+- `npm run start` launches a local version at localhost:8000. This script run in the background to watch for changes an live reload the site until you end the script. To end it press `control` + `c`.
 - `npm run build` builds all static HTML files
 
 ## Site Pages
