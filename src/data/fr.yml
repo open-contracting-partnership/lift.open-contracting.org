@@ -16,10 +16,10 @@ meta:
   ogtitle: Open Contracting Lift
 
 applyCTA:
-  text: Soumettez votre candidature
+  text: Postulez dès maintenant
   url: https://forms.gle/3L6UBdokkhf248Lo6
   #### details is optional
-  details: Deadline March 12
+  details: date limite du 12 mars
 
 ###############################
 # Navigation             ######
