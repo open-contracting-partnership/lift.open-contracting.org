@@ -15,9 +15,9 @@ meta:
   canonical: https://lift.open-contracting.org
   ogtitle: Open Contracting Lift
 
-applyCTA: 
+applyCTA:
   text: Postúlate ahora
-  url:
+  url: https://forms.gle/sB2XGTPF3RVS8noa6
   #### details is optional
   details: Fecha límite 12 de marzo
 
@@ -63,11 +63,11 @@ home:
         <li><strong>Aumento de la efectividad y la rendici&oacute;n de cuentas del gobierno</strong>: asegurar mayor integridad mediante el monitoreo y la incidencia, aumentar la competencia y reducir las contrataciones a un &uacute;nico proveedor, usar datos y perspectivas en la toma de decisiones o trabajar de manera m&aacute;s eficiente para reducir el costo asociado con la emisi&oacute;n de contratos p&uacute;blicos.</li>
         </ul>
         <p>A lo largo de 18 meses, se brindar&aacute; una capacitaci&oacute;n completa y orientada espec&iacute;ficamente a sus necesidades, dictada por importantes expertos y colegas para ofrecer mejores bienes, obras y servicios, y ampliar las oportunidades econ&oacute;micas a todos mediante estrategias de contrataci&oacute;n nuevas o mejores. Lo ayudaremos a transformar su excelente idea en un plan de acci&oacute;n s&oacute;lido, conseguir aceptaci&oacute;n y fortalecer su capacidad durante la ejecuci&oacute;n. Los equipos ser&aacute;n elegibles para recibir asistencia directa por hasta USD 30.000 seg&uacute;n las necesidades y el avance del equipo, as&iacute; como 200 horas de asistencia t&eacute;cnica y apoyo de OCP.&nbsp;</p>
-  
+
     quote:
       text: >
         “Lift ayudó a acelerar el proceso de aprendizaje Es cierto que ya estábamos aprendiendo, pero este programa nos ayudó a hacerlo más rápido. Además, el apoyo político y la asistencia técnica fueron realmente de ayuda para alcanzar los hitos que nos habíamos propuesto en términos de apertura de datos”.
-      attribution: 
+      attribution:
 
     text: >
       <p>Queremos escuchar las nuevas ideas que tengan para emplear la contrataci&oacute;n abierta con el fin de favorecer una recuperaci&oacute;n inclusiva y eficaz. Para obtener m&aacute;s inspiraci&oacute;n, consulte<a href="https://www.open-contracting.org/implement/lift/"> c&oacute;mo los equipos de todo el mundo</a> han utilizado Lift para lograr que sus proyectos de reforma avancen m&aacute;s r&aacute;pido.</p>
@@ -78,12 +78,12 @@ home:
 
     heading: Razones para postularse
 
-    text: A usted le interesa contribuir a una recuperación más inclusiva y mejor que atienda las necesidades de las comunidades marginadas o sin representación suficiente. Reconoce que con la reducción de los presupuestos públicos, debemos aprovechar al máximo todos los recursos disponibles. Considera que las contrataciones son un mecanismo que puede propiciar mejores resultados. 
+    text: A usted le interesa contribuir a una recuperación más inclusiva y mejor que atienda las necesidades de las comunidades marginadas o sin representación suficiente. Reconoce que con la reducción de los presupuestos públicos, debemos aprovechar al máximo todos los recursos disponibles. Considera que las contrataciones son un mecanismo que puede propiciar mejores resultados.
 
     quote1:
       text: >
         “Si quiere generar un mayor o mejor impacto, este programa es ideal para usted”.
-      attribution: 
+      attribution:
 
     left:
       heading: Impulse sus aspiraciones de reforma.
@@ -99,8 +99,8 @@ home:
 
     quote2:
       text: >
-        “Describiría a Lift como un socio excelente; es contar con alguien que apoya tu idea descabellada. Alguien que cree en tu cambio, te mantiene encaminado y te obliga a rendir cuentas (¡de buena manera!) con respecto a tu propia hipótesis y tus ideas”. 
-      attribution: 
+        “Describiría a Lift como un socio excelente; es contar con alguien que apoya tu idea descabellada. Alguien que cree en tu cambio, te mantiene encaminado y te obliga a rendir cuentas (¡de buena manera!) con respecto a tu propia hipótesis y tus ideas”.
+      attribution:
 
   ## 04. Who Can Apply Section
 
@@ -129,12 +129,12 @@ home:
       text: >
         Exigimos que los equipos de Lift abocados a las reformas estén integrados por miembros de diferentes organismos u organizaciones. Esto se debe a que hemos comprobado que los equipos abocados a reformas que se muestran más sólidos por lo general trabajan entre diferentes sectores y organizaciones.
 
-    bottomLinkText: Más información sobre nuestros criterios de elegibilidad 
+    bottomLinkText: Más información sobre nuestros criterios de elegibilidad
 
     quote:
       text: >
-        “Esta oportunidad es para personas que promuevan reformas y tengan iniciativa propia, no para quienes esperan que OCP intervenga y haga todo por ellas; OCP es un socio leal que lo acompaña para que pueda impulsar los cambios”.  
-      attribution: 
+        “Esta oportunidad es para personas que promuevan reformas y tengan iniciativa propia, no para quienes esperan que OCP intervenga y haga todo por ellas; OCP es un socio leal que lo acompaña para que pueda impulsar los cambios”.
+      attribution:
 
   ## 05. Apply Section
 
@@ -223,7 +223,7 @@ apply:
         </ol>
         <p>Los ganadores se anunciar&aacute;n en junio. Se seleccionar&aacute;n hasta 7 equipos para participar en Lift.</p>
         <p>El personal de OCP evaluará todas las postulaciones escritas breves. Las postulaciones escritas largas se compartirán con un comité asesor de expertos no pertenecientes a OCP, que las revisará y nos transmitirá sus consideraciones.</p>
-    
+
     notSelected:
       heading: Si su equipo no es seleccionado.
       text: >
@@ -234,7 +234,7 @@ apply:
 
   experts:
     heading: Advisory Committee
-    text: This is the steller team who will evaluate our top applications.  
+    text: This is the steller team who will evaluate our top applications.
 
     bios:
 
@@ -265,7 +265,7 @@ apply:
 
       bio6:
         name: Seember Nyager
-        text: 
+        text:
         img: seember-nyager.jpg
 
 ###############################
@@ -345,7 +345,7 @@ program:
         <li>Desarrollar y utilizar un <strong>plan</strong><strong>de Monitoreo, Aprendizaje y Participaci&oacute;n (</strong><strong><em>Monitoring, Learning, and Engagement,</em></strong><strong> MEL) </strong>para adaptar y hacer un seguimiento de su progreso en cuanto a la reforma.</li>
         </ul>
         <p>Cuanto m&aacute;s avance, mayor ser&aacute; el apoyo que pueda recibir de OCP en t&eacute;rminos de asistencia t&eacute;cnica y financiamiento.</p>
-     
+
 ###############################
 # FAQ Page               ######
 ###############################
@@ -401,7 +401,7 @@ faq:
           </ul>
           </li>
           </ul>
-        
+
       question3:
         summary: Me interesa postularme. ¿Puedo obtener ayuda con la postulación?
         details: >
@@ -413,7 +413,7 @@ faq:
           <li>Inscr&iacute;base para que le notifiquen sobre Preguntas y respuestas y recursos adicionales,</li>
           <li>Correo electr&oacute;nico: info@open-contracting.org</li>
           </ul>
-      
+
       question4:
         summary: ¿Puedo postularme en un idioma que no sea inglés?
         details: >
@@ -422,16 +422,16 @@ faq:
       question5:
         summary: ¿Puedo presentar más de un proyecto?
         details: >
-          No, queremos que nos presente su mejor idea, la más ingeniosa. 
+          No, queremos que nos presente su mejor idea, la más ingeniosa.
 
   ### Project Category
 
   project:
-    
+
     heading: Proyecto
 
     questions:
-      
+
       question6:
         summary: ¿En qué etapa o escala debe encontrarse mi proyecto para que pueda postularme? ¿Tiene que ser una idea, prototipo o un producto viable mínimo (minimum viable product, MVP)? ¿Debe concentrarse en el ámbito local o global?
         details: >
@@ -604,7 +604,7 @@ footer:
     text: >
       <a href="https://www.open-contracting.org/es/about/">Acerca de Open Contracting Partnership</a>
 
-  contact: 
+  contact:
     heading: Contacto
     text: >
       Para más información, contacta <a href="mailto:info@open-contracting.org">info@open-contracting.org</a>

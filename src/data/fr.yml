@@ -15,9 +15,9 @@ meta:
   canonical: https://lift.open-contracting.org
   ogtitle: Open Contracting Lift
 
-applyCTA: 
+applyCTA:
   text: Soumettez votre candidature
-  url:
+  url: https://forms.gle/3L6UBdokkhf248Lo6
   #### details is optional
   details: Deadline March 12
 
@@ -51,7 +51,7 @@ home:
 
     leftCol:
 
-      text: Open Contracting Lift est le programme de l’OCP consacré à aider des équipes audacieuses autour du monde, axées sur la réforme de la commande publique, à faire avancer leurs projets et à faire changer les choses au niveau systémique - dans un monde qui lutte toujours contre les défis fiscaux, sociaux, et personnels de la pandémie de COVID-19. 
+      text: Open Contracting Lift est le programme de l’OCP consacré à aider des équipes audacieuses autour du monde, axées sur la réforme de la commande publique, à faire avancer leurs projets et à faire changer les choses au niveau systémique - dans un monde qui lutte toujours contre les défis fiscaux, sociaux, et personnels de la pandémie de COVID-19.
 
     rightCol:
 
@@ -64,11 +64,11 @@ home:
         </ul>
         <p>Nous sommes conscients que vous faites peut-&ecirc;tre face &agrave; une perte de capacit&eacute; ou de ressources &agrave; cause de la pand&eacute;mie. Nous sommes l&agrave; pour vous aider !</p>
         <p>Pendant 18 mois, vous recevrez un soutien intensif et sur-mesure de la part des experts figurant parmi les meilleurs de leur domaine, et de la part de vos pairs. Ce soutien vous permettra de renforcer la qualit&eacute; des fournitures, des services et des travaux publics et d&rsquo;&eacute;largir les possibilit&eacute;s &eacute;conomiques pour tous - gr&acirc;ce &agrave; des strat&eacute;gies de commande publique nouvelles ou am&eacute;lior&eacute;es. Nous vous aiderons &agrave; cr&eacute;er un plan d&rsquo;action solide bas&eacute; sur votre id&eacute;e, &agrave; g&eacute;n&eacute;rer l&rsquo;adh&eacute;sion et &agrave; renforcer vos capacit&eacute;s de mise en &oelig;uvre. Selon les besoins de chaque &eacute;quipe, les &eacute;quipes peuvent &ecirc;tre &eacute;ligibles &agrave; jusqu&agrave; 30&thinsp;000 dollars de soutien direct, ainsi que jusqu&rsquo;&agrave; 200 heures d&rsquo;assistance technique, et le soutien de l&rsquo;OCP.</p>
-  
+
     quote:
       text: >
         « Lift nous a permis d’apprendre plus vite. Bien sûr, nous avions quelques acquis, mais le programme a accéléré le processus d’apprentissage. De plus, le soutien politique et l’assistance technique nous ont vraiment aidés à atteindre nos objectifs d’ouverture des données. »
-      attribution: 
+      attribution:
 
     text: >
       <p>Nous voulons entendre vos id&eacute;es pour mettre la commande ouverte au service d&rsquo;une reconstruction inclusive et efficace. Nous reconnaissons que votre temps est plus pr&eacute;cieux que jamais - c&rsquo;est pourquoi la demande initiale est tr&egrave;s courte. R&eacute;pondre &agrave; seulement dix questions pourrait vous apporter 200 heures de soutien !</p>
@@ -84,8 +84,8 @@ home:
 
     quote1:
       text: >
-        « Si vous voulez maximiser ou renforcer votre impact, ce programme est pour vous. » 
-      attribution: 
+        « Si vous voulez maximiser ou renforcer votre impact, ce programme est pour vous. »
+      attribution:
 
     left:
       heading: Faites passer votre projet de réforme au niveau supérieur.
@@ -102,7 +102,7 @@ home:
     quote2:
       text: >
         « Je décrirais le programme Lift comme un excellent partenariat qui permet d’avoir quelqu’un pour soutenir vos idées folles. Une personne qui croit au changement que vous pouvez engendrer, s’assure que vous restiez sur le bon chemin et vous rappelle à vos responsabilités (dans le bon sens du terme !) à votre propre hypothèse et à vos idées. »
-      attribution: 
+      attribution:
 
   ## 04. Who Can Apply Section
 
@@ -136,7 +136,7 @@ home:
     quote:
       text: >
         « Cette opportunité s’adresse à des réformateurs motivés et autonomes. L’OCP ne pourra pas réaliser vos projets à votre place : il s’agit simplement d’un partenaire qui se tiendra à vos côtés et vous donnera un coup de pouce pour amener le changement. »
-      attribution: 
+      attribution:
 
   ## 05. Apply Section
 
@@ -227,7 +227,7 @@ apply:
         </ol>
         <p>Les &eacute;quipes retenues seront annonc&eacute;es en juin. Jusqu&rsquo;&agrave; sept &eacute;quipes seront retenues pour participer au programme Lift.&nbsp;</p>
         <p>Tous les formulaires de candidature courts seront &eacute;valu&eacute;s en interne par l&rsquo;&eacute;quipe de l&rsquo;OCP. Les formulaires longs seront &eacute;valu&eacute;s par un comit&eacute; consultatif constitu&eacute; d&rsquo;experts externes &agrave; l&rsquo;OCP, qui nous fera part de ses conclusions.</p>
-    
+
     notSelected:
       heading: Si votre équipe n’est pas sélectionnée.
       text: >
@@ -238,7 +238,7 @@ apply:
 
   experts:
     heading: Advisory Committee
-    text: This is the steller team who will evaluate our top applications.  
+    text: This is the steller team who will evaluate our top applications.
 
     bios:
 
@@ -269,7 +269,7 @@ apply:
 
       bio6:
         name: Seember Nyager
-        text: 
+        text:
         img: seember-nyager.jpg
 
 ###############################
@@ -349,7 +349,7 @@ program:
         <li>Mettre au point et utiliser un <strong>plan de suivi, d&rsquo;&eacute;valuation et d&rsquo;apprentissage (MEL)</strong> pour suivre les progr&egrave;s de votre projet de r&eacute;forme et effectuer des ajustements si n&eacute;cessaires.</li>
         </ul>
         <p>Plus ces progr&egrave;s seront importants, plus l&rsquo;OCP pourra vous attribuer des moyens techniques et financiers.</p>
-     
+
 ###############################
 # FAQ Page               ######
 ###############################
@@ -405,7 +405,7 @@ faq:
           </ul>
           </li>
           </ul>
-        
+
       question3:
         summary: Je suis intéressé. Puis-je recevoir de l’aide pour soumettre ma candidature ?
         details: >
@@ -417,7 +417,7 @@ faq:
           <li>Vous pouvez &eacute;galement vous inscrire pour recevoir d&rsquo;autres ressources et r&eacute;ponses aux questions les plus fr&eacute;quentes</li>
           <li>N&rsquo;h&eacute;sitez pas &agrave; contacter info@open-contracting.org.</li>
           </ul>
-      
+
       question4:
         summary: Puis-je candidater dans une langue autre que l’anglais ?
         details: >
@@ -426,16 +426,16 @@ faq:
       question5:
         summary: Puis-je candidater au titre de plusieurs projets ?
         details: >
-          Non, merci de nous envoyer une seule candidature représentant votre idée la meilleure et la plus aboutie. 
+          Non, merci de nous envoyer une seule candidature représentant votre idée la meilleure et la plus aboutie.
 
   ### Project Category
 
   project:
-    
+
     heading: Projet
 
     questions:
-      
+
       question6:
         summary: À quelle étape et à quelle échelle mon projet doit-il se situer ? Doit-il s’agir d’une idée, d’un prototype ou d’un MVP (produit minimum viable) ? Doit-il être local ou international ?
         details: >
@@ -609,7 +609,7 @@ footer:
     text: >
       <a href="https://www.open-contracting.org/about/">À propos de Open Contracting Partnership</a>
 
-  contact: 
+  contact:
     heading: Contact
     text: >
       Pour plus d’informations, email <a href="mailto:info@open-contracting.org">info@open-contracting.org</a>
@@ -620,4 +620,4 @@ footer:
       <a href="https://www.open-contracting.org/terms-of-use/">Politique de confidentialité</a>
 
   form:
-    heading: Reste en contact 
+    heading: Reste en contact
