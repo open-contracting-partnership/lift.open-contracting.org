@@ -182,7 +182,8 @@ apply:
     applicationTips:
       heading: Get tips to ace the application.
       text: >
-        <p>The Lift application will be open for 8 weeks, until March 12, 2021. Read through the <a href="https://docs.google.com/presentation/d/1lHVSnPUozaJdD9EJMXz_MHf05lsB6449yqDcS_aQYbY/edit#slide=id.p">Lift Applicant Handbook</a> and join our <a href="https://www.open-contracting.org/events/">informational webinars </a> for all of the ins-and-outs you&rsquo;ll need to know before you apply.</p>
+        <p>The Lift application will be open for 8 weeks, until March 12, 2021. Read through the <a href="https://docs.google.com/presentation/d/1lHVSnPUozaJdD9EJMXz_MHf05lsB6449yqDcS_aQYbY/edit#slide=id.p">Lift Applicant Handbook</a> and join our <a href="https://www.open-contracting.org/events/">informational webinars </a> for all of the ins-and-outs you&rsquo;ll need to know before you apply.
+        <a href="https://docs.google.com/document/d/1-c63jnsrmUjgxM4LBD3ERqKSEw1LEcNXxnDJnqGK6kY/edit?usp=sharing">View the application questions here.</a> <p>
 
     inspired:
       heading: Be inspired.
@@ -224,7 +225,7 @@ apply:
       text: >
         <p>We have created a three step application process:</p>
         <ol>
-        <li>Short written application, open to all.&nbsp;</li>
+        <li> <a href="https://docs.google.com/document/d/1-c63jnsrmUjgxM4LBD3ERqKSEw1LEcNXxnDJnqGK6kY/edit?usp=sharing"> Short written application,</a> open to all.&nbsp;</li>
         <li>Long written application, invite-only. Up to 21 teams will be selected&nbsp;&nbsp;</li>
         <li>Interviews &amp; exercise, invite-only. Up to 11 teams will be selected&nbsp;&nbsp;&nbsp;</li>
         </ol>
