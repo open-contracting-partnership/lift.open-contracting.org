@@ -45,6 +45,10 @@ home:
 
     text: Vous souhaitez rendre la reconstruction post-pandémie rapide, juste et efficace. Grâce au programme d’accélération d’impact Open Contracting Lift, nous aidons partout dans le monde des équipes audacieuses, ayant pour objectif de réformer la commande publique, à aller jusqu’au bout de leurs idées et à insuffler le changement. <strong>De quelle manière mettrez-vous la commande publique ouverte au service d’une reconstruction inclusive et efficace ?</strong>
 
+    secondaryButton:
+      text: 
+      link: 
+
   ## 02. Intro Section
 
   intro:

@@ -1176,6 +1176,16 @@ footer a {
   }
 }
 
+.buttonWrap {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+
+  @include mobile {
+    flex-direction: column;
+  }
+}
+
 .button {
   background: white;
   padding: 15px 20px;
@@ -1190,10 +1200,29 @@ footer a {
   box-shadow: 2px 2px 2px rgba(0,0,0,.2);
   font-size: 20px;
   transition: .2s all ease;
+  max-width: 350px;
 
   &:hover {
     box-shadow: 4px 4px 4px rgba(0,0,0,.3);
     background: #f9f9f9;
+  }
+
+  .buttonWrap & {
+    margin-right: 20px;
+  }
+
+  &.button--secondary {
+    background: none;
+    box-shadow: none;
+
+    @include mobile {
+      text-align: left;
+      padding-left: 0;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   .details {
