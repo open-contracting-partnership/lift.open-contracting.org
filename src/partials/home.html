@@ -15,7 +15,17 @@
           <p>
             {{{home.hero.text}}}
           </p>
-          {{> applyCTA}}
+          <div class="buttonWrap">
+            {{> applyCTA}}
+
+            {{#if home.hero.secondaryButton.text}}
+            <a href="{{{home.hero.secondaryButton.link}}}">
+              <div class="button button--secondary">
+                  {{{home.hero.secondaryButton.text}}}
+              </div>
+            </a>
+            {{/if}}
+          </div>
         </div>
       </div>
     </section>
