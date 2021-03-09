@@ -19,7 +19,7 @@ applyCTA:
   text: Apply now
   url: https://forms.gle/9qz8vbdspEEBXTVH8
   #### details is optional
-  details: Deadline March 12
+  details: Deadline March 19
 
 ###############################
 # Navigation             ######
@@ -47,7 +47,7 @@ home:
 
     secondaryButton:
       text: Sign up for an informational webinar
-      link: https://www.open-contracting.org/events/ 
+      link: https://www.open-contracting.org/events/
 
   ## 02. Intro Section
 
@@ -150,7 +150,7 @@ home:
     cta:
       text: Apply now
       #### details is optional
-      details: Deadline March 12
+      details: Deadline March 19
 
 ###############################
 # Apply Page             ######
@@ -160,7 +160,7 @@ apply:
 
   heading: Let us help you with the heavy lifting.
 
-  text: Ready to level up? Review the resources below to create your best application. Deadline to apply is March 12, 2021.
+  text: Ready to level up? Review the resources below to create your best application. Deadline to apply is March 19, 2021.
 
   ## 01. Resources Section
 
@@ -186,7 +186,7 @@ apply:
     applicationTips:
       heading: Get tips to ace the application.
       text: >
-        <p>The Lift application will be open for 8 weeks, until March 12, 2021. Read through the <a href="https://docs.google.com/presentation/d/1lHVSnPUozaJdD9EJMXz_MHf05lsB6449yqDcS_aQYbY/edit#slide=id.p">Lift Applicant Handbook</a> and join our <a href="https://www.open-contracting.org/events/">informational webinars </a> for all of the ins-and-outs you&rsquo;ll need to know before you apply.
+        <p>The Lift application will be open for 8 weeks, until March 19, 2021. Read through the <a href="https://docs.google.com/presentation/d/1lHVSnPUozaJdD9EJMXz_MHf05lsB6449yqDcS_aQYbY/edit#slide=id.p">Lift Applicant Handbook</a> and join our <a href="https://www.open-contracting.org/events/">informational webinars </a> for all of the ins-and-outs you&rsquo;ll need to know before you apply.
         <a href="https://docs.google.com/document/d/1-c63jnsrmUjgxM4LBD3ERqKSEw1LEcNXxnDJnqGK6kY/edit?usp=sharing">View the application questions here.</a> <p>
 
     inspired:

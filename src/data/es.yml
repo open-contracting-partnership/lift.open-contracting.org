@@ -19,7 +19,7 @@ applyCTA:
   text: Postúlate ahora
   url: https://forms.gle/sB2XGTPF3RVS8noa6
   #### details is optional
-  details: Fecha límite 12 de marzo
+  details: Fecha límite 19 de marzo
 
 ###############################
 # Navigation             ######
@@ -154,7 +154,7 @@ apply:
 
   heading: Permítanos ayudarlo con la carga pesada.
 
-  text: ¿Está preparado para subir de nivel? Consulte los recursos a continuación para generar su mejor postulación. La fecha límite para postularse es el 12 de marzo de 2021.
+  text: ¿Está preparado para subir de nivel? Consulte los recursos a continuación para generar su mejor postulación. La fecha límite para postularse es el 19 de marzo de 2021.
 
   ## 01. Resources Section
 
@@ -179,7 +179,7 @@ apply:
     applicationTips:
       heading: Obtenga consejos para destacarse en la postulación.
       text: >
-        <p>La postulaci&oacute;n a Lift estar&aacute; abierta durante ocho semanas, hasta el 12 de marzo de 2021. Lea el<a href="https://docs.google.com/presentation/d/1succhKPdCLn2xvber9JLGVeKAEOUgMQKQvODS-a61GU/edit?usp=sharing"> Manual para postulantes de Lift</a> y participe en nuestros seminarios <a href="https://www.open-contracting.org/events/">web informativos</a> para informarse sobre qu&eacute; debe saber antes de postularse. <a href="https://docs.google.com/document/d/1gLhpaUo33P5FWjRUOJTDulO0I51hj6Mu7shgh_Mc0hE/edit?usp=sharing">Vea las preguntas para inscribirse aquí.</a></p>
+        <p>La postulaci&oacute;n a Lift estar&aacute; abierta durante ocho semanas, hasta el 19 de marzo de 2021. Lea el<a href="https://docs.google.com/presentation/d/1succhKPdCLn2xvber9JLGVeKAEOUgMQKQvODS-a61GU/edit?usp=sharing"> Manual para postulantes de Lift</a> y participe en nuestros seminarios <a href="https://www.open-contracting.org/events/">web informativos</a> para informarse sobre qu&eacute; debe saber antes de postularse. <a href="https://docs.google.com/document/d/1gLhpaUo33P5FWjRUOJTDulO0I51hj6Mu7shgh_Mc0hE/edit?usp=sharing">Vea las preguntas para inscribirse aquí.</a></p>
 
     inspired:
       heading: Obtenga inspiración.
@@ -308,7 +308,7 @@ program:
       <ul>
       <li>Apertura de postulaciones: 19 de enero</li>
       <li>Seminarios web informativos: febrero</li>
-      <li>Cierre de postulaciones: 12 de marzo</li>
+      <li>Cierre de postulaciones: 19 de marzo</li>
       <li>Se invita a los finalistas a presentar una postulaci&oacute;n completa y se notifica a todos los dem&aacute;s: 19 de abril</li>
       <li>Entrevistas: mayo/junio</li>
       <li>Anuncio de los equipos seleccionados; junio</li>
@@ -588,7 +588,7 @@ faq:
           <ul>
           <li>Apertura de postulaciones: 15 de enero</li>
           <li>Seminarios web informativos: febrero</li>
-          <li>Cierre de postulaciones: 12 de marzo</li>
+          <li>Cierre de postulaciones: 19 de marzo</li>
           <li>Se invita a los finalistas a presentar una postulaci&oacute;n completa, se notifica a todos los dem&aacute;s: 19 de abril</li>
           <li>Entrevistas: mayo/junio</li>
           <li>Anuncio de los equipos seleccionados; junio</li>
