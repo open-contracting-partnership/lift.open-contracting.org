@@ -16,10 +16,10 @@ meta:
   ogtitle: Open Contracting Lift
 
 applyCTA:
-  text: Postúlate ahora
-  url: https://forms.gle/sB2XGTPF3RVS8noa6
+  text: 2021 application window now closed
+  url:
   #### details is optional
-  details: Fecha límite 19 de marzo
+  details:
 
 ###############################
 # Navigation             ######

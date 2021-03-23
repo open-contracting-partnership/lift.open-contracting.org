@@ -16,10 +16,10 @@ meta:
   ogtitle: Open Contracting Lift
 
 applyCTA:
-  text: Подать заявку
-  url: https://forms.gle/TRWxn9FpcCyJmQMi7
+  text: 2021 application window now closed
+  url:
   #### details is optional
-  details: дедлайн до 19 марта 2021
+  details: 
 
 ###############################
 # Navigation             ######
