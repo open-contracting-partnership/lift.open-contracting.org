@@ -1,7 +1,4 @@
 import $ from 'jquery';
-import AOS from 'aos';
-// import 'what-input';
-// import lazySizes from 'lazysizes';
 
 // Foundation JS relies on a global varaible. In ES6, all imports are hoisted
 // to the top of the file so if we used`import` to import Foundation,
@@ -13,7 +10,7 @@ window.jQuery = $;
 
 // If you want to pick and choose which modules to include, comment out the above and uncomment
 // the line below
-// import './lib/foundation-explicit-pieces';
+import './lib/foundation-explicit-pieces';
 
 // plug any additional functionality here
 // import {MyModule} from './MyModule';
@@ -139,16 +136,4 @@ if (!supportsCSSFilters(true) && !supportsCSSFilters(false)) {
 If the browser doesn't support CSS filters,
 Display a gray background with a shimmer gradient (see the CSS class no-blur for details) */
 
-window.addEventListener("DOMContentLoaded", () => {
-  for (let image of images) {
-    const currentImage = new Image();
-    currentImage.src = image.dataLarge;
 
-    currentImage.onload = () => {
-      image.element.src = currentImage.src;
-      image.element.classList.add("blur-out");
-      image.element.classList.remove("blurry-load");
-    };
-  }
-});
-// The main function that loads each image once the page has loaded

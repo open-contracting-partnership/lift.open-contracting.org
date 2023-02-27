@@ -601,6 +601,46 @@ faq:
 ###############################
 
 footer:
+  nav: 
+    resources:
+      title: Resources
+      links:
+        program:
+          title: Program
+          link: program
+        eligibility:
+          title: Eligibility
+          link: eligibility
+        faq:
+          title: FAQ
+          link: faq
+        apply:
+          title: Apply
+          link: apply
+    company:
+      title: Company
+      links:
+        about:
+          title: About OCP
+          link: >
+            https://google.com
+          isExternal: true
+        newsletter:
+          title: Newsletter
+          link: >
+            https://google.com
+          isExternal: true
+        privacy:
+          title: Privacy policy
+          link: >
+            https://google.com
+          isExternal: true
+    contact:
+      title: Contact
+      links:
+        title: info@open-contracting.org
+        link: >
+          mailto:info@open-contracting.org
   about:
     heading: Acerca de
     text: >

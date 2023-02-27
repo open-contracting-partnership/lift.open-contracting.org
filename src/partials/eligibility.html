@@ -1,0 +1,119 @@
+<main class="eligibility">
+  <section class="pageHero">
+    <div class="container">
+      {{> heroBumperGraphic}}
+      <div class="textWrap">
+        <div class="overline">{{eligibility.pageTitle}}</div>
+        <h1>{{{eligibility.heroHeading}}}</h1>
+        <p>{{{eligibility.heroText}}}</p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container container--grid">
+      <div class="grid--span8">
+        <p>{{eligibility.checklistIntro}}</p>
+        <div class="eligibilityChecklist">
+          {{#each eligibility.checklist}}
+          <input type="checkbox" />
+          <p>{{{this}}}</p>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="tealBG">
+    <div class="container container--grid">
+      <div class="grid--span10">
+        <h2 class="color--white centered grid--spanAll">
+          {{{eligibility.details.heading}}}</h2>
+        <div class="container--grid marginTop">
+          {{#each eligibility.details.text}}
+          <div class="eligibilityDetail">
+            <h3 class="color--white">{{this.heading}}</h3>
+            <p>{{this.text}}</p>
+          </div>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="darkBG">
+    <div class="container">
+      {{> bumperGraphicBottom}}
+      <h2 class="centered">
+        {{eligibility.selection.heading}}
+      </h2>
+      <p class="centered">
+        {{eligibility.selection.text}}
+      </p>
+      <div class="subSection marginTop">
+        <div class="subSection__column subSection__column--centered"
+          data-aos="fade-up" data-aos-delay="200">
+          <div class="numeral">1</div>
+          <h4>
+            {{eligibility.selection.leftCol.heading}}
+            <span class="subheading">
+              {{{eligibility.selection.leftCol.subhead}}}
+            </span>
+          </h4>
+        </div>
+        <div class="subSection__column subSection__column--centered"
+          data-aos="fade-up" data-aos-delay="500">
+          <div class="numeral">2</div>
+          <h4>
+            {{eligibility.selection.centerCol.heading}}
+            <span class="subheading">
+              {{{eligibility.selection.centerCol.subhead}}}
+            </span>
+          </h4>
+        </div>
+        <div class="subSection__column subSection__column--centered"
+          data-aos="fade-up" data-aos-delay="800">
+          <div class="numeral">3</div>
+          <h4>
+            {{eligibility.selection.rightCol.heading}}
+            <span class="subheading">
+              {{{eligibility.selection.rightCol.subhead}}}
+            </span>
+          </h4>
+        </div>
+      </div>
+      <hr>
+      <div class="container--grid">
+        <div class="centered marginTop grid--spanAll">
+          <h3>
+            {{eligibility.selection.process.heading}}
+          </h3>
+          <p>{{eligibility.selection.process.subhead}}</p>
+        </div>
+        <ul class="grid--span10 eligibilityCards">
+          {{#each eligibility.selection.process.cards}}
+          <li class="card">
+            {{#if this.img}}
+            <picture class="">
+              <source srcset="{{@root.root}}assets/img/{{this.img}}.svg" type="image/svg+xml">
+              <img srcset="{{@root.root}}assets/img/{{this.img}}@2x.png 2x"
+                src="{{@root.root}}assets/img/{{this.img}}.png" alt="icon" />
+            </picture>
+            {{/if}}
+            {{{this.text}}}
+          </li>
+          {{/each}}
+        </ul>
+      </div>
+      <div class="container--grid">
+        <div class="grid--span8">
+          {{{eligibility.selection.process.text}}}
+          <hr class="color--white marginTop">
+        </div>
+        <div class="grid--span8 marginTop">
+          <h3 class="centered">
+            {{eligibility.selection.notSelected.heading}}
+          </h3>
+          {{{eligibility.selection.notSelected.text}}}
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
