@@ -511,7 +511,8 @@ h1 {
     font-weight: 500;
   }
 
-  .darkBG & {
+  .darkBG &,
+  .greyBG & {
     color: white;
   }
 }
@@ -602,17 +603,23 @@ summary {
 
 blockquote {
   font-size: 32px;
-  line-height: 1.5;
-  text-align: center;
-  border-top: 1px solid;
-  // border-bottom: 1px solid;
-  padding: 25px 0;
-  margin: 20px auto 40px;
-  max-width: 800px;
+  line-height: 1.4;
+  margin: 20px 0 40px;
 
   .darkBG & {
     color: #fff;
   }
+}
+
+figcaption {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.testimonial__title {
+  font-weight: 500;
+  font-size: 18px;
+  opacity: .7;
 }
 
 p.attribution {
@@ -859,7 +866,6 @@ nav a {
 *::before,
 *::after {
   box-sizing: border-box;
-  transition: .2s all ease;
 }
 
 ::selection {
@@ -920,7 +926,8 @@ body {
       grid-column: span 12;
     }
   }
-  &--spanAll {
+  &--spanAll,
+  &--span12 {
     grid-column: span 12;
   }
 }
@@ -1014,8 +1021,13 @@ footer a {
   letter-spacing: 0.09em;
 }
 
-.darkBG {
+.greyBG {
   background: $grey;
+  color: white;
+}
+
+.darkBG {
+  background: $darkGrey;
   color: white;
 }
 
@@ -1456,6 +1468,135 @@ $rotateWord__height: 50px;
   }
 }
 
+.aboutLift {
+  .container {
+    padding-bottom: 0;
+    @include mobile {
+      padding-bottom: 100px;
+    }
+  }
+}
+
+.aboutLift__intro {
+  p {
+    font-size: 23px;
+    color: white;
+    opacity: .7;
+  }
+}
+
+.aboutLift__graphic {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, minmax(10px,100px));
+  grid-template-areas: 
+    "theme1 theme1 graph1 ."
+    "theme1 theme1 graph1 ."
+    "theme1 theme1 graph1 ."
+    ". graph2 graph1 ."
+    "theme2 graph2 graph3 ."
+    "theme2 graph2 graph3 ."
+    "theme2 graph2 graph3 theme3"
+    ". . graph3 theme3"
+    ". . graph3 ."
+  ;
+  gap: $sitePad;
+  margin-top: 90px;
+
+  @include mobile {
+    grid-template-areas: 
+      "theme1 graph1"
+      "theme2 graph2"
+      "theme3 graph3"
+    ;
+    grid-template-rows: auto;
+    grid-template-columns: 3fr 1fr;
+  }
+
+  h4 {
+    color: white;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+
+#theme1 {
+  grid-area: theme1;
+
+  h4,p {
+    margin-left: 25%;
+    @include mobile {
+      margin-left: 0;
+    }
+  }
+}
+
+#theme2 {
+  grid-area: theme2;
+}
+
+#theme3 {
+  grid-area: theme3;
+}
+
+#graph1, #graph2, #graph3 {
+  border-radius: 20rem;
+  background-color: white;
+
+  @include mobile {
+    border-radius: 20rem 0 0 20rem;
+  }
+}
+
+#graph1 {
+  opacity: .4;
+  grid-area: graph1;
+}
+
+#graph2 {
+  opacity: .6;
+  grid-area: graph2;
+}
+
+#graph3 {
+  opacity: .2;
+  grid-area: graph3;
+  border-radius: 20rem 20rem 0 0;
+  @include mobile {
+    border-radius: 20rem 0 0 20rem;
+  }
+}
+
+section.testimonials {
+  background: #555557;
+}
+
+.testimonialWrap {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid white;
+  padding: 0 40px;
+  gap: $sitePad;
+
+  @include mobile {
+    flex-direction: column;
+  }
+}
+
+.swiper-button-prev, 
+.swiper-button-next {
+  color: $green;
+}
+
+.swiper-button-prev {
+  // left: -24px;
+}
+
+.swiper-button-next {
+  // right: -24px;
+}
+
 /***********************/
 /**** APPLY PAGE *******/
 /***********************/
@@ -1750,6 +1891,96 @@ input {
   100% {
     filter: blur(0px);
   }
+}
+
+// translation menu from OCP site
+
+.translation-menu {
+  position: relative
+}
+
+.translation-menu.is-open .translation-menu__trigger:after {
+  transform: rotate(-180deg)
+}
+
+.translation-menu__trigger {
+  border: .5px solid $grey;
+  border-radius: 2px 999px 999px 2px;
+  color: $grey;
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  padding: 4px 34px 4px 7px;
+  position: relative;
+  transition: .3s ease
+}
+
+.translation-menu__trigger:after {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 8px solid $grey;
+  content: "";
+  height: 0;
+  margin-top: -4px;
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: rotate(0);
+  transition: .3s ease;
+  width: 0
+}
+
+.translation-menu__actual {
+  background-color: #323232;
+  border: .5px solid $grey;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  min-width: 132px;
+  padding-bottom: 5px;
+  position: absolute;
+  top: calc(100% + 4px)
+}
+
+.translation-menu__actual>.translation-menu__group:first-of-type {
+  border-top: none
+}
+
+.translation-menu__group {
+  border-top: .5px solid $grey;
+  display: flex;
+  flex-direction: column
+}
+
+.translation-menu__item,.translation-menu__title {
+  line-height: 153.5%
+}
+
+.translation-menu__title {
+  color: hsla(0,0%,85.5%,.5);
+  font-size: 12px;
+  font-weight: 300;
+  padding: 5px 10px 0
+}
+
+.translation-menu__item {
+  color: $grey;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 4px 10px 2px;
+  text-decoration: none;
+  transition: .3s ease
+}
+
+.translation-menu__item:hover {
+  background-color: #4b4b4b
+}
+
+.translation-menu__item.is-active {
+  background-color: #4b4b4b;
+  color: #e0e83d
 }
 
 /***********************/

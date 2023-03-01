@@ -1,31 +1,24 @@
 <header id="header">
-    <div class="container container--flex">
-      <a class="siteTitle" href="{{@root.root}}{{urlprefix}}">Lift</a>
-      <div class="menuToggle" role="navigation">
-        <input type="checkbox" />
-        <div class="mobileIcon">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menuWrap">
-          <nav>
-            <a href="{{@root.root}}{{urlprefix}}program">{{nav.program}}</a>
-            <a href="{{@root.root}}{{urlprefix}}eligibility">{{nav.eligibility}}</a>
-            <a href="{{@root.root}}{{urlprefix}}faq">{{nav.faq}}</a>
-            <a href="{{@root.root}}{{urlprefix}}apply" class="ctaButton ctaButton--secondary">{{nav.apply}}</a>
-          </nav>
-        </div>
-        <div class="languageSelect">
-          <label for="languageSelect">{{nav.language}}</label>
-          <select id="languageSelect">
-            <option value="/" {{#ifequal this.lang "en"}} selected {{/ifequal}}>English</option>
-            <option value="/es" {{#ifequal this.lang "es"}} selected {{/ifequal}}>Español</option>
-            <option value="/fr" {{#ifequal this.lang "fr"}} selected {{/ifequal}}>Français</option>
-            <option value="/ru" {{#ifequal this.lang "ru"}} selected {{/ifequal}}>Pусский</option>
-          </select>
-        </div>
-        </div>
+  <div class="container container--flex">
+    <a class="siteTitle" href="{{@root.root}}{{urlprefix}}">Lift</a>
+    <div class="menuToggle" role="navigation">
+      <input type="checkbox" />
+      <div class="mobileIcon">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
+      <div class="menuWrap">
+        <nav>
+          <a href="{{@root.root}}{{urlprefix}}program">{{nav.program}}</a>
+          <a
+            href="{{@root.root}}{{urlprefix}}eligibility">{{nav.eligibility}}</a>
+          <a href="{{@root.root}}{{urlprefix}}faq">{{nav.faq}}</a>
+          <a href="{{@root.root}}{{urlprefix}}apply"
+            class="ctaButton ctaButton--secondary">{{nav.apply}}</a>
+        </nav>
+      </div>
+      {{> langSelector}}
     </div>
-  </header>
+  </div>
+</header>

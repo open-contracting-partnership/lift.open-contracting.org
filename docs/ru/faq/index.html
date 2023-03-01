@@ -44,20 +44,11 @@
 <a href="../../ru/apply" class="ctaButton ctaButton--secondary">Подать</a>
 </nav>
 </div>
-<div class="languageSelect">
-<label for="languageSelect">Язык</label>
-<select id="languageSelect">
-<option value="/">English</option>
-<option value="/es">Español</option>
-<option value="/fr">Français</option>
-<option value="/ru" selected="selected">Pусский</option>
-</select>
+<div class="translation-menu" :class="open ? 'is-open' : ''" x-data="{ open: false, currentTranslation: $persist('English') }" @click.away="open = false">
+<span class="translation-menu__trigger" @click="open = !open" x-text="currentTranslation">English</span>
+</div></div>
 </div>
-</div>
-</div>
-
-</header>
-<main class="faq">
+</header><main class="faq">
 <section class="pageHero">
 <div class="container">
 <picture class="bumperGraphic bumperGraphic--top bumperGraphic--left">

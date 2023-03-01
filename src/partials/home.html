@@ -40,13 +40,26 @@
       </div>
     </div>
   </section>
-  <section class="tealBG">
-    <div class="container">
-      <h2 class="centered color--white">{{home.about.heading}}</h2>
-      {{{home.about.text}}}
+  <section class="tealBG aboutLift">
+    <div class="container container--grid">
+      <div class="grid--span10 aboutLift__intro">
+        <h2 class="centered color--white">{{home.about.heading}}</h2>
+        {{{home.about.text}}}
+      </div>
+      <div class="aboutLift__graphic grid--spanAll">
+        {{#each home.about.graphic}}
+        <div id="{{@key}}" class="aboutLift__graphic__theme">
+          <h4>{{this.heading}}</h4>
+          <p>{{this.text}}</p>
+        </div>
+        {{/each}}
+        <div id="graph1"></div>
+        <div id="graph2"></div>
+        <div id="graph3"></div>
+      </div>
     </div>
   </section>
-  <section class="darkBG">
+  <section class="greyBG">
     <div class="container container--grid">
       <div class="grid--span10">
         <h2 class="centered color--white">{{home.whyApply.heading}}</h2>
@@ -59,6 +72,11 @@
           {{/each}}
         </div>
       </div>
+    </div>
+  </section>
+  <section class="darkBG testimonials">
+    <div class="container">
+      {{> testimonials}}
     </div>
   </section>
 </main>

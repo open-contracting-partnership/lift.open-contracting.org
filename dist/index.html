@@ -44,20 +44,11 @@
 <a href="apply" class="ctaButton ctaButton--secondary">Apply</a>
 </nav>
 </div>
-<div class="languageSelect">
-<label for="languageSelect">Language</label>
-<select id="languageSelect">
-<option value="/" selected="selected">English</option>
-<option value="/es">Español</option>
-<option value="/fr">Français</option>
-<option value="/ru">Pусский</option>
-</select>
+<div class="translation-menu" :class="open ? 'is-open' : ''" x-data="{ open: false, currentTranslation: $persist('English') }" @click.away="open = false">
+<span class="translation-menu__trigger" @click="open = !open" x-text="currentTranslation">English</span>
+</div></div>
 </div>
-</div>
-</div>
-
-</header>
-<main>
+</header><main>
 <section class="homepageHero">
 <div class="container container--grid">
 <div class="homepageHero__heroText">
@@ -111,13 +102,32 @@ Are you a government or social leader trying to improve public integrity, sustai
 </div>
 </div>
 </section>
-<section class="tealBG">
-<div class="container">
+<section class="tealBG aboutLift">
+<div class="container container--grid">
+<div class="grid--span10 aboutLift__intro">
 <h2 class="centered color--white">About Lift</h2>
 <p>As governments and social leaders around the world grapple to address the converging crises of inequality, climate change, and a decline in public trust, every single one of them has a powerful and untapped tool at their disposal: public procurement.</p><p>Open contracting is a tested approach to reimagine public procurement to deliver systemic change. Lift is our program to help teams of bold reformers to redesign processes, policies, and data to make them goal-driven, user-friendly and human-centered. Your challenge could be…</p>
 </div>
+<div class="aboutLift__graphic grid--spanAll">
+<div id="theme1" class="aboutLift__graphic__theme">
+<h4>Corruption, low trust in government, or a lack of representation.</h4>
+<p>You might want to use open contracting to improve your country’s public spending and integrity through implementing better red flagging approaches, increasing competition and reducing sole sourcing. Or you might want to improve monitoring and advocacy by empowering citizens, businesses, journalists and others to track and report procurement failures and making government agencies accountable to responding to them.</p>
+</div>
+<div id="theme2" class="aboutLift__graphic__theme">
+<h4>Government spending and investments that don’t meet climate goals and needs.</h4>
+<p>You might want to use open contracting to expand access to affordable and green public transit, purchase more sustainably-produced or longer-lasting products, or measurably reduce the amount of carbon emissions from public purchasing. Or you might be trying to advance climate mitigation priorities and enable smarter decision-making around how disaster prevention investments are made. </p>
+</div>
+<div id="theme3" class="aboutLift__graphic__theme">
+<h4>Purchasing or public services that reinforce social inequities.</h4>
+<p>You might want to use open contracting to improve vendor diversity by boosting opportunities for women-, youth- or minority-owned businesses to participate in public procurement, or build the capacity of small, local suppliers to compete and win government contracts. Or you might want to improve service delivery by improving social safety net programs, helping stock hospitals fairly with the best medicines and protective equipment, or equipping public schools with the supplies and infrastructure they need to serve students and their families.</p>
+</div>
+<div id="graph1"></div>
+<div id="graph2"></div>
+<div id="graph3"></div>
+</div>
+</div>
 </section>
-<section class="darkBG">
+<section class="greyBG">
 <div class="container container--grid">
 <div class="grid--span10">
 <h2 class="centered color--white">Why apply?</h2>
@@ -141,6 +151,64 @@ Are you a government or social leader trying to improve public integrity, sustai
 </div>
 </div>
 </div>
+</section>
+<section class="darkBG testimonials">
+<div class="container">
+<div class="swiper">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<div class="testimonialWrap">
+<figure>
+<blockquote>
+Thanks to the Lift process, we were able to provide a clearer direction and ground our ambition.
+</blockquote>
+<figcaption>
+Marcelo Espinel<br>
+<span class="testimonial__title">Deputy director, Fundación Ciudadanía y Desarrollo</span>
+</figcaption>
+</figure>
+<picture>
+<img src="assets/img/testimonial-marcelo.png" alt="Marcelo Espinel Deputy director, Fundación Ciudadanía y Desarrollo">
+</picture>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="testimonialWrap">
+<figure>
+<blockquote>
+Lift was instrumental in helping us better articulate and scope our project, and establish feasible objectives. Because of the Lift process, we ended up with a plan we could execute, not just an idea.
+</blockquote>
+<figcaption>
+Ángeles Ferreyra<br>
+<span class="testimonial__title">Office of Purchasing and Contracts, Ministry of Finance, City of Buenos Aires</span>
+</figcaption>
+</figure>
+<picture>
+<img src="assets/img/.png" alt="Ángeles Ferreyra Office of Purchasing and Contracts, Ministry of Finance, City of Buenos Aires">
+</picture>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="testimonialWrap">
+<figure>
+<blockquote>
+The project truly raised the bar on how we can think about a creative relationship with suppliers and the public, without compromising the principles of transparency or fairness.
+</blockquote>
+<figcaption>
+<br>
+<span class="testimonial__title"></span>
+</figcaption>
+</figure>
+<picture>
+<img src="assets/img/.png" alt=" ">
+</picture>
+</div>
+</div>
+</div>
+<div class="swiper-pagination"></div>
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+</div></div>
 </section>
 </main><section class="applyBanner">
 <div class="container">

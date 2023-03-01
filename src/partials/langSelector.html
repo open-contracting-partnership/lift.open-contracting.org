@@ -1,0 +1,22 @@
+<div class="translation-menu" :class="open ? 'is-open' : ''"
+    x-data="{ open: false, currentTranslation: $persist('English') }"
+    @click.away="open = false">
+        <span class="translation-menu__trigger" @click="open = !open" x-text="currentTranslation">English</span>
+
+    <!-- <div class="translation-menu__actual" x-show="open" x-transition>
+        <div class="translation-menu__group">
+            <a href="#"
+                class="translation-menu__item is-active"
+                @click="currentTranslation = 'English'">English</a>
+            <a href="#"
+                class="translation-menu__item"
+                @click="currentTranslation = 'Español'">Español</a>
+            <a href="#"
+                class="translation-menu__item"
+                @click="currentTranslation = 'Español'">Français</a>
+            <a href="#"
+                class="translation-menu__item"
+                @click="currentTranslation = 'Русский'">Русский</a>
+        </div>
+    </div> -->
+</div>
