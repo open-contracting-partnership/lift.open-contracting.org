@@ -1,6 +1,6 @@
 import $ from 'jquery';
 
-import Swiper from 'swiper';
+import Swiper from 'swiper/bundle';
 
 // Foundation JS relies on a global varaible. In ES6, all imports are hoisted
 // to the top of the file so if we used`import` to import Foundation,
@@ -27,6 +27,9 @@ $(() => {
     direction: 'horizontal',
     loop: true,
     grabCursor: true,
+    observer: true,
+    observeParents: true,
+    parallax:true,
     pagination: {
       el: '.swiper-pagination',
     },

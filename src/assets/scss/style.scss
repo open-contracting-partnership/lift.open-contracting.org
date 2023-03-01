@@ -450,6 +450,10 @@ template {
   display: none;
 }
 
+figure {
+  margin: 0;
+}
+
 /***********************/
 /****** TYPOGRAPHY *****/
 /***********************/
@@ -462,6 +466,16 @@ template {
        url('../fonts/GTEestiProDisplay-Regular.woff') format('woff'),
        url('../fonts/GTEestiProDisplay-Regular.ttf') format('truetype');
   font-weight: 500;
+}
+
+@font-face {
+  font-family: 'GT Eesti Pro Display';
+  src: url('../fonts/GTEestiProDisplay-Medium.eot');
+  src: url('../fonts/GTEestiProDisplay-Medium.eot') format('embedded-opentype'),
+       url('../fonts/GTEestiProDisplay-Medium.woff2') format('woff2'),
+       url('../fonts/GTEestiProDisplay-Medium.woff') format('woff'),
+       url('../fonts/GTEestiProDisplay-Medium.ttf') format('truetype');
+  font-weight: 600;
 }
 
 @font-face {
@@ -508,7 +522,7 @@ h1 {
 
   &.display {
     font-size: 76px;
-    font-weight: 500;
+    font-weight: 600;
   }
 
   .darkBG &,
@@ -1404,6 +1418,10 @@ footer a {
     grid-column: span 4;
     text-align: center;
     margin: 50px auto;
+    @include mobile {
+      grid-column: span 12;
+      margin: 20px auto;
+    }
   }
 }
 
@@ -1461,6 +1479,9 @@ $rotateWord__height: 50px;
   > div {
     grid-column: span 6;
     margin-bottom: 50px;
+    @include mobile {
+      grid-column: span 12;
+    }
 
     p {
       opacity: .8;
@@ -1576,11 +1597,27 @@ section.testimonials {
   display: flex;
   flex-direction: row;
   border-bottom: 2px solid white;
-  padding: 0 40px;
+  padding: 0 90px;
   gap: $sitePad;
+  align-items: end;
 
   @include mobile {
     flex-direction: column;
+    padding: 0 40px;
+  }
+
+  figure {
+    padding-bottom: 50px;
+  }
+
+  picture {
+    flex-basis: 400px;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+
+  img {
+    max-width: 100%;
   }
 }
 
@@ -1589,12 +1626,8 @@ section.testimonials {
   color: $green;
 }
 
-.swiper-button-prev {
-  // left: -24px;
-}
-
-.swiper-button-next {
-  // right: -24px;
+.swiper-pagination-bullet-active {
+  background: $green;
 }
 
 /***********************/
@@ -1877,6 +1910,9 @@ input {
 
 .marginTop.marginTop {
   margin-top: 100px;
+  @include mobile {
+    margin-top: 40px;
+  }
 }
 
 @keyframes blurOut {
