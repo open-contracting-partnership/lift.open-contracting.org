@@ -128,22 +128,25 @@ home:
   testimonials:
     
     quote1:
-      text: "Thanks to the Lift process, we were able to provide a clearer direction and ground our ambition."
+      text: >
+        &ldquo;Thanks to the Lift process, we were able to provide a clearer direction and ground our ambition.&rdquo;
       name: Marcelo Espinel
       title: Deputy director, Fundación Ciudadanía y Desarrollo
       img: testimonial-marcelo
     
     quote2:
-      text: "Lift was instrumental in helping us better articulate and scope our project, and establish feasible objectives. Because of the Lift process, we ended up with a plan we could execute, not just an idea."
+      text: >
+        &ldquo;Lift was instrumental in helping us better articulate and scope our project, and establish feasible objectives. Because of the Lift process, we ended up with a plan we could execute, not just an idea.&rdquo;
       name: Ángeles Ferreyra
       title: Office of Purchasing and Contracts, Ministry of Finance, City of Buenos Aires
-      img:
+      img: testimonial-marcelo
     
     quote3:
-      text: "The project truly raised the bar on how we can think about a creative relationship with suppliers and the public, without compromising the principles of transparency or fairness."
+      text: >
+        &ldquo;The project truly raised the bar on how we can think about a creative relationship with suppliers and the public, without compromising the principles of transparency or fairness.&rdquo;
       name:
       title:
-      img:
+      img: testimonial-marcelo
 
 ###############################
 # Apply Page             ######

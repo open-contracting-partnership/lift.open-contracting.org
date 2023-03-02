@@ -543,6 +543,10 @@ h2 {
   margin: 0 0 20px;
   line-height: 1;
 
+  @include mobile {
+    font-size: 38px;
+  }
+
   .section--textOnly & {
     margin-top: 30px;
   }
@@ -563,6 +567,7 @@ h3 {
   margin: 0 0 24px;
 
   @include mobile {
+    font-size: 26px;
     margin-top: 20px;
   }
 }
@@ -681,6 +686,14 @@ header {
   }
 }
 
+.ocp-logo {
+  margin-left: $sitePad;
+
+  @include mobile {
+    display: none;
+  }
+}
+
 .siteTitle {
   font-family: $eestiDisplay;
   font-size: 36px;
@@ -702,10 +715,7 @@ nav a {
   margin-left: 20px;
 
   @include mobile {
-    display: inline-block;
-    margin: 0 0 10px 0;
-    font-size: 22px;
-    display: block;
+    margin-bottom: 30px;
   }
 
   &:active,
@@ -713,10 +723,6 @@ nav a {
   &:link {
     color: $grey;
     text-decoration: none;
-
-    @include mobile {
-      color: $darkGrey;
-    }
   }
 
   &:hover {
@@ -734,67 +740,51 @@ nav a {
   }
 }
 
-.languageSelect {
-  margin-left: 20px;
-  text-align: center;
+.menuWrap {
+  display: flex;
+  align-items: center;
+  transition: .2s transform ease;
 
   @include mobile {
-    margin: 0;
-    text-align: left;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    padding: 30px;
+    transform: translateX(120%);
+    margin-top: 62px;
+    background: white;
+    // @supports (backdrop-filter: blur(8px)) {
+    //   backdrop-filter: blur(8px);
+    //   background: rgba(243, 241, 238, 0.7);
+    // }
   }
 
-  label {
-    font-size: 12px;
-    letter-spacing: .5px;
-    color: white;
-    opacity: .5;
-    margin-bottom: 3px;
-    text-align: center;
-
+  nav {
     @include mobile {
-      color: $darkGrey;
-      text-align: left;
-    }
-  }
-
-  select {
-    background: $darkGrey;
-    background: linear-gradient(to bottom, #565656 1%,#323232 86%);
-    color: white;
-    border: 1px solid rgba(255,255,255,.2);
-    // border-radius: 0;
-    font-size: 16px;
-
-    @include mobile {
-      font-size: 20px;
-      padding: 9px;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
     }
   }
 }
 
-.menuWrap {
-  display: flex;
-  align-items: center;
-
+.translation-menu {
   @include mobile {
-    position: absolute;
-    right: calc(#{$sitePad} / 2 * -1);
-    background: $lightGrey;
-    flex-direction: column;
-    padding: 30px;
-    margin-top: 29px;
-    transform: translate(100%, 0);
+    display: none;
   }
 }
 
 .menuToggle {
   display: flex;
-  position: relative;
   justify-content: space-between;
   flex-basis: 100%;
+  position: relative;
 
   @include mobile {
-    display: block;
+    display: flex;
+    justify-content: flex-end;
+    order: 3;
   }
 
   input {
@@ -805,8 +795,8 @@ nav a {
       width: 40px;
       height: 32px;
       position: absolute;
-      top: -7px;
-      left: -5px;
+      top: 0;
+      right: 0;
       cursor: pointer;
       opacity: 0;
       z-index: 2;
@@ -814,7 +804,8 @@ nav a {
 
     &:checked ~ .menuWrap {
       @include mobile {
-        transform: none;
+        display: block;
+        transform: translateX(0%);
       }
     }
 
@@ -986,7 +977,7 @@ footer a {
   display: flex;
   flex-direction: column;
   h4 {
-    margin-bottom: 12px;
+    margin: 0 0 12px;
   }
   a {
     text-decoration: none;
@@ -1395,21 +1386,34 @@ footer a {
   .homepageHero__heroText {
     grid-column: 1 / span 6;
     align-self: end;
+    padding-top: 100px;
     @include mobile {
       grid-column: 1 / span 12;
+      padding-top: 0;
+      margin-top: -30px;
     }
     h1 {
       text-align: left;
+      @include tablet {
+        font-size: 55px;
+      }
+      @include mobile {
+        font-size: 55px;
+        margin-bottom: 20px;
+      }
     }
     p {
       font-size: 22px;
       opacity: .7;
+      @include mobile {
+        font-size: 18px;
+      }
     }
   }
   .animatedGraphic {
     grid-column: 7 / span 7;
     @include mobile {
-      grid-column: 1 / span 12;
+      grid-column: 5 / span 8;
       order: -1;
       margin-bottom: $sitePad;
     }
@@ -1431,6 +1435,9 @@ footer a {
   height: 72px;
   margin-bottom: 30px;
   overflow: hidden;
+  @include mobile {
+    height: 60px;
+  }
   span {
     position: absolute;
     top: 0;
