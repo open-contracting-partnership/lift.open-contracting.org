@@ -30,8 +30,13 @@ nav:
   eligibility: Eligibility
   faq: FAQ
   apply: Apply
-  language: Language
-  
+
+languages:
+  en: English
+  es: Español
+  fr: Français
+  ru: Русский
+
 ###############################
 # Apply banner           ######
 ###############################
@@ -237,18 +242,6 @@ program:
 
     text2: >
       <p>Teams may also be eligible for an additional 6 months of MEL and documentation assistance, as well as light-touch technical support following program completion, depending on team needs and progress.</p>
-
-  leftCol:
-    heading: >
-      Part 1: <span class="teal">Building Foundations</span>
-    subhead: July to September 2021, 3 months
-    text: Teams transform their ideas into a detailed action plan, refine their plan based on stakeholder engagement, and build robust reform strategies for implementation and monitoring impact.
-
-  rightCol:
-    heading: >
-      Part 2: <span class="blue">Guiding Implementation</span>
-    subhead: October to December 2022, 15 months
-    text: Teams receive hands-on, custom support as they build, test, and embed best contracting practices in their contexts, and monitor their impact.
 
   ## 02. What to Expect Section
 
@@ -480,49 +473,70 @@ faq:
       question1:
         summary: What makes a good application?
         details: >
-          <p>The best applications will start with a very specific goal or problem that relates to using procurement to power an effective or inclusive recovery. You might want to improve the quality of school meals or school infrastructure, expand access to reliable public transportation, make public purchases more environmentally-friendly, or aim to give more contracting opportunities to women- or minority-owned businesses. In your application, be as specific as possible about how better contracting processes will help you achieve these goals.</p>
+          <p>The best applications will start with a very specific goal or problem that relates to using procurement to:</p>
 
-          <p>Note that Lift is not for general capacity building on open contracting or advocacy. While training, workshops, and OCDS publication and tools and advocacy are important, they cannot be the whole of your Lift project—they should just be a means to serve your goal.</p>
+          <ul>
+            <li>Fight corruption and strengthen democratic institutions</li>
+            <li>Protect the environment or improve climate resilience</li>
+            <li>Promote economic and social inclusion</li>
+          </ul>
 
-          <p>Also, we encourage you to be clear about how you will measure and track progress against your goals. For example, potential metrics might be the number of women-owned businesses who win contracts, feedback from residents about the quality of food or the cleanliness of public parks, infrastructure projects completed on time and within budget, etc.</p>
+          <p>In your application, be as specific as possible about how better contracting processes will help you achieve these goals.</p>
+
+          <p>Lift is for systemic reform projects that seek to make progress across policy, processes, capacity, and data. It is not for general capacity building on open contracting or advocacy. While training, workshops, and open data publication and tools are important, they cannot be the whole of your Lift project—they should just be a means to reach your goal.</p>
+
+          <p>Also, we encourage you to be clear and specific about how you will measure and track progress against your goals. For example, potential metrics might be a reduction of sole sourcing, the amount of carbon emissions from infrastructure projects, the number of locally-owned women-led businesses who win contracts, etc.</p>
 
       question2:
         summary: What are the key questions that I should think about before submitting an application?
         details: >
-          <p>We require that you answer all questions and submit a complete application. <a href="https://docs.google.com/document/d/1-c63jnsrmUjgxM4LBD3ERqKSEw1LEcNXxnDJnqGK6kY/edit?usp=sharing">View the application questions here. </a>To make the best application possible, focus especially on developing concrete answers to these four questions:</p>
+          <p>We require that you answer all questions and submit a complete application. To make the best application possible, focus especially on developing concrete answers to these four questions:</p>
           <ul>
           <li>What is the problem that you are seeking to address through Lift?&nbsp;</li>
           <ul>
-          <li>Tip: Focus on a specific goal or problem relating to the quality of public goods, works, or services, or access to opportunity. Explain how this problem relates to an inclusive and effective recovery from the pandemic.&nbsp;</li>
+          <li>Tip: Focus on a specific goal or problem relating to our challenge question: how will you use open contracting to…</li>
+          <ul>
+          <li>Fight corruption and strengthen democratic institutions?</li>
+          <li>Protect the environment or improve climate resilience?</li>
+          <li>Promote economic and social inclusion?</li>
+          </ul>
           </ul>
           <li>What is the solution to this problem?</li>
           <ul>
-          <li>Tip: Think beyond implementing the OCDS, rolling out a new platform or tool, or running workshops. Instead, explain what the future that you want to see is and the concrete outcomes you anticipate by the Lift program&rsquo;s end in June of 2022.</li>
+          <li>Tip: Lift is for systemic reform projects. Think beyond rolling out a new platform or tool, or running workshops, or publishing data. Instead, explain what the future that you want to see is, and the concrete outcomes you anticipate by the Lift program’s end.</li>
           </ul>
           <li>What are your &lsquo;powers&rsquo; to make change happen, and who in power will help you make this change happen?&nbsp;</li>
           <ul>
-          <li>Tip: Lift is for teams that can achieve measurable improvements in public goods, works, and services or expand economic opportunity as part of supporting an inclusive and effective recovery. This requires that Lift teams have the power to make change. You might have to change regulations or policies, upgrade data or IT infrastructure or rethink processes - doing so often requires political buy-in and robust mandates for change. Consider what organizational strategies or key relationships that give you the power to pursue your work.&nbsp;</li>
+          <li>Lift is for teams that can achieve measurable impact. This requires Lift teams to have the power to make change. You might have to change regulations or policies, upgrade data or IT infrastructure, or rethink processes – doing so often requires political buy-in and robust mandates for change. Consider what organizational strategies or key relationships that give you the power to pursue your goal.</li>
           </ul>
           <li>Who is on your core team, and why are they involved?</li>
           </ul>
-          <p>Tip: Lift is for teams that have skills and represent the agencies or organizations that are integral for project success. For example, if your project is about improving the quality of public housing through procurement reform, it would be smart to have someone on the team who is from the public housing agency.</p>
+          <p>Tip: Lift is for teams that have skills and represent the agencies or organizations that are integral for project success. For example, if your project is about improving the quality of public housing through procurement reform, it would be good to have someone on the team who is from the public housing agency.</p>
+
+      question2.1:
+        summary: What are good measurable targets/goals or KPIs for my project?
+        details: >
+          <p>We encourage you to have measurable goals associated with your project that allow you to have baseline, progress milestones and end-of-program targets. Quantitative data can be incredibly helpful in ensuring that you work towards measurable progress. But we also know that it can be difficult to have high-quality data readily accessible to calculate key performance indicators (KPIs.) We will work with you as part of Lift to unlock and use more data and define KPIs. We are especially interested in measuring direct impact on communities, so if possible, please share an estimate of how many individuals might benefit from the reform.</p>
+
+          <p>We compiled a <a href="https://docs.google.com/document/d/1CHnLhqQ0wKahNIdlBY31hzil5W_LU-6zki3UZLrxLyE/edit#heading=h.ve6tj07iugp9">list of potential KPIs</a> that you might want to include in your Lift application.</p>
 
       question3:
         summary: I’m interested in applying. Can I get help with the application?
         details: >
           <p>Yes! You can receive more guidance on applying to Lift in the following ways:</p>
           <ul>
-          <li><a href="https://docs.google.com/presentation/d/1lHVSnPUozaJdD9EJMXz_MHf05lsB6449yqDcS_aQYbY/edit#slide=id.p">Read</a> the Lift Applicant Handbook</li>
-          <li><a href="https://www.open-contracting.org/events/">Attend</a> one of the upcoming informational webinars, or <a href="https://www.youtube.com/watch?v=kRoVyAFEMXA&amp;list=PL7sSifLpWd8jwmCtslEW16WRMTu1Tp7To">watch</a> the recordings of the first webinars&nbsp;</li>
-          <li>Sign up for an <a href="mailto:ksklar@open-contracting.org""> office hour</a></li>
+          <li>Read the Lift Applicant Handbook</li>
+          <li>Attend one of the upcoming informational webinars</li>
+          <li>Reach out to <a href="https://www.open-contracting.org/about/team/">your country manager</a> to set up a 1-1 session to review your application.</li>
           <li><a href="https://open-contracting.us12.list-manage.com/subscribe?u=4257477995e0a1fa5cb6587b2&id=fc9ec0e34b">Sign up</a> to be notified of additional Q&amp;As and resources&nbsp;</li>
+          <li>Email our <a href="mailto:ksklar@open-contracting.org">Senior Program Manager for Lift, Kaye Sklar</a></li>
           </ul>
-          <p>Email <a href="mailto:ksklar@open-contracting.org">Kaye Sklar</a></p>
+          
 
       question4:
         summary: Can I apply in a language other than English?
         details: >
-          <p>Yes. We will accept applications in Spanish, French, Russian, and English.</p>
+          <p>Yes. We will accept applications in English, Spanish, French, Russian, and we will conduct interviews in all of the previously listed languages, in addition to Bahasa Indonesia. Technical support throughout the program will be available in all five of these languages as well.</p>
 
       question5:
         summary: Can I submit more than one project?
@@ -540,7 +554,7 @@ faq:
       question6:
         summary: At what stage or scale should my project be to apply? Does it have to be an idea, prototype, or MVP? Should it be focused locally or globally?
         details: >
-          <p>Lift is open to projects at different stages of development and scale. You could be embarking on a new initiative, or working to refine and scale a piloted solution. We require that your project has leadership support, which might include a budget for your work, a political champion, or a formal mandate. You could also be solving problems in your region, country, or city. Your project does not need to be able to scale globally.</p>
+          <p>Lift is open to projects at different stages of development and scale. You could be embarking on a new initiative, or working to refine and scale a piloted solution. In the past we have seen that Lift is especially helpful to test and refine new approaches that then can be scaled in more sectors, agencies, regions, or countries after the project ends. We require your project to have leadership support, which should include a budget for your work, a political champion, or a formal mandate. You could also be solving problems in your region, country, or city. Your project does not need to be able to scale globally.</p>
 
       question8:
         summary: Are there any sectors or topics Lift is particularly interested in?

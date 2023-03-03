@@ -511,7 +511,7 @@ figure {
 }
 
 h1 {
-  color: $darkGrey;
+  color: $grey;
   font-family: $eestiDisplay;
   font-size: 64px;
   font-weight: 700;
@@ -681,7 +681,7 @@ header {
     align-items: center;
 
     @include mobile {
-      padding: 10px calc(#{$sitePad} / 2);
+      padding: 10px $sitePad;
     }
   }
 }
@@ -815,8 +815,8 @@ nav a {
       @include mobile {
         display: block;
         opacity: 1;
-        transform: rotate(45deg) translate(-2px, -1px);
-        background: white;
+        transform: rotate(45deg) translate(-10px, -10px);
+        background: $grey;
       }
 
       &:nth-last-child(3) {
@@ -825,7 +825,7 @@ nav a {
       }
 
       &:nth-last-child(2) {
-        transform: rotate(-45deg) translate(0, -1px);
+        transform: rotate(-45deg) translate(-10px, 10px);
       }
     }
   }
@@ -843,7 +843,7 @@ nav a {
         height: 4px;
         margin-bottom: 5px;
         position: relative;
-        background: #cdcdcd;
+        background: $grey;
         border-radius: 3px;
         z-index: 1;
         transform-origin: 4px 0px;
@@ -943,7 +943,7 @@ footer {
     padding: 100px $sitePad;
 
     @include mobile {
-      padding: 30px calc(#{$sitePad} / 2);
+      padding: 30px $sitePad;
     }
   }
 }
@@ -1051,11 +1051,20 @@ footer a {
   .textWrap {
     max-width: 650px;
     margin: 0 auto;
+
+    @include mobile {
+      padding-left: $sitePad;
+      padding-right: $sitePad;
+    }
   }
   h1 {
     font-size: 56px;
     line-height: 1;
     margin-bottom: 20px;
+
+    @include mobile {
+      font-size: 48px;
+    }
   }
   p {
     opacity: .7;
@@ -1470,6 +1479,12 @@ footer a {
     @include mobile {
       grid-column: span 12;
       margin: 20px auto;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      text-align: left;
+      width: 100%;
+      gap: $sitePad;
     }
   }
 }
@@ -2022,15 +2037,21 @@ input {
 }
 
 .translation-menu__actual {
-  background-color: #323232;
+  display: none;
+  background-color: white;
   border: .5px solid $grey;
   border-radius: 2px;
-  display: flex;
+
   flex-direction: column;
   min-width: 132px;
   padding-bottom: 5px;
   position: absolute;
-  top: calc(100% + 4px)
+  top: 100%;
+
+  .is-open & {
+    display: flex;
+  }
+  
 }
 
 .translation-menu__actual>.translation-menu__group:first-of-type {
@@ -2064,7 +2085,8 @@ input {
 }
 
 .translation-menu__item:hover {
-  background-color: #4b4b4b
+  background-color: #4b4b4b;
+  color: white;
 }
 
 .translation-menu__item.is-active {

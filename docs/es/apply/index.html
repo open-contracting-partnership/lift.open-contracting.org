@@ -44,8 +44,18 @@
 <a href="../../es/apply" class="ctaButton ctaButton--secondary">Postularse</a>
 </nav>
 </div>
-<div class="translation-menu" :class="open ? 'is-open' : ''" x-data="{ open: false, currentTranslation: $persist('English') }" @click.away="open = false">
-<span class="translation-menu__trigger" @click="open = !open" x-text="currentTranslation">English</span>
+<div class="translation-menu">
+<span class="translation-menu__trigger">
+Español
+</span>
+<div class="translation-menu__actual">
+<div class="translation-menu__group">
+<a href="../../" class="translation-menu__item">English</a>
+<a href="../..//es" class="translation-menu__item is-active">Español</a>
+<a href="../..//fr" class="translation-menu__item">Français</a>
+<a href="../..//ru" class="translation-menu__item">Русский</a>
+</div>
+</div>
 </div></div>
 <a class="ocp-logo" href="https://open-contracting.org">
 <img src="../../assets/img/ocp-logo.svg">
@@ -101,7 +111,7 @@ Póngase en contacto.
 <div class="container container--flex">
 <div class="footer__topRow">
 <img src="../../assets/img/ocp-logo-white.svg">
-<div class="grid--span6 container--grid footer__columnWrap">
+<div class="grid--span6 footer__columnWrap">
 <div class="footer__column">
 <h4>Resources</h4>
 <a href="../../es/program">Program</a>

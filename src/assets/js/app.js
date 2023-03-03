@@ -26,7 +26,7 @@ $(() => {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
-    grabCursor: true,
+    grabCursor: false,
     observer: true,
     observeParents: true,
     parallax:true,
@@ -37,6 +37,11 @@ $(() => {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
+  });
+
+  $(".translation-menu").click(function() {
+    console.log("tranlation click");
+    $(this).toggleClass("is-open")
   });
 
 });

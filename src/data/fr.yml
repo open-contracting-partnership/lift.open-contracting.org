@@ -31,6 +31,12 @@ nav:
   faq: FAQ
   language: Langue
 
+languages:
+  en: English
+  es: Español
+  fr: Français
+  ru: Русский
+
 ###############################
 # Homepage               ######
 ###############################

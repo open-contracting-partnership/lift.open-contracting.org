@@ -31,6 +31,12 @@ nav:
   faq: ЧАВО
   language: Язык
 
+languages:
+  en: English
+  es: Español
+  fr: Français
+  ru: Русский
+
 ###############################
 # Homepage               ######
 ###############################

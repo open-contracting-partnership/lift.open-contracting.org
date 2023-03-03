@@ -44,8 +44,18 @@
 <a href="../../fr/apply" class="ctaButton ctaButton--secondary">Postulez</a>
 </nav>
 </div>
-<div class="translation-menu" :class="open ? 'is-open' : ''" x-data="{ open: false, currentTranslation: $persist('English') }" @click.away="open = false">
-<span class="translation-menu__trigger" @click="open = !open" x-text="currentTranslation">English</span>
+<div class="translation-menu">
+<span class="translation-menu__trigger">
+Français
+</span>
+<div class="translation-menu__actual">
+<div class="translation-menu__group">
+<a href="../../" class="translation-menu__item">English</a>
+<a href="../..//es" class="translation-menu__item">Español</a>
+<a href="../..//fr" class="translation-menu__item is-active">Français</a>
+<a href="../..//ru" class="translation-menu__item">Русский</a>
+</div>
+</div>
 </div></div>
 <a class="ocp-logo" href="https://open-contracting.org">
 <img src="../../assets/img/ocp-logo.svg">
@@ -234,7 +244,7 @@ Quel soutien sera offert à mon équipe par le programme Open Contracting Lift�
 <div class="container container--flex">
 <div class="footer__topRow">
 <img src="../../assets/img/ocp-logo-white.svg">
-<div class="grid--span6 container--grid footer__columnWrap">
+<div class="grid--span6 footer__columnWrap">
 </div>
 </div>
 <div class="footer__bottomRow">
