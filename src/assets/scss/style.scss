@@ -963,6 +963,10 @@ footer {
   @include mobile {
     padding: 10px calc(#{$sitePad} / 2) 20px;
   }
+
+  > .container--flex {
+    flex-direction: column;
+  }
 }
 
 footer a {
@@ -973,9 +977,50 @@ footer a {
   }
 }
 
+.footer__topRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+
+  @include mobile {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+.footer__bottomRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  @include mobile {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+}
+
+.footer__columnWrap {
+  gap: 59px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  @include mobile {
+    gap: 24px;
+  }
+}
+
 .footer__column {
   display: flex;
   flex-direction: column;
+  width: max-content;
+
+  @include mobile {
+    
+  }
+
   h4 {
     margin: 0 0 12px;
   }
@@ -1606,7 +1651,7 @@ section.testimonials {
   border-bottom: 2px solid white;
   padding: 0 90px;
   gap: $sitePad;
-  align-items: end;
+  align-items: flex-end;
 
   @include mobile {
     flex-direction: column;

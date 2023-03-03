@@ -1,27 +1,29 @@
 <footer>
-  <div class="container container--grid">
-    <div class="grid--span6">
+  <div class="container container--flex">
+    <div class="footer__topRow">
       <img src="{{@root.root}}assets/img/ocp-logo-white.svg" />
-    </div>
-    <div class="grid--span6 container--grid">
-      {{#each footer.nav}}
-      <div class="grid--span4 footer__column">
-        <h4>{{this.title}}</h4>
-          {{#each this.links}}
-          {{#if this.isExternal}}
-            <a href="{{{this.link}}}">{{this.title}}</a>
-          {{else}}
-            <a href="{{@root.root}}{{../../urlprefix}}{{this.link}}">{{this.title}}</a>
-          {{/if}}
-          {{/each}}
+      <div class="grid--span6 container--grid footer__columnWrap">
+        {{#each footer.nav}}
+        <div class="footer__column">
+          <h4>{{this.title}}</h4>
+            {{#each this.links}}
+            {{#if this.isExternal}}
+              <a href="{{{this.link}}}">{{this.title}}</a>
+            {{else}}
+              <a href="{{@root.root}}{{../../urlprefix}}{{this.link}}">{{this.title}}</a>
+            {{/if}}
+            {{/each}}
+        </div>
+        {{/each}}
       </div>
-      {{/each}}
     </div>
-    <div class="grid--span6 footer__smallText">
-      {{{footer.address}}}
-    </div>
-    <div class="grid--span6 footer__smallText medium-rightAlign">
-      {{{footer.license}}}
+    <div class="footer__bottomRow">
+      <div class="grid--span6 footer__smallText">
+        {{{footer.address}}}
+      </div>
+      <div class="grid--span6 footer__smallText medium-rightAlign">
+        {{{footer.license}}}
+      </div>
     </div>
   </div>
 </footer>

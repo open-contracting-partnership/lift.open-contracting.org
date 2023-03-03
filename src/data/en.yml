@@ -454,7 +454,7 @@ eligibility:
       heading: If your team is not selected.
       text: >
         <p>Lift is a highly competitive program. All applicants will be notified as soon as possible if they are not selected to move forward through the application process. We will also provide direct feedback on the submissions and identify alternative ways we can work with you.&nbsp;</p>
-        <p>Lift is just one way that we provide support to our partners. We also organize frequent community calls, which are advertised on our <a href="https://groups.google.com/a/open-contracting.org/forum/?utm_medium=email&amp;utm_source=footer#!forum/standard-discuss">OCDS Google group</a>, <a href="https://www.open-contracting.org/latest-news/">newsletter</a>, <a href="https://twitter.com/opencontracting">Twitter</a> and <a href="https://www.facebook.com/OpenContracting/">Facebook</a> pages and social media. You can reach out to the OCP team at <a href="mailto:info@open-contracting.org">info@open-contracting.org</a> if you have a question about the implementation of the data standard.</p>
+        <p>Lift is just one way that we provide support to our partners. We also organize frequent community calls, which are advertised on our <a href="https://groups.google.com/a/open-contracting.org/forum/?utm_medium=email&amp;utm_source=footer#!forum/standard-discuss">OCDS Google group</a>, <a href="https://www.open-contracting.org/latest-news/">newsletter</a>, <a href="https://twitter.com/opencontracting">Twitter</a> and <a href="https://www.facebook.com/OpenContracting/">Facebook</a> pages and social media. You can reach out to the OCP team at <a href="mailto:engage@open-contracting.org">engage@open-contracting.org</a> if you have a question about the implementation of the data standard.</p>
 
 ###############################
 # FAQ Page               ######
@@ -730,9 +730,9 @@ footer:
       title: Contact
       links:
         mail:
-          title: info@open-contracting.org
+          title: engage@open-contracting.org
           link: >
-            mailto:info@open-contracting.org
+            mailto:engage@open-contracting.org
           isExternal: true
   address: >
     1100 13th Street NW, Suite 800, 20005 Washington, D.C., USA<br>
@@ -740,18 +740,3 @@ footer:
 
   license: >
     This work by the Open Contracting Partnership, unless otherwise noted, is licensed <br>under a Creative Commons Attribution 4.0 International License.
-
-  about:
-    heading: About
-    text: >
-      <a href="https://www.open-contracting.org/about/">About the Open Contracting Partnership</a>
-
-  contact:
-    heading: Contact
-    text: >
-      For more info email <a href="mailto:info@open-contracting.org">info@open-contracting.org</a>
-
-  privacy:
-    heading: Privacy
-    text: >
-      <a href="https://www.open-contracting.org/terms-of-use/">Privacy policy</a>
