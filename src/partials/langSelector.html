@@ -1,0 +1,17 @@
+<div class="translation-menu">
+    <span class="translation-menu__trigger">
+        {{#ifequal this.lang "en"}}{{nav.languages.en}}{{/ifequal}}
+        {{#ifequal this.lang "es"}}{{nav.languages.es}}{{/ifequal}}
+        {{#ifequal this.lang "fr"}}{{nav.languages.fr}}{{/ifequal}}
+        {{#ifequal this.lang "ru"}}{{nav.languages.ru}}{{/ifequal}}
+    </span>
+
+    <div class="translation-menu__actual">
+        <div class="translation-menu__group">
+            <a href="{{@root.root}}" class="translation-menu__item {{#ifequal this.lang "en"}}is-active{{/ifequal}}">English</a>
+            <a href="{{@root.root}}/es" class="translation-menu__item {{#ifequal this.lang "es"}}is-active{{/ifequal}}">Español</a>
+            <a href="{{@root.root}}/fr" class="translation-menu__item {{#ifequal this.lang "fr"}}is-active{{/ifequal}}">Français</a>
+            <a href="{{@root.root}}/ru" class="translation-menu__item {{#ifequal this.lang "ru"}}is-active{{/ifequal}}">Русский</a>
+        </div>
+    </div>
+</div>
