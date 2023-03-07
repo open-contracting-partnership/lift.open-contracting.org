@@ -20,9 +20,9 @@ meta:
 
 nav:
   program: Программа
-  eligibility: Eligibility
-  faq: ЧАВО
-  apply: Подать
+  eligibility: Критерии участия
+  faq: Часто задаваемые вопросы
+  apply: Подать заявку
 
   languages:
     en: English
