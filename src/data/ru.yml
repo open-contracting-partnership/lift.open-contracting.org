@@ -450,148 +450,147 @@ eligibility:
 
 faq:
 
-  pageTitle: FAQ
+  pageTitle: Часто задаваемые вопросы
 
-  heroHeading: Everything you <br>need to know.
+  heroHeading: Все, что вам <br>нужно знать.
 
-  heroText: Can’t find the answers you’re looking for? Check out the <a href="https://docs.google.com/presentation/d/1OEhqnhCB3r_PUNQ1_O9XntzWJ7wu8g4F4ycXKWMJ_DY/edit#slide=id.p">Lift Applicant Handbook</a> or reach out to Kaye Sklar, Lift Program Manager. We will add questions here as we receive them so make sure to check back.
-
+  heroText: Не можете найти ответ на свой вопрос? Ознакомьтесь с <a href="https://docs.google.com/presentation/d/1OEhqnhCB3r_PUNQ1_O9XntzWJ7wu8g4F4ycXKWMJ_DY/edit#slide=id.p">Инструкцией для кандидата на программу Lift</a> или напишите старшему менеджеру программы Lift <a href="mailto:ksklar@open-contracting.org">Кэй Склар</a>. Мы будем добавлять сюда ответы на вопросы по мере их поступления, так что просматривайте обновления этой странички.
 
   ### Applications Category
 
   applications:
 
-    heading: Applications
+    heading: Заявка
 
     questions:
 
       question1:
-        summary: What makes a good application?
+        summary: Что должно быть в хорошей заявке?
         details: >
-          <p>The best applications will start with a very specific goal or problem that relates to using procurement to:</p>
+          <p>Лучшие заявки начинаются с очень конкретной цели или проблемы, связанной с использованием закупок для:</p>
 
           <ul>
-            <li>Fight corruption and strengthen democratic institutions</li>
-            <li>Protect the environment or improve climate resilience</li>
-            <li>Promote economic and social inclusion</li>
+            <li>Борьбы с коррупцией или усиления демократических институтов</li>
+            <li>Защиты окружающей среды или повышения устойчивости к изменению климата</li>
+            <li>Содействия экономической и социальной инклюзивности</li>
           </ul>
 
-          <p>In your application, be as specific as possible about how better contracting processes will help you achieve these goals.</p>
+          <p>В заявке как можно конкретнее распишите, как улучшение процессов контрактирования поможет вам достичь этих целей.</p>
 
-          <p>Lift is for systemic reform projects that seek to make progress across policy, processes, capacity, and data. It is not for general capacity building on open contracting or advocacy. While training, workshops, and open data publication and tools are important, they cannot be the whole of your Lift project—they should just be a means to reach your goal.</p>
+          <p>Lift подходит для: проектов системных реформ, направленных на достижение прогресса в политике, процессах, возможностях и данных. Программа не подходит для общего наращивания потенциала в области открытого контрактирования или адвокации. Хотя обучение, тренинги, инструменты и публикация открытых данных важны, они не могут составлять всю суть вашего проекта Lift — они должны только помогать вам достичь цели.</p>
 
-          <p>Also, we encourage you to be clear and specific about how you will measure and track progress against your goals. For example, potential metrics might be a reduction of sole sourcing, the amount of carbon emissions from infrastructure projects, the number of locally-owned women-led businesses who win contracts, etc.</p>
+          <p>Кроме того, мы рекомендуем вам четко и конкретно понимать, как вы будете измерять и отслеживать прогресс в достижении целей. Например, потенциальными показателями могут быть сокращение количества прямых поставок, количество выбросов углерода от инфраструктурных проектов, количество местных предприятий-победителей тендеров, возглавляемых женщинами, и т. д.</p>
 
       question2:
-        summary: What are the key questions that I should think about before submitting an application?
+        summary: О каких ключевых вопросах мне стоит подумать, прежде чем подавать заявку?
         details: >
-          <p>We require that you answer all questions and submit a complete application. To make the best application possible, focus especially on developing concrete answers to these four questions:</p>
+          <p>Мы требуем, чтобы вы ответили на все вопросы и подали полную заявку. Чтобы сформулировать заявку как можно лучше, особенно сосредоточьтесь на конкретных ответах на следующие четыре вопроса:</p>
           <ul>
-          <li>What is the problem that you are seeking to address through Lift?&nbsp;</li>
+          <li>Какую проблему вы хотите решить с помощью Lift?&nbsp;</li>
           <ul>
-          <li>Tip: Focus on a specific goal or problem relating to our challenge question: how will you use open contracting to…</li>
+          <li>Подсказка: Сосредоточьтесь на конкретной цели или проблеме, связанной с нашим контрольным вопросом: как вы будете использовать открытые контракты для...</li>
           <ul>
-          <li>Fight corruption and strengthen democratic institutions?</li>
-          <li>Protect the environment or improve climate resilience?</li>
-          <li>Promote economic and social inclusion?</li>
+          <li>Борьбы с коррупцией или усиления демократических институтов?</li>
+          <li>Защиты окружающей среды или повышения устойчивости к изменению климата?</li>
+          <li>Содействия экономической и социальной инклюзивности?</li>
           </ul>
           </ul>
-          <li>What is the solution to this problem?</li>
+          <li>Как решить эту проблему?</li>
           <ul>
-          <li>Tip: Lift is for systemic reform projects. Think beyond rolling out a new platform or tool, or running workshops, or publishing data. Instead, explain what the future that you want to see is, and the concrete outcomes you anticipate by the Lift program’s end.</li>
+          <li>Подсказка: Lift подходит для: проектов системных реформ. Не думайте только о внедрении новых платформ или инструментов, о проведении тренингов или публикации данных. Вместо этого объясните, какое будущее вы хотите видеть, и какие конкретные результаты вы ожидаете к концу программы Lift.</li>
           </ul>
-          <li>What are your &lsquo;powers&rsquo; to make change happen, and who in power will help you make this change happen?&nbsp;</li>
+          <li>Какие у вас возможности добиться изменений, и кто из политического руководства поможет вам в этом?&nbsp;</li>
           <ul>
-          <li>Lift is for teams that can achieve measurable impact. This requires Lift teams to have the power to make change. You might have to change regulations or policies, upgrade data or IT infrastructure, or rethink processes – doing so often requires political buy-in and robust mandates for change. Consider what organizational strategies or key relationships that give you the power to pursue your goal.</li>
+          <li>Подсказка: Lift подходит для: команд, которые могут добиться измеримого воздействия. Для этого у всех команд должны быть возможности менять ситуацию. Возможно, вам придется изменить правила или политику, обновить данные или IT-инфраструктуру, либо же разработать новые процессы — для этого чаще всего необходима политическая поддержка и реальные возможности для изменений. Подумайте, какие организационные стратегии или ключевые партнерства помогут вам прийти к этой цели.</li>
           </ul>
-          <li>Who is on your core team, and why are they involved?</li>
+          <li>Кто входит в вашу основную команду и почему они задействованы?</li>
           </ul>
-          <p>Tip: Lift is for teams that have skills and represent the agencies or organizations that are integral for project success. For example, if your project is about improving the quality of public housing through procurement reform, it would be good to have someone on the team who is from the public housing agency.</p>
+          <p>Подсказка: Lift предназначен для команд, которые обладают соответствующими навыками и представляют учреждения либо организации, которые необходимы для успешной реализации проекта. Например, если ваш проект направлен на повышение качества государственного жилья за счет реформы системы закупок, было бы полезно включить в команду кого-нибудь из органа, отвечающего за государственное жилье.</p>
 
       question3:
-        summary: What are good measurable targets/goals or KPIs for my project?
+        summary: Каковы измеримые цели или KPI для моего проекта?
         details: >
-          <p>We encourage you to have measurable goals associated with your project that allow you to have baseline, progress milestones and end-of-program targets. Quantitative data can be incredibly helpful in ensuring that you work towards measurable progress. But we also know that it can be difficult to have high-quality data readily accessible to calculate key performance indicators (KPIs.) We will work with you as part of Lift to unlock and use more data and define KPIs. We are especially interested in measuring direct impact on communities, so if possible, please share an estimate of how many individuals might benefit from the reform.</p>
+          <p>Мы рекомендуем вам выбрать измеримые цели, связанные с вашим проектом, которые позволят вам увидеть базовую ситуацию, промежуточные этапы и результаты в конце программы. Количественные данные могут быть невероятно полезны, чтобы обеспечить стремление к измеримому прогрессу. Но мы также знаем, что может быть сложно иметь доступ к высококачественным данным для расчета ключевых показателей эффективности (KPI). Мы будем работать с вами в рамках программы Lift, чтобы получить доступ к качественным данным, а также определить ключевые показатели эффективности. Мы особенно заинтересованы в измерении прямого воздействия на сообщества, поэтому, если возможно, поделитесь примерной оценкой того, сколько людей могут получить пользу от реформы.</p>
 
-          <p>We compiled a <a href="https://docs.google.com/document/d/1CHnLhqQ0wKahNIdlBY31hzil5W_LU-6zki3UZLrxLyE/edit#heading=h.ve6tj07iugp9">list of potential KPIs</a> that you might want to include in your Lift application.</p>
+          <p>Мы составили <a href="https://docs.google.com/document/d/1CHnLhqQ0wKahNIdlBY31hzil5W_LU-6zki3UZLrxLyE/edit#heading=h.ve6tj07iugp9">список потенциальных KPI</a>, которые вы, возможно, захотите включить в свою заявку на Lift.</p>
 
       question4:
-        summary: I’m interested in applying. Can I get help with the application?
+        summary: Я хочу подать заявку. Могу ли я получить помощь с заполнением?
         details: >
-          <p>Yes! You can receive more guidance on applying to Lift in the following ways:</p>
+          <p>Да! Вот как можно получить дополнительные инструкции, чтобы подать заявку на программу Lift:</p>
           <ul>
-          <li>Read the Lift Applicant Handbook</li>
-          <li>Attend one of the upcoming informational webinars</li>
-          <li>Reach out to <a href="https://www.open-contracting.org/about/team/">your country manager</a> to set up a 1-1 session to review your application.</li>
-          <li><a href="https://open-contracting.us12.list-manage.com/subscribe?u=4257477995e0a1fa5cb6587b2&id=fc9ec0e34b">Sign up</a> to be notified of additional Q&amp;As and resources&nbsp;</li>
-          <li>Email our <a href="mailto:ksklar@open-contracting.org">Senior Program Manager for Lift, Kaye Sklar</a></li>
+          <li>Прочтите Инструкцию для кандидата на программу Lift.</li>
+          <li>Запишитесь на один из будущих информационных вебинаров.</li>
+          <li>Обратитесь к <a href="https://www.open-contracting.org/about/team/">менеджеру по вашей стране</a>, чтобы назначить индивидуальную встречу и рассмотреть вашу заявку.</li>
+          <li><a href="https://open-contracting.us12.list-manage.com/subscribe?u=4257477995e0a1fa5cb6587b2&id=fc9ec0e34b">Зарегистрируйтесь</a>, чтобы получать уведомления, дополнительные ответы и ресурсы.&nbsp;</li>
+          <li>Пишите <a href="mailto:ksklar@open-contracting.org">Кэй Склар, старшему менеджеру программы Lift</a>.</li>
           </ul>
           
       question5:
-        summary: Can I apply in a language other than English?
+        summary: Могу ли я подать заявку не на английском языке?
         details: >
-          <p>Yes. We will accept applications in English, Spanish, French, Russian, and we will conduct interviews in all of the previously listed languages, in addition to Bahasa Indonesia. Technical support throughout the program will be available in all five of these languages as well.</p>
+          <p>Да. Мы принимаем заявки на английском, испанском, французском и русском языках, а интервью проводим на вышеуказанных языках, а также на индонезийском. Техническая поддержка на протяжении всей программы также будет доступна на этих пяти языках.</p>
 
       question6:
-        summary: Can I submit more than one project?
+        summary: Можно ли подать несколько заявок на разные проекты?
         details: >
-          No, we want you to bring us your best and sharpest idea.
+          Нет, мы хотим, чтобы вы поделились вашей лучшей, самой инновационной идеей.
 
   ### Project Category
 
   project:
 
-    heading: Project
+    heading: Проект
 
     questions:
 
       question7:
-        summary: At what stage or scale should my project be to apply? Does it have to be an idea, prototype, or MVP? Should it be focused locally or globally?
+        summary: На каком этапе может быть проект? Какого масштаба он должен быть? Это должна быть идея, прототип или MVP? Должен ли он быть локальным или глобальным?
         details: >
-          <p>Lift is open to projects at different stages of development and scale. You could be embarking on a new initiative, or working to refine and scale a piloted solution. In the past we have seen that Lift is especially helpful to test and refine new approaches that then can be scaled in more sectors, agencies, regions, or countries after the project ends. We require your project to have leadership support, which should include a budget for your work, a political champion, or a formal mandate. You could also be solving problems in your region, country, or city. Your project does not need to be able to scale globally.</p>
+          <p>Lift открыт для проектов на разных этапах и разных масштабов. Вы можете начать новую инициативу или работать над улучшением и масштабированием проверенного решения. Мы сделали вывод, что Lift особенно полезен для тестирования и доведения до совершенства новых подходов, которые затем можно масштабировать в большем количестве секторов, учреждений, регионов или стран после завершения проекта. У вашего проекта должна быть политическая поддержка, то есть бюджет на вашу работу, политик, выступающий за внедрение вашего решения, либо формальный мандат. Вы можете решать проблемы в своем регионе, стране или городе. Проект необязательно должен иметь возможность выхода на международный уровень.</p>
 
       question8:
-        summary: Are there any sectors or topics Lift is particularly interested in?
+        summary: Есть ли какие-либо отрасли или темы, которые особенно интересуют Lift?
         details: >
-          <p>No, we are open to a wide range of sectors. You qualify for Lift as long as you are working on a project relevant to our challenge question topics.</p>
+          <p>Нет, мы открыты для совершенно различных сфер. Вы соответствуете критериям Lift, если работаете над проектом, касающимся наших ключевых тем.</p>
 
       question9:
-        summary: Can my project be for implementing the Open Contracting Data Standard (OCDS) or OC4IDS?
+        summary: Может ли мой проект быть связан с внедрением Стандарта открытых данных по контрактам (OCDS) или OC4IDS?
         details: >
-          <p>We are looking for projects that go beyond implementing <a href="https://www.open-contracting.org/data-standard/">OCDS</a> or <a href="https://standard.open-contracting.org/infrastructure/latest/en/">OC4IDS</a>. Your project should be focused on our challenge question topics. However, implementing OCDS or OC4IDS may be one part of your project.</a>
-          <p>If your focus is solely on implementing OCDS or OC4IDS, Lift is not for you. Please review OCDS and OC4IDS documentation and resources for more information on implementing the data standard.</p>
+          <p>Мы рассматриваем проекты, которые не ограничиваются внедрением <a href="https://www.open-contracting.org/data-standard/">OCDS</a> либо <a href="https://standard.open-contracting.org/infrastructure/latest/en/">OC4IDS</a>. В центре проекта должны быть наши ключевые темы. Однако внедрение OCDS или OC4IDS может быть частью вашего проекта.</a>
+          <p>Если вы сосредоточены исключительно на внедрении OCDS или OC4IDS, Lift вам не подходит. Пожалуйста, ознакомьтесь с документацией и ресурсами OCDS и OC4IDS для получения дополнительной информации о внедрении стандарта данных.</p>
 
       question10:
-        summary: Is adopting and/or implementing the Open Contracting Data Standard (OCDS) or OC4IDS required to be eligible for the program?
+        summary: Обязательно ли проект должен быть связан с внедрением Стандарта открытых данных по контрактам (OCDS) или OC4IDS?
         details: >
-          <p>No, but we do expect that your reform initiative involves making information or data more accessible, and we will work with you on this. We also expect your project to have quantitative KPIs or targets, and that you measure a baseline and progress along the way. We can help you with this. Lift can provide support in implementing <a href="https://www.open-contracting.org/data-standard/">OCDS</a> or <a href="https://standard.open-contracting.org/infrastructure/latest/en/">OC4IDS</a> if it is part of your project.</p>
-          <p>Want to learn more about OCDS or OC4IDS? Visit the <a href="https://www.open-contracting.org/data-standard/">OCP</a> website for information and resources.</p>
+          <p>Нет, но ваша идея реформы должна включать в себя улучшение доступа к информации или данным, а мы с вами над этим поработаем. Мы также ожидаем, что у вашего проекта будут количественные ключевые показатели эффективности или цели, и что вы измерите исходную ситуацию и результаты. Мы можем вам в этом помочь. Если в ваш проект входит внедрение <a href="https://www.open-contracting.org/data-standard/">OCDS</a> или <a href="https://standard.open-contracting.org/infrastructure/latest/en/">OC4IDS</a>, Lift может предоставить вам поддержку и в этом аспекте.</p>
+          <p>Хотите узнать больше об OCDS или OC4IDS? Зайдите на сайт <a href="https://www.open-contracting.org/data-standard/">OCP</a>, где можно найти больше информации и ресурсов.</p>
 
   ### Team Category
 
   team:
 
-    heading: Team
+    heading: Команда
 
     questions:
 
       question11:
-        summary: How can I be sure my team is the right fit for this program?
+        summary: Как точно понять, подходит ли моя команда для этой программы?
         details: >
-          <p>This program is best suited for teams who are:</p>
+          <p>Эта программа лучше всего подходит для команд, которые:</p>
           <ol>
-          <li>Focused on achieving impact in one of the three topic areas of Lift</li>
-          <li>Experienced in building political support and navigating procurement systems,</li>
-          <li>Working in a context with the technical infrastructure in place to deliver on their project, and</li>
-          <li>Able and committed to invest the time required over the course of the program.</li>
+          <li>Сосредоточены на достижении результата в одной из трех ключевых тем Lift</li>
+          <li>Имеют опыт в наращивании политической поддержки и ориентируются в системах закупок,</li>
+          <li>Работают в контексте, где техническая инфраструктура дает достаточно возможностей для реализации проекта, и</li>
+          <li>Способны и стремятся посвятить программе достаточное количество времени.</li>
           </ol>
-          <p>Open Contracting Lift is not for teams who only want support on tool development, advocacy, capacity building, or <a href="http://standard.open-contracting.org/">Open Contracting Data Standard</a> implementation.</p>
-          <p>For a full list of eligibility requirements, see <a href="https://lift.open-contracting.org/eligibility/">Apply</a>.</p>
+          <pOpen Contracting Lift не подходит для команд, которым нужна только поддержка в разработке инструментов, адвокации, наращивании потенциала или внедрении стандарта данных <a href="http://standard.open-contracting.org/">Open Contracting Data Standard</a>.</p>
+          <p>Полный список требований можно просмотреть в разделе <a href="https://lift.open-contracting.org/eligibility/">«Подать заявку»</a>.</p>
 
       question12:
-        summary: How big should my team be? What key roles and skills should my team have to be successful in the program?
+        summary: Насколько большой должна быть команда? Какие ключевые позиции и навыки должны быть у моей команды, чтобы достичь успеха в программе?
         details: >
-          <p>Applicant teams should include, at minimum:</p>
+          <p>В командах кандидатов должны быть как минимум:</p>
           <ol>
           <li>A <strong>Relationship Manager</strong>, who is skilled at building political support and navigating bureaucracy.</li>
           <li>A <strong>Procurement Expert</strong>, who is knowledgeable about navigating the procurement system.</li>
