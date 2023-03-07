@@ -26,6 +26,7 @@ $(() => {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
+    autoHeight: true,
     grabCursor: false,
     observer: true,
     observeParents: true,

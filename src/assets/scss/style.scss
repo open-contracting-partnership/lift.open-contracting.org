@@ -553,7 +553,7 @@ h2 {
 
   .faq & {
     margin-top: 90px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 
     &:first-of-type {
       margin-top: 0;
@@ -607,12 +607,13 @@ p, li {
 }
 
 details {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 summary {
+  font-family: $eestiDisplay;
   font-size: 26px;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 20px;
 
   &:hover {
@@ -625,6 +626,10 @@ blockquote {
   line-height: 1.4;
   margin: 20px 0 40px;
 
+  @include mobile {
+    font-size: 26px;
+  }
+
   .darkBG & {
     color: #fff;
   }
@@ -633,6 +638,10 @@ blockquote {
 figcaption {
   font-size: 20px;
   font-weight: 700;
+}
+
+img {
+  display: block;
 }
 
 .testimonial__title {
@@ -1486,6 +1495,10 @@ footer a {
       width: 100%;
       gap: $sitePad;
     }
+
+    img {
+      margin: auto;
+    }
   }
 }
 
@@ -1658,6 +1671,18 @@ $rotateWord__height: 50px;
 
 section.testimonials {
   background: #555557;
+
+  .container {
+    padding-bottom: 50px;
+    @include mobile {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  .swiper-slide {
+    padding-bottom: 70px;
+  }
 }
 
 .testimonialWrap {
@@ -1668,9 +1693,16 @@ section.testimonials {
   gap: $sitePad;
   align-items: flex-end;
 
+  @include tablet {
+    flex-direction: column;
+    padding: 0 40px;
+    align-items: center;
+  }
+
   @include mobile {
     flex-direction: column;
     padding: 0 40px;
+    align-items: center;
   }
 
   figure {
@@ -1681,6 +1713,13 @@ section.testimonials {
     flex-basis: 400px;
     flex-grow: 0;
     flex-shrink: 0;
+
+    @include tablet {
+      flex-basis: auto;
+    }
+    @include mobile {
+      flex-basis: auto;
+    }
   }
 
   img {
@@ -1750,6 +1789,7 @@ section.testimonials {
 
   &--bottom {
     bottom: 0;
+    opacity: .4;
   }
 
   &--left {
