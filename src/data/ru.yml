@@ -712,40 +712,40 @@ faq:
 footer:
   nav: 
     resources:
-      title: Resources
+      title: Ресурсы
       links:
         program:
-          title: Program
+          title: Программа
           link: program
         eligibility:
-          title: Eligibility
+          title: Критерии участия
           link: eligibility
         faq:
-          title: FAQ
+          title: Часто задаваемые вопросы
           link: faq
         apply:
-          title: Apply
+          title: Подать заявку
           link: apply
     company:
-      title: Organization
+      title: Информация о нас
       links:
         about:
-          title: About OCP
+          title: Информация об OCP
           link: >
             https://google.com
           isExternal: true
         newsletter:
-          title: Newsletter
+          title: Рассылка
           link: >
             https://google.com
           isExternal: true
         privacy:
-          title: Privacy policy
+          title: Политика конфиденциальности
           link: >
             https://google.com
           isExternal: true
     contact:
-      title: Contact
+      title: Свяжитесь с нами
       links:
         mail:
           title: engage@open-contracting.org
