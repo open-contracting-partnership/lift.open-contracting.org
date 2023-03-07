@@ -59,7 +59,6 @@ home:
         word1: реформы
         word2: команды
         word3: идеи
-        #word4: procurement
 
     text: Вы лидер правительства или гражданского общества и пытаетесь улучшить общественную добросовестность, устойчивость или справедливость? Lift — это программа-акселератор, разработанная, чтобы помочь вам и вашей команде изменить ситуацию с помощью открытых госзакупок.
 
@@ -152,20 +151,20 @@ home:
 
 apply:
 
-  pageTitle: Apply
+  pageTitle: Подать заявку
 
-  heroHeading: Let us help you with the heavy lifting.
+  heroHeading: Позвольте помочь вам со сложными моментами.
 
-  heroText: Review the resources below to create your best application. <br>Deadline to apply is <b>May 5, 2023</b>.
+  heroText: Просмотрите следующие ресурсы, чтобы подать как можно более успешную заявку. <br>Крайний срок подачи заявок — <b>5 мая 2023 года</b>.
 
   applyCTA:
-    text: Start your application
+    text: Начать заявку
     url: >
       https://google.com
 
   heroCTA:
 
-    text: Start your application
+    text: Начать заявку
 
     link: >
       https://google.com
@@ -174,23 +173,23 @@ apply:
 
   resources:
 
-    heading: Resources
+    heading: Ресурсы
 
     applicationTips:
-      heading: Get tips to ace the application.
+      heading: Подсказки, чтобы написать отличную заявку.
       text: >
-        <p>The Lift application will be open for 8 weeks, until May 5, 2023. Read through the Lift Applicant Handbook and join one our informational webinars through March 24th (or watch the recordings afterwards) for all of the ins-and-outs you’ll need to know before you apply.</p>
-        <p>Also, you can download a PDF version of the application questions here to review before you sign in and begin your application form.<p>
+        <p>Заявку на программу Lift можно будет подать в течение 8 недель, до 5 мая 2023 года. Прочтите <a href="https://docs.google.com/presentation/d/1OEhqnhCB3r_PUNQ1_O9XntzWJ7wu8g4F4ycXKWMJ_DY/edit#slide=id.p">Инструкцию для кандидата на программу Lift</a> и присоединяйтесь к нашим информационным вебинарам до 24 марта (или посмотрите их в записи), чтобы узнать все, что будет полезно перед подачей заявки.</p>
+        <p>Кроме того, вы можете загрузить PDF-версию вопросов для заявки здесь, чтобы просмотреть их, прежде чем залогиниться и начать заполнять форму на сайте.<p>
 
     inspired:
-      heading: Be inspired.
+      heading: Вдохновляйтесь.
       text: >
-        <p>Check out how <a href="https://www.open-contracting.org/implement/lift/">teams around the world</a> have used Lift to help their reforms go farther, faster. In addition, <a href="https://www.open-contracting.org/impact-stories/">these</a> <a href="https://www.open-contracting.org/impact-stories/">case studies</a> showcase how we&rsquo;ve helped governments tackle ambitious reforms.</p>
+        <p>Посмотрите, <a href="https://www.open-contracting.org/implement/lift/">как команды по всему миру</a> уже использовали программу Lift, чтобы усилить и ускорить проекты реформ. Кроме того, <a href="https://www.open-contracting.org/impact-stories/">эти кейсы</a> показывают, как мы помогали правительствам справляться с масштабными реформами.</p>
 
     contact:
-      heading: Get in touch.
+      heading: Свяжитесь с нами.
       text: >
-        <p>Have more questions? Email Lift Program Manager, <a href="mailto:ksklar@open-contracting.org">ksklar@open-contracting.org</a>.</p>
+        <p>Остались вопросы? Пишите Кэй Склар, старшему менеджеру программы Lift, по адресу <a href="mailto:ksklar@open-contracting.org">ksklar@open-contracting.org</a>.</p>
 
 ###############################
 # Program Page           ######
@@ -592,119 +591,119 @@ faq:
         details: >
           <p>В командах кандидатов должны быть как минимум:</p>
           <ol>
-          <li>A <strong>Relationship Manager</strong>, who is skilled at building political support and navigating bureaucracy.</li>
-          <li>A <strong>Procurement Expert</strong>, who is knowledgeable about navigating the procurement system.</li>
-          <li>A <strong>Technical and/or Data Expert</strong> who is knowledgeable about procurement data publication, analysis and use, and/or is familiar in using procurement technology solutions.</li>
-          <li>We also require <strong>two Team Leads</strong> who have the authority and capacity to coordinate the team and drive the project forward. If the team is cross-governmental or cross-organizational, we expect these leads would come from their respective entities to promote collaboration.</li>
+          <li>A <strong>Менеджер по связям</strong>, который ориентируется в бюрократии и знает, как заручиться политической поддержкой.</li>
+          <li>A <strong>Эксперт по закупкам</strong>, хорошо разбирающийся в системе закупок.</li>
+          <li>A <strong>Технический эксперт и/или эксперт по данным</strong> с навыками в области публикации, анализа и использования данных о закупках и/или использования технологических решений.</li>
+          <li><strong>Два руководителя команды</strong>, которые могут и умеют скоординировать команду и продвигать проект. Если команда является межправительственной или межорганизационной, мы ожидаем, что эти лидеры будут представлять разные организации для содействия сотрудничеству.</li>
           </ol>
-          <p>We suggest you keep your teams to 4 to 8 people for easier management. Note: One person can fill multiple roles. For example, the Data Expert may also be a Team Lead.</p>
+          <p>Оптимальный размер команды для простоты управления, по нашему мнению, — от 4 до 8 человек. Примечание: один человек может выполнять несколько ролей. Например, эксперт по данным также может быть руководителем команды..</p>
 
       question13:
-        summary: Should my team be from one organization or a collaboration of multiple organizations?
+        summary: Должна ли моя команда быть из одной организации или из нескольких организаций?
         details: >
-          <p>While we are open to stand-alone applications from civil society/nonprofit organizations or government agencies with outstanding project ideas and team capacity, we are particularly interested in teams that represent collaborative partnerships between government and non-government stakeholders. In the past, we have seen that teams that bring together many diverse actors from different stakeholder groups and government agencies are more effective in achieving change.</p>
+          <p>Хотя мы открыты для отдельных заявок от организаций гражданского общества/некоммерческих организаций или государственных учреждений с великолепными идеями проектов и командным потенциалом, мы особенно заинтересованы в командах, которые представляют собой партнерские отношения между государственными и неправительственными заинтересованными сторонами. По опыту мы знаем, что команды, в которых принимают участие люди из различных групп заинтересованных сторон и государственных учреждений более эффективно достигают изменений.</p>
 
       question14:
-        summary: How many teams will you select?
+        summary: Сколько команд вы выберете?
         details: >
-          <p>We will select up to 9 teams for the program.</p>
+          <p>Для участия в программе будут отобраны не более 9 команд.</p>
 
   ### Context / Country Category
 
   context:
 
-    heading: Context / Country
+    heading: Контекст / Cтрана
 
     questions:
 
       question15:
-        summary: How do you determine country eligibility? Are there any particular countries Lift is interested in?
+        summary: Как вы определяете право страны на участие? Есть ли какие-либо конкретные страны, которые интересуют Lift?
         details: >
-          <p>Lift uses Reporters Sans Frontiers’ <a href="https://rsf.org/en/index">World Press Freedom Index 2022</a>. Lift is open to countries deemed “Good,” “Satisfactory,” “Problematic,” or “Difficult” by this index. Lift will not work in countries that are deemed to be in a “Very Serious” situation (color: dark red) according to the index.</p>
-          <p>Lift will consider working in countries that are deemed to be in a “difficult situation” (color: red) according to the index when applicants can demonstrate during the application process that there is collaboration amongst selected government and civil society actors and at least a partially safe space that civil society can work in.</p>
-          <p>We are not looking for any particular countries, but for a strong geographic spread.</p>
+          <p>В Lift используется <a href="https://rsf.org/en/index">WВсемирный индекс свободы прессы 2022</a> организации «Репортеры без границ». В Lift могут участвовать команді из стран, ситуация в которых признана «хорошей», «удовлетворительной», «проблемной» или «сложной» в индексе. Программа Lift не функционирует в странах, которые, согласно индексу, находятся в «очень серьезной ситуации» (цвет: темно-красный).</p>
+          <p>Lift рассмотрит возможность работы в странах в «сложной» ситуации (цвет: красный) согласно индексу, если участники в процессе подачи заявки продемонстрируют, что налажено сотрудничество между правительственными и общественными субъектами и создано хотя бы частично безопасное пространство для работы гражданского общества.</p>
+          <p>Мы рассматриваем не какие-то конкретные страны, а нацелены на географически широкое распространение.</p>
 
   ### Funding / Costs Category
 
   funding:
 
-    heading: Funding / Costs
+    heading: Финансирование / Затраты
 
     questions:
 
       question16:
-        summary: Can I apply even if I receive funding or support from elsewhere?
+        summary: Могу ли я подать заявку, даже если я получаю финансирование или поддержку из других источников?
         details: >
-          <p>Yes, we welcome all types of projects, including those supported by other sources.</p>
+          <p>Да, мы приветствуем все типы проектов, в том числе поддерживаемые из других источников.</p>
 
       question17:
-        summary: Are there any costs to participating in the program?
+        summary: Есть ли какие-либо расходы на участие в программе?
         details: >
-          <p>There is no financial cost to participate, though you will be expected to dedicate about 1 day per week of staff time to the program. All applicants should already have funding for essential project activities and staff time.</p>
+          <p>Участие не требует финансовых затрат, но ожидается, что вы будете посвящать программе около 1 дня рабочего времени в неделю. У всех кандидатов уже должно быть финансирование на основные активности и оплату сотрудников в рамках проекта.</p>
 
       question18:
-        summary: Is there funding available through the program?
+        summary: Можно ли получить финансирование с помощью программы?
         details: >
-          <p>Participating teams are eligible for up to $35,000 USD of support from Lift to fund activities or deliverables depending on team needs and progress over the course of the program, as well as 200 hours of technical assistance and support from OCP.</p>
-          <p>How these funds are spent is flexible and is decided on a project-by-project basis, although these funds are not intended for core operating expenses such as staff salaries. All funding decisions will be made in collaboration with the team, your Lift advisor, and Open Contracting Partnership.</p>
-          <p>We are glad to co-fundraise with partners if additional funds are needed. Teams that demonstrate outstanding progress may be eligible for additional OCP support.</p>
+          <p>Участвующие команды смогут претендовать на поддержку от Lift в размере до 35 000 долларов США на финансирование мероприятий или других аспектов проекта, в зависимости от потребностей и прогресса команды, а также на 200 часов технической помощи и поддержки от OCP.</p>
+          <p>Эти средства можно использовать по-разному; решения об этом принимаются в рамках конкретного проекта, хотя они не предназначены для покрытия основных операционных расходов, таких как заработная плата персонала. Все решения о финансировании будут приниматься в сотрудничестве с командой, вашим консультантом Lift и Партнерством «Открытое контрактирование».</p>
+          <p>Мы рады совместному сбору средств с партнерами, если потребуются дополнительные средства. Команды, демонстрирующие выдающийся прогресс, могут получить право на дополнительную поддержку OCP.</p>
 
   ### How the program works Category
 
   program:
 
-    heading: How the program works
+    heading: Как работает программа
 
     questions:
 
       question19:
-        summary: Where will the Liftoff workshops be held?
+        summary: Где будут проходить тренинги Liftoff?
         details: >
-          <p>We are currently planning to hold the workshops in-person in your region. The first Liftoff workshop will be held in August - September 2023, and the second Liftoff workshop in May - June 2024.</p>
+          <p>В настоящее время мы планируем провести очные тренинги в вашем регионе. Первый тренинг Liftoff пройдет в августе-сентябре 2023 года, а второй — в мае-июне 2024 года.</p>
 
       question20:
-        summary: Who are the advisors and experts?
+        summary: Кто консультанты и эксперты программы?
         details: >
-          <p>Practitioners will be supported by a core team of advisors from OCP who have extensive experience in building social and public contracting reforms. Your advisors will be selected based on your specific needs, and will help you apply best practices in areas such as user engagement, data use, change management, and contract design and management.</p>
+          <p>Участников будет поддерживать ключевая команда консультантов из OCP, у которых огромный опыт в сфере проведения реформ социальной сферы и государственных контрактов. Ваших консультантов назначат в соответствии с вашими конкретными потребностями, и они помогут вам воспользоваться лучшими практиками привлечения пользователей, использования данных, управления изменениями и разработки и управления контрактами.</p>
 
       question21:
-        summary: What can Lift help me achieve?
+        summary: Чего я могу достичь с помощью Lift?
         details: >
-          <p>We expect teams to achieve measurable improvements by the end of the program. This will be tracked by key performance indicators that are developed with teams in the first phase of the program. We will support your efforts to gather and analyze procurement data so that you can set baselines and understand your progress.</p>
-          <p>Along the way, we anticipate that most projects will make progress on the following outcomes:</p>
+          <p>Мы ожидаем, что к концу программы команды достигнут ощутимых долгосрочных результатов. Это будет отслеживаться с помощью ключевых показателей эффективности, которые разрабатываются совместно с командами на первом этапе программы. Мы планируем поддержать ваши усилия по сбору и анализу данных о закупках, чтобы вы могли понять исходную ситуацию и отслеживать прогресс.</p>
+          <p>Параллельно мы ожидаем, что большинство проектов смогут достичь следующих результатов:</p>
           <ul>
-          <li>Effectively build leadership support to drive a robust mandate for your project.</li>
-          <li>Improve use of open data and open data systems to manage, monitor, and advance the quality of delivery of public goods, works, and services or expand access to opportunity.</li>
-          <li>Establish new ways of working with public contracts to ensure contracting processes and contracts lead to intended results.</li>
+          <li>Эффективно привлечь политическую поддержку, чтобы закрепить возможности реализации проекта.</li>
+          <li>Улучшить использование открытых данных и систем открытых данных для управления, мониторинга и прогресса качества предоставления общественных товаров, работ и услуг или расширения доступа к возможностям.</li>
+          <li>Сформировать новые процессы в государственном контрактировании, чтобы они приводили к желаемым результатам.</li>
           </ul>
-          <p>For inspiration, check out what <a href="https://www.open-contracting.org/implement/lift/">other teams have achieved through Lift</a>.&nbsp;</p>
+          <p>Для вдохновения посмотрите, <a href="https://www.open-contracting.org/implement/lift/">чего достигли другие команды с помощью Lift</a>.&nbsp;</p>
 
       question22:
-        summary: Can I still benefit if I don’t participate?
+        summary: Есть ли возможность получить поддержку, если я не буду участвовать в программе?
         details: >
-          <p>Absolutely! Throughout the program, OCP will document any new tools, approaches, and progress stories that emerge. To benefit the wider field, we’ll share this guidance regularly though blogs and events.</p>
-          <p>You can also receive support via OCP’s other resources and engagements. Learn more about these at <a href="https://www.open-contracting.org/resources/">OCP&rsquo;s website</a>.</p>
+          <p>Конечно! На протяжении всей программы OCP будет фиксировать все появляющиеся новые инструменты, подходы и истории успеха. Чтобы помочь более широкому кругу партнеров, мы будем регулярно делиться этими рекомендациями в блогах и на мероприятиях.</p>
+          <p>Вы также можете получить поддержку через другие ресурсы и предложения OCP. Узнайте больше на <a href="https://www.open-contracting.org/resources/">сайте OCP</a></p>
 
       question23:
-        summary: Who is behind the Open Contracting Lift program?
+        summary: Кто занимается программой Lift?
         details: >
-          <p>The Open Contracting Partnership is a silo-busting collaboration across governments, businesses, civil society, and technologists to open up and transform government contracting worldwide. Bringing open data and open government together, we make sure public money is spent openly, fairly, and effectively on public contracts, the single biggest item of spending by most governments. They are a government’s number one corruption risk, and they are vital to make sure citizens get the services that they deserve.</p>
+          <p>Партнерство «Открытое контрактирование» (Open Contracting Partnership, OCP) — инновационное сотрудничество между правительством, бизнесом, гражданским обществом и экспертами в сфере технологий, которое занимается расширением открытого доступа к документам и данным, касающимся государственных контрактов по всему миру. Объединяя открытые данные и открытое правительство, мы обеспечиваем открытое, справедливое и эффективное расходование государственных средств на государственные контракты — самую большую статью расходов большинства правительств. Они представляют собой коррупционный риск номер один для правительства и жизненно важны для того, чтобы граждане получали необходимые услуги.</p>
 
       question24:
-        summary: What support will the Open Contracting Lift program offer my team?
+        summary: Какую поддержку программа Lift предоставит моей команде?
         details: >
-          <p>Over this 18 month program, teams will receive:</p>
+          <p>В течение этой 18-месячной программы команды получат:</p>
           <ul>
-          <li><strong>Two in-person Lift-off planning workshops</strong> to co-create and refine your project plan with your broader team and critical stakeholders.</li>
-          <li><strong>Planning visit in-person or virtually from OCP staff before or between workshops</strong></li>
-          <li><strong>Regular bi-weekly meetings with Lift advisor.</strong></li>
-          <li><strong>Up to US$35,000 financial support.</strong></li>
-          <li><strong>Technical assistance on open contracting topics</strong> depending on your team’s specific needs, such as vendor engagement, user research, building buy-in with key stakeholders, advocacy, procurement policy, and capacity building.</li>
-          <li><strong>Data support</strong> to help gather and analyze your procurement data to set baseline KPIs and measure your progress, as well as publish your information if this is one of your project goals.   
-          <li><strong>Monitoring, Learning, and Evaluation (MEL) support</strong> to help learn during implementation, and document your project success.</li>
+          <li><strong>Два очных тренинга по планированию Lift-off</strong> для совместной разработки и уточнения плана проекта с более широкой командой и ключевыми заинтересованными сторонами.</li>
+          <li><strong>Личную или виртуальную встречу для планирования с сотрудниками OCP до тренингов или между ними.</strong></li>
+          <li><strong>Регулярные встречи с консультантом Lift раз в две недели.</strong></li>
+          <li><strong>Финансовую поддержку в размере до 35 000 долларов США.</strong></li>
+          <li><strong>Техническую помощь по темам, касающимся открытого контрактирования</strong>, в зависимости от конкретных потребностей вашей команды — например, привлечение поставщиков, исследование пользователей, получение поддержки ключевых заинтересованных сторон, адвокация, политика закупок и наращивание потенциала.</li>
+          <li><strong>Поддержку в сборе и анализе данных</strong>, чтобы определить исходные показатели эффективности и измерить ваш прогресс, а также опубликовать эту информацию, если она является одной из целей вашего проекта.</li>
+          <li><strong>Поддержку мониторинга, обучения и оценки (МиО)</strong>, благодаря которой вы сможете учиться в процессе реализации проекта и фиксировать успехи.</li>
           </ul>
-          <p>In addition, teams are eligible for an additional 6 months of MEL and documentation assistance, as well as light-touch technical support, following program completion.</p>
-          <p>Check out the <a href="http://bit.ly/Lift-handbook">Lift Applicant Handbook</a> for more details on what support you can expect from OCP Lift.</p>
+          <p>Кроме того, команды могут получить право на дополнительные полгода помощи в сфере МиО и документирования, а также небольшую техподдержку после окончания программы.</p>
+          <p>Ознакомьтесь с <a href="http://bit.ly/Lift-handbook">Инструкцией для кандидата на программу Lift</a>, чтобы узнать больше о том, какой поддержки можно ожидать от программы.</p>
 
 ###############################
 # Footer                 ######
