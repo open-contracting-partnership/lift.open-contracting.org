@@ -85,7 +85,8 @@ home:
   ## 02. About Lift
 
   about:
-    heading: Lift : c'est quoi ?
+    heading: >
+      Lift : c'est quoi ?
     text: >
       <p>À l’heure où les gouvernements et les leaders sociaux du monde entier s’efforcent de faire face aux crises convergentes que sont les inégalités, le changement climatique et le déclin de la confiance du public, chacun d’entre eux dispose d’un outil puissant et inexploité : la commande publique.</p>
       <p>La commande publique ouverte est une approche éprouvée pour réimaginer les marchés publics afin d’apporter un changement systémique. Lift est notre programme visant à aider les équipes de réformateurs audacieux à redéfinir les processus, les politiques et les données afin de les axer sur les objectifs, de les rendre conviviaux et plus centrés sur l’humain. Votre défi pourrait être le suivant :</p>
@@ -351,7 +352,8 @@ eligibility:
 
   checklist:
 
-    checklist1: Poursuivre un projet qui vise à utiliser la commande publique ouverte pour atteindre l’un des trois objectifs suivants : lutte contre la corruption, durabilité ou inclusion.
+    checklist1: >
+      Poursuivre un projet qui vise à utiliser la commande publique ouverte pour atteindre l’un des trois objectifs suivants : lutte contre la corruption, durabilité ou inclusion.
 
     checklist2: Être une équipe solide comprenant au moins quatre personnes faisant partie intégrante de la mise en œuvre du projet, dont deux chefs d’équipe, un responsable des relations, des experts en passation de marchés et en données. 
 
@@ -591,8 +593,7 @@ faq:
           <li>Un responsable des relations, qui sait comment décrocher un soutien politique et maîtrise la bureaucratie.</li>
           <li>Un expert en passation de marchés, qui maîtrise le système de passation de marchés. </li>
           <li>Un expert technique et/ou en données qui maîtrise la publication, l’analyse et l’utilisation des données sur les marchés publics, et/ou qui est au fait des solutions technologiques pour les marchés publics.</li>
-          <li>Nous avons également besoin de deux chefs d’équipe, qui ont l’autorité et la capacité de coordonner l’équipe et de faire avancer le projet. Si l’équipe est intergouvernementale ou inter-organisationnelle, nous nous attendons à ce que ces responsables proviennent de leurs entités respectives afin de promouvoir la collaboration.
-</li>
+          <li>Nous avons également besoin de deux chefs d’équipe, qui ont l’autorité et la capacité de coordonner l’équipe et de faire avancer le projet. Si l’équipe est intergouvernementale ou inter-organisationnelle, nous nous attendons à ce que ces responsables proviennent de leurs entités respectives afin de promouvoir la collaboration.</li>
           </ol>
           <p>Nous vous suggérons de limiter vos équipes à 4 ou 8 personnes pour faciliter la gestion. Remarque : une personne peut remplir plusieurs rôles. Par exemple, l’expert en données peut également être un chef d’équipe.</p>
 
@@ -618,8 +619,7 @@ faq:
         summary: Comment déterminez-vous l’admissibilité des pays ? Y a-t-il des pays particuliers qui intéressent Lift ?
         details: >
           <p>Lift utilise le <a href="https://rsf.org/en/index">classement mondial de la liberté de la presse 2022</a>. de Reporters Sans Frontières. Lift est ouvert aux pays dont la situation est jugée « bonne », « plutôt bonne », « problématique » ou « difficile » par ce classement. Lift ne travaillera pas dans les pays dont la situation est jugée « très grave » (couleur : rouge foncé) selon le classement.</p>
-          <p>Lift envisagera de travailler dans les pays dont la situation est jugée « difficile » (couleur : rouge) selon le classement lorsque les candidats peuvent démontrer pendant le processus de candidature qu’il y a une collaboration entre les acteurs gouvernementaux et de la société civile sélectionnés et au moins un espace partiellement sûr dans lequel la société civile peut travailler.
-</p>
+          <p>Lift envisagera de travailler dans les pays dont la situation est jugée « difficile » (couleur : rouge) selon le classement lorsque les candidats peuvent démontrer pendant le processus de candidature qu’il y a une collaboration entre les acteurs gouvernementaux et de la société civile sélectionnés et au moins un espace partiellement sûr dans lequel la société civile peut travailler.</p>
           <p>Nous ne recherchons pas de pays en particulier, mais une forte répartition géographique. </p>
 
   ### Funding / Costs Category

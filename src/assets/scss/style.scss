@@ -1448,8 +1448,8 @@ footer a {
   }
   .homepageHero__heroText {
     grid-column: 1 / span 6;
-    align-self: end;
-    padding-top: 100px;
+    align-self: start;
+    padding-top: 140px;
     @include mobile {
       grid-column: 1 / span 12;
       padding-top: 0;
@@ -1475,6 +1475,7 @@ footer a {
   }
   .animatedGraphic {
     grid-column: 7 / span 7;
+    align-self: start;
     @include mobile {
       grid-column: 5 / span 8;
       order: -1;
@@ -1620,6 +1621,12 @@ $rotateWord__height: 50px;
   p {
     font-size: 16px;
   }
+}
+
+#theme1,
+#theme2,
+#theme3 {
+  z-index: 2;
 }
 
 #theme1 {
