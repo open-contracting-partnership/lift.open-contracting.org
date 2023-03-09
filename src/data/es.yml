@@ -160,16 +160,16 @@ apply:
   heroText: Consulte los recursos debajo para generar su mejor postulación.  <br>La fecha límite para postularse es <b>el 5 de mayo de 2023.</b>.
 
   applyCTA:
-    text: Postularse
+    text: Postúlese
     url: >
-      https://google.com
+       bit.ly/OCP23-Lift-application-es
 
   heroCTA:
 
     text: ¿Listo para comenzar?
 
     link: >
-      https://google.com
+       bit.ly/OCP23-Lift-application-es
 
   ## 01. Resources Section
 
@@ -705,7 +705,7 @@ faq:
           <li><strong>Apoyo para el monitoreo, el aprendizaje y la evaluación (MEL)</strong> para facilitar el aprendizaje durante la implementación y documentar el éxito de su proyecto.</li>
           </ul>
           <p>Los equipos también podrían recibir durante otros 6 meses asistencia para MEL y con la documentación, así como apoyo técnico informal una vez completado el programa.</p>
-          <p>Consulte el <a href="http://bit.ly/Lift-handbook">Manual para postulantes de Lift</a> y conozca más sobre qué apoyo puede esperar a través de Lift de OCP.</p>
+          <p>Consulte el <a href="bit.ly/OCP23-Lift-handbook-es">Manual para postulantes de Lift</a> y conozca más sobre qué apoyo puede esperar a través de Lift de OCP.</p>
 
 ###############################
 # Footer                 ######
