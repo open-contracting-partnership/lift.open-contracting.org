@@ -162,14 +162,14 @@ apply:
   applyCTA:
     text: Start your application
     url: >
-      https://google.com
+      bit.ly/OCP23-Lift-application
 
   heroCTA:
 
     text: Start your application
 
     link: >
-      https://google.com
+      bit.ly/OCP23-Lift-application
 
   ## 01. Resources Section
 
@@ -180,7 +180,7 @@ apply:
     applicationTips:
       heading: Get tips to ace the application.
       text: >
-        <p>The Lift application will be open for 8 weeks, until May 5, 2023. Read through the Lift Applicant Handbook and join one our informational webinars through March 24th (or watch the recordings afterwards) for all of the ins-and-outs you’ll need to know before you apply.</p>
+        <p>The Lift application will be open for 8 weeks, until May 5, 2023. Read through the <a href="<a href="https://www.open-contracting.org/implement/lift/"> Lift Applicant Handbook </a> and join one our informational webinars through March 24th (or watch the recordings afterwards) for all of the ins-and-outs you’ll need to know before you apply.</p>
         <p>Also, you can download a PDF version of the application questions here to review before you sign in and begin your application form.<p>
 
     inspired:
@@ -455,7 +455,7 @@ faq:
 
   heroHeading: Everything you <br>need to know.
 
-  heroText: Can’t find the answers you’re looking for? Check out the <a href="https://docs.google.com/presentation/d/1OEhqnhCB3r_PUNQ1_O9XntzWJ7wu8g4F4ycXKWMJ_DY/edit#slide=id.p">Lift Applicant Handbook</a> or reach out to Kaye Sklar, Lift Program Manager. We will add questions here as we receive them so make sure to check back.
+  heroText: Can’t find the answers you’re looking for? Check out the <a href="bit.ly/OCP23-Lift-handbook">Lift Applicant Handbook</a> or reach out to Kaye Sklar, Lift Program Manager. We will add questions here as we receive them so make sure to check back.
 
 
   ### Applications Category
