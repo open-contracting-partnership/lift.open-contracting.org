@@ -400,48 +400,48 @@ eligibility:
         heading: Abordajes que podrían replicarse o ampliarse.
         text: En el pasado, varios equipos de Lift han utilizado el programa para probar nuevos enfoques que, luego, han ampliado en más regiones, sectores u organismos después de finalizado el programa. Estamos interesados en apoyar proyectos que tengan este potencial. Analice si su proyecto incluye procesos, herramientas o cambios que usted podría mejorar y adaptar para que otros los incluyan en su labor. 
 
-  ## 03. Selection Section
+  ## 03. Selección
 
   selection:
-    heading: Selection
+    heading: Selección
 
     ### note no <p> tags
     text: >
-      Applications will be scored against the following key criteria:
+      Las postulaciones se calificarán en función de los siguientes criterios claves: 
 
     leftCol:
-      heading: The potential impact of the proposed project to improve the quality of public goods, works or services and the strength of the plan for achieving the project objectives
+      heading: El potencial impacto del proyecto propuesto para mejorar la calidad de bienes, obras o servicios públicos y la solidez del plan para alcanzar los objetivos del proyecto.
 
     centerCol:
-      heading: The team’s power to make change, including political buy-in and support from key stakeholders
+      heading: El poder para realizar cambios que tiene el equipo, incluidos la aceptación política y el apoyo de actores interesados clave.
 
     rightCol:
-      heading: The capacity of the core team to implement the project and mitigate challenges;
+      heading: La capacidad del equipo central para implementar el proyecto y abordar los desafíos.
 
     process:
-      heading: The Process
+      heading: El proceso
       subhead: >
-        We have created a two step application process:
+        Hemos elaborado un proceso de postulación de dos pasos:
 
       cards:
         application:
           text: >
-            <b>Application</b>—Open
+            <b>Postulación</b>—abierta
           img: card-graphic-application
         pitch:
           text: >
-            <b>Pitch and interview</b>—Invite-only
+            <b>Propuesta inicial y entrevista</b>—mediante invitación únicamente
           img: card-graphic-pitch
       text: >
-        <p>OCP staff will evaluate all written applications. The most competitive applicants will be invited to give a pitch presentation and interview. Up to 9 teams will be selected to participate in Lift, and winners will be announced in July.</p>
-        <p>While our aim is to select projects with the strongest potential for impact around the globe, final decisions about selection will also be made in consideration of regional and topic diversity, as well as OCP team capacity and organizational resources.</p>
-        <p>We want to help you prepare the strongest application possible. Please reach out to your regional manager for feedback and input throughout the application process.</p>
+        <p>El personal de OCP evaluará todas las postulaciones escritas. Se invitará a los postulantes más competitivos a presentar su propuesta y a mantener una entrevista. Se seleccionarán hasta 9 equipos para participar en Lift, y los ganadores se anunciarán en julio.</p>
+        <p>Si bien nuestro objetivo es elegir aquellos proyectos que tengan el mayor potencial de impacto en todo el mundo, las decisiones finales sobre la selección también se realizarán teniendo en cuenta la diversidad regional y temática, así como la capacidad del equipo de OCP y los recursos de las organizaciones.</p>
+        <p>Queremos ayudarle a preparar la postulación más sólida posible. Comuníquese con su gerente regional para recibir comentarios y aportes durante el proceso de postulación.</p>
 
     notSelected:
-      heading: If your team is not selected.
+      heading: Si su equipo no es seleccionado.
       text: >
-        <p>Lift is a highly competitive program. All applicants will be notified as soon as possible if they are not selected to move forward through the application process. We will also provide direct feedback on the submissions and identify alternative ways we can work with you.&nbsp;</p>
-        <p>Lift is just one way that we provide support to our partners. We also organize frequent community calls, which are advertised on our <a href="https://groups.google.com/a/open-contracting.org/forum/?utm_medium=email&amp;utm_source=footer#!forum/standard-discuss">OCDS Google group</a>, <a href="https://www.open-contracting.org/latest-news/">newsletter</a>, <a href="https://twitter.com/opencontracting">Twitter</a> and <a href="https://www.facebook.com/OpenContracting/">Facebook</a> pages and social media. You can reach out to the OCP team at <a href="mailto:engage@open-contracting.org">engage@open-contracting.org</a> if you have a question about the implementation of the data standard.</p>
+        <p>Lift es un programa sumamente competitivo. Todos los postulantes serán notificados tan pronto como sea posible si no resultan seleccionados para avanzar en el proceso de postulación. También brindaremos comentarios directos sobre las presentaciones e identificaremos maneras alternativas en las que podemos trabajar con usted. A su vez, si usted tiene un proyecto sólido, pero no es seleccionado para Lift, quizás podamos ayudarlo de otras maneras.&nbsp;</p>
+        <p>Lift es solo una de las formas en las que brindamos apoyo a nuestros socios. También organizamos con frecuencia llamadas comunitarias, que se anuncian en nuestra página comunitaria <a href="https://groups.google.com/a/open-contracting.org/forum/?utm_medium=email&amp;utm_source=footer#!forum/standard-discuss">el grupo de Google de OCDS</a>, <a href="https://www.open-contracting.org/latest-news/">el boletín informativo</a>, <a href="https://twitter.com/opencontracting">Twitter</a> and <a href="https://www.facebook.com/OpenContracting/">Facebook</a> y en redes sociales. Puede comunicarse con el equipo de OCP escribiendo a <a href="mailto:engage@open-contracting.org">engage@open-contracting.org</a> si tiene preguntas sobre la implementación del estándar de datos.</p>
 
 ###############################
 # FAQ Page               ######
@@ -449,122 +449,122 @@ eligibility:
 
 faq:
 
-  pageTitle: FAQ
+  pageTitle: Preguntas frecuentes
 
-  heroHeading: Everything you <br>need to know.
+  heroHeading: Todo lo que <br>necesita sabe. 
 
-  heroText: Can’t find the answers you’re looking for? Check out the <a href="https://docs.google.com/presentation/d/1OEhqnhCB3r_PUNQ1_O9XntzWJ7wu8g4F4ycXKWMJ_DY/edit#slide=id.p">Lift Applicant Handbook</a> or reach out to Kaye Sklar, Lift Program Manager. We will add questions here as we receive them so make sure to check back.
+  heroText: ¿No encuentra las respuestas que está buscando? <a href="https://docs.google.com/presentation/d/1OEhqnhCB3r_PUNQ1_O9XntzWJ7wu8g4F4ycXKWMJ_DY/edit#slide=id.p">el Manual para postulantes de Lift</a>o comuníquese con Kaye Sklar, gerenta sénior de Programas para Lift. Sugerimos que visite regularmente este espacio, en el que iremos agregando preguntas a medida que las recibamos.
 
 
-  ### Applications Category
+  ### POSTULARSE
 
   applications:
 
-    heading: Applications
+    heading: POSTULARSE
 
     questions:
 
       question1:
-        summary: What makes a good application?
+        summary: ¿Qué características tiene una buena postulación?
         details: >
-          <p>The best applications will start with a very specific goal or problem that relates to using procurement to:</p>
+          <p>Las mejores solicitudes comienzan con el planteo de un objetivo o problema muy específico que se relaciona con el uso de la contratación para lo siguiente:</p>
 
           <ul>
-            <li>Fight corruption and strengthen democratic institutions</li>
-            <li>Protect the environment or improve climate resilience</li>
-            <li>Promote economic and social inclusion</li>
+            <li>Combatir la corrupción y fortalecer las instituciones democráticas</li>
+            <li>Proteger el medioambiente o mejorar la resiliencia climática</li>
+            <li>Promover la inclusión económica y social</li>
           </ul>
 
-          <p>In your application, be as specific as possible about how better contracting processes will help you achieve these goals.</p>
+          <p>En su postulación, sea lo más específico posible respecto de la manera en que contar con mejores procesos de contratación le ayudará a alcanzar estos objetivos. </p>
 
-          <p>Lift is for systemic reform projects that seek to make progress across policy, processes, capacity, and data. It is not for general capacity building on open contracting or advocacy. While training, workshops, and open data publication and tools are important, they cannot be the whole of your Lift project—they should just be a means to reach your goal.</p>
+          <p>Lift se utiliza para proyectos de reforma sistémica, que tienen por objeto realizar avances en políticas, procesos, capacidades y datos. Lift no está destinado al desarrollo de capacidades generales sobre contratación abierta o incidencia. La capacitación, los talleres y las publicaciones y herramientas de datos abiertos son importantes, pero no pueden constituir la totalidad de su proyecto de Lift; deben ser solo un medio para conseguir su objetivo.</p>
 
-          <p>Also, we encourage you to be clear and specific about how you will measure and track progress against your goals. For example, potential metrics might be a reduction of sole sourcing, the amount of carbon emissions from infrastructure projects, the number of locally-owned women-led businesses who win contracts, etc.</p>
+          <p>También le recomendamos que sea claro y específico sobre cómo medirá y hará el seguimiento del avance respecto de sus objetivos. Por ejemplo, algunas métricas posibles serían que haya menos casos de abastecimiento a través de un único proveedor, la cantidad de emisiones de carbono derivada de proyectos de infraestructura, el número de empresas locales propiedad de mujeres que ganan contratos, etc.</p>
 
       question2:
-        summary: What are the key questions that I should think about before submitting an application?
+        summary: ¿Cuáles son las preguntas clave en las que debo pensar antes de presentar una postulación?
         details: >
-          <p>We require that you answer all questions and submit a complete application. To make the best application possible, focus especially on developing concrete answers to these four questions:</p>
+          <p>Debe responder todas las preguntas y presentar una postulación completa. Para lograr la mejor postulación posible, concéntrese especialmente en generar respuestas concretas a estas cuatro preguntas:</p>
           <ul>
-          <li>What is the problem that you are seeking to address through Lift?&nbsp;</li>
+          <li>¿Cuál es el problema que procura abordar a través de Lift?&nbsp;</li>
           <ul>
-          <li>Tip: Focus on a specific goal or problem relating to our challenge question: how will you use open contracting to…</li>
+          <li>Consejo: Concéntrese en un problema u objetivo específico que se relacione con la pregunta desafío ¿Cómo usará la contratación abierta para lo siguiente?</li>
           <ul>
-          <li>Fight corruption and strengthen democratic institutions?</li>
-          <li>Protect the environment or improve climate resilience?</li>
-          <li>Promote economic and social inclusion?</li>
+          <li>Combatir la corrupción y fortalecer las instituciones democráticas</li>
+          <li>Proteger el medioambiente o mejorar la resiliencia climática</li>
+          <li>Promover la inclusión económica y social</li>
           </ul>
           </ul>
-          <li>What is the solution to this problem?</li>
+          <li>¿Cuál es la solución a este problema?</li>
           <ul>
-          <li>Tip: Lift is for systemic reform projects. Think beyond rolling out a new platform or tool, or running workshops, or publishing data. Instead, explain what the future that you want to see is, and the concrete outcomes you anticipate by the Lift program’s end.</li>
+          <li>Consejo: Lift se ideó para proyectos de reforma sistémica. No piense solo en implementar una nueva plataforma o herramienta, realizar talleres o publicar datos. En cambio, explique cómo desearía que se configure el futuro y los resultados concretos que prevé para el final del programa Lift.</li>
           </ul>
-          <li>What are your &lsquo;powers&rsquo; to make change happen, and who in power will help you make this change happen?&nbsp;</li>
+          <li>¿Cuáles son sus&lsquo;poderes&rsquo; para concretar el cambio y qué persona en una posición de poder le ayudará a conseguirlo?&nbsp;</li>
           <ul>
-          <li>Lift is for teams that can achieve measurable impact. This requires Lift teams to have the power to make change. You might have to change regulations or policies, upgrade data or IT infrastructure, or rethink processes – doing so often requires political buy-in and robust mandates for change. Consider what organizational strategies or key relationships that give you the power to pursue your goal.</li>
+          <li>Consejo: Lift es para equipos que pueden lograr un impacto mensurable. Esto requiere que los equipos de Lift tengan el poder de producir un cambio. Es posible que deba gestionar cambios en reglamentaciones o políticas, actualizar datos o la infraestructura de TI o reconsiderar procesos; hacer esto suele requerir aceptación política y mandatos sólidos para el cambio. Considere qué estrategias organizativas o relaciones clave le dan el poder de concretar su objetivo. </li>
           </ul>
-          <li>Who is on your core team, and why are they involved?</li>
+          <li>¿Quiénes integran su equipo central y por qué forman parte de él?</li>
           </ul>
-          <p>Tip: Lift is for teams that have skills and represent the agencies or organizations that are integral for project success. For example, if your project is about improving the quality of public housing through procurement reform, it would be good to have someone on the team who is from the public housing agency.</p>
+          <p>Consejo: Lift es para equipos que cuentan con habilidades y representan a los organismos u organizaciones que son integrales para el éxito del proyecto. Por ejemplo, si su proyecto se relaciona con mejorar la calidad de las viviendas públicas mediante la reforma de las contrataciones, será conveniente contar con alguien en el equipo que pertenezca al organismo de viviendas públicas.</p>
 
       question3:
-        summary: What are good measurable targets/goals or KPIs for my project?
+        summary: ¿Cuáles son las metas/los objetivos o KPI mensurables adecuados para mi proyecto?
         details: >
-          <p>We encourage you to have measurable goals associated with your project that allow you to have baseline, progress milestones and end-of-program targets. Quantitative data can be incredibly helpful in ensuring that you work towards measurable progress. But we also know that it can be difficult to have high-quality data readily accessible to calculate key performance indicators (KPIs.) We will work with you as part of Lift to unlock and use more data and define KPIs. We are especially interested in measuring direct impact on communities, so if possible, please share an estimate of how many individuals might benefit from the reform.</p>
+          <p>Lo alentamos a fijar objetivos mensurables para su proyecto que le permitan tener un parámetro de base, hitos de avance y objetivos de final del programa. Los datos cuantitativos pueden ser muy útiles para que los avances sean mensurables. También sabemos que no siempre es fácil acceder a datos de calidad para calcular los indicadores de desempeño claves (KPI). Trabajaremos con usted como parte de Lift para liberar y utilizar más datos y definir los KPI. Nos interesa en especial medir el impacto directo en las comunidades; por eso le pedimos, si es posible, que nos comunique cuántas personas prevén que podrían beneficiarse con la reforma.</p>
 
-          <p>We compiled a <a href="https://docs.google.com/document/d/1CHnLhqQ0wKahNIdlBY31hzil5W_LU-6zki3UZLrxLyE/edit#heading=h.ve6tj07iugp9">list of potential KPIs</a> that you might want to include in your Lift application.</p>
+          <p>Compilamos una <a href="https://docs.google.com/document/d/1CHnLhqQ0wKahNIdlBY31hzil5W_LU-6zki3UZLrxLyE/edit#heading=h.ve6tj07iugp9">lista de posibles KPI</a> que podría incluir en su postulación a Lift.</p>
 
       question4:
-        summary: I’m interested in applying. Can I get help with the application?
+        summary: Me interesa postularme. ¿Puedo obtener ayuda con la postulación?
         details: >
-          <p>Yes! You can receive more guidance on applying to Lift in the following ways:</p>
+          <p>¡Sí! Puede recibir más orientación para la postulación a Lift por los siguientes medios:</p>
           <ul>
-          <li>Read the Lift Applicant Handbook</li>
-          <li>Attend one of the upcoming informational webinars</li>
-          <li>Reach out to <a href="https://www.open-contracting.org/about/team/">your country manager</a> to set up a 1-1 session to review your application.</li>
-          <li><a href="https://open-contracting.us12.list-manage.com/subscribe?u=4257477995e0a1fa5cb6587b2&id=fc9ec0e34b">Sign up</a> to be notified of additional Q&amp;As and resources&nbsp;</li>
-          <li>Email our <a href="mailto:ksklar@open-contracting.org">Senior Program Manager for Lift, Kaye Sklar</a></li>
+          <li>Lea el Manual para postulantes de Lift.</li>
+          <li>Asista a uno de los próximos seminarios web informativos.</li>
+          <li>Contacte a su gerente de país<a href="https://www.open-contracting.org/about/team/">su gerente de país</a> to set up a 1-1 session to review your application.</li>
+          <li><a href="https://open-contracting.us12.list-manage.com/subscribe?u=4257477995e0a1fa5cb6587b2&id=fc9ec0e34b">Suscríbase</a>para que le notifiquen sobre preguntas y respuestas y recursos adicionales.</li>
+          <li>Envíe un mensaje de correo electrónico a <a href="mailto:ksklar@open-contracting.org"> la gerenta sénior de programas para Lift, Kaye Sklar</a></li>
           </ul>
           
       question5:
-        summary: Can I apply in a language other than English?
+        summary: ¿Puedo postularme en un idioma que no sea inglés?
         details: >
-          <p>Yes. We will accept applications in English, Spanish, French, Russian, and we will conduct interviews in all of the previously listed languages, in addition to Bahasa Indonesia. Technical support throughout the program will be available in all five of these languages as well.</p>
+          <p>Sí. Aceptaremos postulaciones en inglés, español, francés, ruso, y realizaremos entrevistas en todos esos idiomas, además de en indonesio. También se ofrecerá asistencia técnica en esos cinco idiomas durante todo el programa. </p>
 
       question6:
-        summary: Can I submit more than one project?
+        summary: ¿Puedo presentar más de un proyecto?
         details: >
-          No, we want you to bring us your best and sharpest idea.
+          No. Queremos que nos presente su mejor idea, la más ingeniosa. 
 
   ### Project Category
 
   project:
 
-    heading: Project
+    heading: PROYECTO
 
     questions:
 
       question7:
-        summary: At what stage or scale should my project be to apply? Does it have to be an idea, prototype, or MVP? Should it be focused locally or globally?
+        summary: ¿En qué etapa debe encontrarse o qué escala debe tener mi proyecto para que pueda postularme? ¿Tiene que ser una idea, prototipo o un producto viable mínimo (minimum viable product, MVP)? ¿Debe concentrarse en el ámbito local o global?
         details: >
-          <p>Lift is open to projects at different stages of development and scale. You could be embarking on a new initiative, or working to refine and scale a piloted solution. In the past we have seen that Lift is especially helpful to test and refine new approaches that then can be scaled in more sectors, agencies, regions, or countries after the project ends. We require your project to have leadership support, which should include a budget for your work, a political champion, or a formal mandate. You could also be solving problems in your region, country, or city. Your project does not need to be able to scale globally.</p>
+          <p>Lift está abierto a proyectos en diferentes etapas de desarrollo y de distinta escala. Es posible que usted esté emprendiendo una nueva iniciativa, o que esté abocado a perfeccionar y llevar a mayor escala una solución que ya puso a prueba. En el pasado hemos observado que Lift es especialmente útil para probar y perfeccionar nuevos enfoques que pueden ampliarse hacia otros sectores, organismos, regiones o países una vez que el proyecto finaliza. Pedimos que su proyecto tenga el apoyo de líderes, lo que debe incluir presupuesto para el  trabajo que se llevará adelante, un defensor político o un mandato formal. También es posible que usted esté dedicado a resolver problemas en su región, país o ciudad. No es necesario que su proyecto pueda implementarse a escala mundial.</p>
 
       question8:
-        summary: Are there any sectors or topics Lift is particularly interested in?
+        summary: ¿Hay algún sector o tema en el que Lift tenga un interés en particular?
         details: >
-          <p>No, we are open to a wide range of sectors. You qualify for Lift as long as you are working on a project relevant to our challenge question topics.</p>
+          <p>No, somos receptivos a una amplia variedad de sectores. Usted reúne los requisitos para participar de Lift si está trabajando en un proyecto relevante para los temas de nuestras preguntas desafío.</p>
 
       question9:
-        summary: Can my project be for implementing the Open Contracting Data Standard (OCDS) or OC4IDS?
+        summary: ¿Mi proyecto puede ser para implementar el Estándar de Datos para las Contrataciones Abiertas (OCDS) o el OC4IDS?
         details: >
-          <p>We are looking for projects that go beyond implementing <a href="https://www.open-contracting.org/data-standard/">OCDS</a> or <a href="https://standard.open-contracting.org/infrastructure/latest/en/">OC4IDS</a>. Your project should be focused on our challenge question topics. However, implementing OCDS or OC4IDS may be one part of your project.</a>
-          <p>If your focus is solely on implementing OCDS or OC4IDS, Lift is not for you. Please review OCDS and OC4IDS documentation and resources for more information on implementing the data standard.</p>
+          <p>Buscamos proyectos que vayan más allá de la implementación del <a href="https://www.open-contracting.org/data-standard/">OCDS</a> or <a href="https://standard.open-contracting.org/infrastructure/latest/en/">OC4IDS</a>. Su proyecto debe concentrarse en los temas de nuestras preguntas desafío. Sin embargo, la ejecución del OCDS u OC4IDS puede ser una parte de su proyecto. </a>
+          <p>Si se concentra exclusivamente en la implementación del OCDS u OC4IDS, entonces Lift no es lo que necesita. Consulte la documentación y los recursos del OCDS y del OC4IDS para más información sobre cómo se implementa el estándar de datos.</p>
 
       question10:
-        summary: Is adopting and/or implementing the Open Contracting Data Standard (OCDS) or OC4IDS required to be eligible for the program?
+        summary: ¿Se exige adoptar o implementar el Estándar de Datos para las Contrataciones Abiertas (OCDS) o el OC4IDS a fin de ser elegible para el programa?
         details: >
-          <p>No, but we do expect that your reform initiative involves making information or data more accessible, and we will work with you on this. We also expect your project to have quantitative KPIs or targets, and that you measure a baseline and progress along the way. We can help you with this. Lift can provide support in implementing <a href="https://www.open-contracting.org/data-standard/">OCDS</a> or <a href="https://standard.open-contracting.org/infrastructure/latest/en/">OC4IDS</a> if it is part of your project.</p>
-          <p>Want to learn more about OCDS or OC4IDS? Visit the <a href="https://www.open-contracting.org/data-standard/">OCP</a> website for information and resources.</p>
+          <p>No, pero sí esperamos que su iniciativa de reforma mejore la accesibilidad de la información o los datos, y trabajaremos en esto con usted. También buscamos que su proyecto tenga KPI u objetivos cuantitativos, y que usted establezca un parámetro inicial y mida los avances conforme transcurre el proyecto. Podemos ayudarle con estas cuestiones. Lift puede proporcionar asistencia para la ejecución del <a href="https://www.open-contracting.org/data-standard/">OCDS</a> or <a href="https://standard.open-contracting.org/infrastructure/latest/en/">OC4IDS</a>  si es parte de su proyecto.</p>
+          <p>¿Le interesa conocer más sobre el OCDS u OC4IDS? Visite el <a href="https://www.open-contracting.org/data-standard/">sitio web de OCP</a> para obtener información y recursos.</p>
 
   ### Team Category
 
