@@ -102,7 +102,6 @@ home:
         heading: Achats ou services publics qui exacerbent les inégalités sociales. 
         text: Vous pouvez utiliser la commande publique ouverte pour améliorer la diversité des fournisseurs en permettant aux entreprises appartenant à des femmes, à des jeunes ou à des minorités de participer davantage aux marchés publics, ou pour renforcer la capacité des petits fournisseurs locaux à concourir et à remporter des marchés publics. Ou encore, vous pourriez améliorer la prestation de services en améliorant les programmes de protection sociale, en aidant à approvisionner équitablement les hôpitaux avec les meilleurs médicaments et équipements de protection, ou en équipant les écoles publiques avec les fournitures et les infrastructures nécessaires pour desservir les élèves et leurs familles.
 
-
   ## 03. Why Apply Section
 
   whyApply:
@@ -140,7 +139,13 @@ home:
       name: Ángeles Ferreyra
       title: Bureau Approvisionnement et contrats, Ministère des finances, Ville de Buenos Aires
       img: testimonial-angeles
-    
+
+    quote3:
+      text: >
+        [quote here]
+      name:
+      title:
+      img: testimonial-bike
 
 ###############################
 # Apply Page             ######

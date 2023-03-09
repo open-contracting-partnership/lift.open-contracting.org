@@ -85,7 +85,8 @@ home:
   ## 02. Acerca de Lift
 
   about:
-    heading: Acerca de Lift
+    heading: >
+      Acerca de Lift
     text: >
       <p>Los gobiernos y líderes sociales de todo el mundo que se enfrentan a crisis convergentes como la desigualdad, el cambio climático y el deterioro en la confianza pública cuentan con una herramienta poderosa y mayormente desaprovechada: la contratación pública.</p>
       <p>La contratación abierta es un enfoque probado para repensar la contratación pública de modo que produzca cambios sistémicos. Lift es el programa que creamos para ayudar a equipos de impulsores de reformas audaces a rediseñar procesos, políticas y datos para que estos respondan a objetivos concretos, sean sencillos para el usuario y se centren en las personas. El desafío al que se enfrenta podría ser:</p>
@@ -130,7 +131,6 @@ home:
         &ldquo;Gracias al proceso Lift, pudimos tomar un rumbo más claro y dar sustento a nuestra aspiración.&rdquo;
       name: Marcelo Espinel
       title: Subdirector de la Fundación Ciudadanía y Desarrollo
-
       img: testimonial-marcelo
     
     quote2:
@@ -357,7 +357,8 @@ eligibility:
 
   checklist:
 
-    checklist1: Tener un proyecto que proponga usar la contratación abierta para lograr alguna de estas tres metas: combatir la corrupción, favorecer la sostenibilidad o asegurar la inclusión.
+    checklist1: >
+      Tener un proyecto que proponga usar la contratación abierta para lograr alguna de estas tres metas: combatir la corrupción, favorecer la sostenibilidad o asegurar la inclusión.
 
     checklist2: Ser un gran equipo con al menos cuatro personas indispensables para implementar el proyecto, incluidos dos líderes de equipo, un gestor de relaciones y expertos en contrataciones y datos. 
 

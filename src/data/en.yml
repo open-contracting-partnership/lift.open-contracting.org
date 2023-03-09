@@ -85,7 +85,8 @@ home:
   ## 02. About Lift
 
   about:
-    heading: About Lift
+    heading: >
+      About Lift
     text: >
       <p>As governments and social leaders around the world grapple to address the converging crises of inequality, climate change, and a decline in public trust, every single one of them has a powerful and untapped tool at their disposal: public procurement.</p>
       <p>Open contracting is a tested approach to reimagine public procurement to deliver systemic change. Lift is our program to help teams of bold reformers to redesign processes, policies, and data to make them goal-driven, user-friendly and human-centered. Your challenge could be…</p>
