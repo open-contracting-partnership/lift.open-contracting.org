@@ -570,141 +570,141 @@ faq:
 
   team:
 
-    heading: Team
+    heading: EQUIPO
 
     questions:
 
       question11:
-        summary: How can I be sure my team is the right fit for this program?
+        summary: ¿Cómo puedo saber si mi equipo es el candidato adecuado para este programa?
         details: >
-          <p>This program is best suited for teams who are:</p>
+          <p>Este programa es ideal para equipos que:</p>
           <ol>
-          <li>Focused on achieving impact in one of the three topic areas of Lift</li>
-          <li>Experienced in building political support and navigating procurement systems,</li>
-          <li>Working in a context with the technical infrastructure in place to deliver on their project, and</li>
-          <li>Able and committed to invest the time required over the course of the program.</li>
+          <li>Están concentrados en lograr impacto en una de las tres áreas temáticas de Lift.</li>
+          <li>Tienen experiencia en generar apoyo político y se han desenvuelto en sistemas de contrataciones.</li>
+          <li>Trabajan en un contexto que cuenta con la infraestructura técnica para llevar a cabo su proyecto, y</li>
+          <li>Pueden invertir el tiempo necesario durante el transcurso del programa y están decididos a hacerlo.</li>
           </ol>
-          <p>Open Contracting Lift is not for teams who only want support on tool development, advocacy, capacity building, or <a href="http://standard.open-contracting.org/">Open Contracting Data Standard</a> implementation.</p>
-          <p>For a full list of eligibility requirements, see <a href="https://lift.open-contracting.org/eligibility/">Apply</a>.</p>
+          <p>Open Contracting Lift no es para equipos que solo necesitan asistencia para desarrollar herramientas, generar incidencia, adquirir capacidades o implementar el <a href="http://standard.open-contracting.org/">Estándar de Datos para las Contrataciones Abiertas</a> implementation.</p>
+          <p>Consulte una lista completa de requisitos de elegibilidad en la sección <a href="https://lift.open-contracting.org/eligibility/">Postularse</a>.</p>
 
       question12:
-        summary: How big should my team be? What key roles and skills should my team have to be successful in the program?
+        summary: ¿Cuál debe ser el tamaño de mi equipo? ¿Qué roles y habilidades claves debería tener mi equipo para tener éxito en el programa?
         details: >
-          <p>Applicant teams should include, at minimum:</p>
+          <p>Los equipos que se postulen deben incluir, como mínimo:</p>
           <ol>
-          <li>A <strong>Relationship Manager</strong>, who is skilled at building political support and navigating bureaucracy.</li>
-          <li>A <strong>Procurement Expert</strong>, who is knowledgeable about navigating the procurement system.</li>
-          <li>A <strong>Technical and/or Data Expert</strong> who is knowledgeable about procurement data publication, analysis and use, and/or is familiar in using procurement technology solutions.</li>
-          <li>We also require <strong>two Team Leads</strong> who have the authority and capacity to coordinate the team and drive the project forward. If the team is cross-governmental or cross-organizational, we expect these leads would come from their respective entities to promote collaboration.</li>
+          <li>Un <strong>gestor de relaciones </strong>, que sepa generar apoyo político y tenga habilidad para los trámites burocráticos.</li>
+          <li>Un <strong>experto en contrataciones</strong>, que sepa desenvolverse en el sistema de contrataciones.</li>
+          <li>Un <strong>experto técnico y/o de datos</strong> que esté familiarizado con la publicación, el análisis y el uso de datos de contratación, y/o con el uso de soluciones tecnológicas para la contratación.</li>
+          <li>También necesitamos <strong>dos líderes de equipo</strong> que tengan la autoridad y la capacidad de coordinar el equipo y llevar adelante el proyecto. Si el equipo está conformado por personas de distintos organismos del sector público o de distintas organizaciones, estimamos que esos líderes provendrán de sus respectivas entidades para promover la colaboración.</li>
           </ol>
-          <p>We suggest you keep your teams to 4 to 8 people for easier management. Note: One person can fill multiple roles. For example, the Data Expert may also be a Team Lead.</p>
+          <p>Sugerimos que su equipo esté compuesto por entre 4 y 8 personas para que la gestión sea más fácil. Nota: Una persona puede ocupar múltiples funciones. Por ejemplo, el experto en datos también puede ser líder de equipo.</p>
 
       question13:
-        summary: Should my team be from one organization or a collaboration of multiple organizations?
+        summary: ¿Mi equipo debe ser una organización o una colaboración de varias organizaciones??
         details: >
-          <p>While we are open to stand-alone applications from civil society/nonprofit organizations or government agencies with outstanding project ideas and team capacity, we are particularly interested in teams that represent collaborative partnerships between government and non-government stakeholders. In the past, we have seen that teams that bring together many diverse actors from different stakeholder groups and government agencies are more effective in achieving change.</p>
+          <p>Si bien estamos abiertos a recibir postulaciones independientes de organizaciones de la sociedad civil/organizaciones sin fines de lucro o de organismos gubernamentales, cuyas ideas de proyectos y capacidad de sus equipos sean sobresalientes, estamos especialmente interesados en que representen alianzas de colaboración entre actores gubernamentales y no gubernamentales. En el pasado, hemos visto que los equipos que reúnen a múltiples actores interesados heterogéneos, pertenecientes a diferentes grupos y organismos gubernamentales, son más eficaces en el logro del cambio.</p>
 
       question14:
-        summary: How many teams will you select?
+        summary: ¿Cuántos equipos se seleccionarán?
         details: >
-          <p>We will select up to 9 teams for the program.</p>
+          <p>Seleccionaremos hasta 9 equipos para el programa.</p>
 
   ### Context / Country Category
 
   context:
 
-    heading: Context / Country
+    heading: CONTEXTO/PAÍS
 
     questions:
 
       question15:
-        summary: How do you determine country eligibility? Are there any particular countries Lift is interested in?
+        summary: ¿Cómo determinan la elegibilidad del país? ¿Hay países específicos en los que Lift tenga interés?
         details: >
-          <p>Lift uses Reporters Sans Frontiers’ <a href="https://rsf.org/en/index">World Press Freedom Index 2022</a>. Lift is open to countries deemed “Good,” “Satisfactory,” “Problematic,” or “Difficult” by this index. Lift will not work in countries that are deemed to be in a “Very Serious” situation (color: dark red) according to the index.</p>
-          <p>Lift will consider working in countries that are deemed to be in a “difficult situation” (color: red) according to the index when applicants can demonstrate during the application process that there is collaboration amongst selected government and civil society actors and at least a partially safe space that civil society can work in.</p>
-          <p>We are not looking for any particular countries, but for a strong geographic spread.</p>
+          <p>Lift utiliza el <a href="https://rsf.org/en/index"> Índice Mundial de Libertad de Prensa 2022</a>. de Reporters Sans Frontiers. Lift está abierto a países considerados “Buenos”, “Satisfactorios”, “Problemáticos” o “Difíciles” según este índice. Lift no trabajará en países que se considera que están en una situación “muy grave” (color: rojo oscuro) según el índice.</p>
+          <p>Lift considerará trabajar en países que se entienda que están en una “situación difícil” (color: rojo) según el índice, cuando los postulantes puedan demostrar durante el proceso de solicitud que existe colaboración entre los actores gubernamentales y de la sociedad civil seleccionados y que hay al menos un espacio parcialmente seguro en el cual la sociedad civil pueda trabajar..</p>
+          <p>No estamos interesados en ningún país en particular, sino en una extensión geográfica importante.</p>
 
   ### Funding / Costs Category
 
   funding:
 
-    heading: Funding / Costs
+    heading: FINANCIAMIENTO/COSTOS
 
     questions:
 
       question16:
-        summary: Can I apply even if I receive funding or support from elsewhere?
+        summary: ¿Puedo postularme incluso si recibo financiamiento o apoyo de otras fuentes?
         details: >
-          <p>Yes, we welcome all types of projects, including those supported by other sources.</p>
+          <p>Sí, admitimos todo tipo de proyectos, incluso los que reciben ayuda de otras fuentes.</p>
 
       question17:
-        summary: Are there any costs to participating in the program?
+        summary: ¿Participar en el programa implica algún costo?
         details: >
-          <p>There is no financial cost to participate, though you will be expected to dedicate about 1 day per week of staff time to the program. All applicants should already have funding for essential project activities and staff time.</p>
+          <p>Participar no tiene ningún costo, pero se espera que dedique alrededor de un día por semana de tiempo del personal al programa. Todos los postulantes ya deberían contar con financiamiento para actividades esenciales del proyecto y tiempo del personal.</p>
 
       question18:
-        summary: Is there funding available through the program?
+        summary: ¿Hay financiamiento disponible durante el programa?
         details: >
-          <p>Participating teams are eligible for up to $35,000 USD of support from Lift to fund activities or deliverables depending on team needs and progress over the course of the program, as well as 200 hours of technical assistance and support from OCP.</p>
-          <p>How these funds are spent is flexible and is decided on a project-by-project basis, although these funds are not intended for core operating expenses such as staff salaries. All funding decisions will be made in collaboration with the team, your Lift advisor, and Open Contracting Partnership.</p>
-          <p>We are glad to co-fundraise with partners if additional funds are needed. Teams that demonstrate outstanding progress may be eligible for additional OCP support.</p>
+          <p>Los equipos participantes podrían recibir asistencia directa de Lift por valor de hasta USD 35.000 para financiar actividades o productos finales, según las necesidades del equipo y el avance durante el programa, así como 200 horas de asistencia técnica y apoyo de OCP.</p>
+          <p>El uso de los fondos es flexible y se decide según cada proyecto, pero el objetivo no es que esos fondos se usen para solventar gastos operativos básicos, como sueldos del personal. Todas las decisiones relacionadas con los fondos se tomarán de forma colaborativa entre el equipo, su asesor de Lift y Open Contracting Partnership.</p>
+          <p>Estamos a disposición para ayudar a los socios a recaudar fondos en forma conjunta si se precisan fondos adicionales. Los equipos que demuestran avances extraordinarios podrían ser elegibles para recibir asistencia adicional de OCP.</p>
 
   ### How the program works Category
 
   program:
 
-    heading: How the program works
+    heading: CÓMO FUNCIONA EL PROGRAMA
 
     questions:
 
       question19:
-        summary: Where will the Liftoff workshops be held?
+        summary: ¿Dónde se realizarán los talleres Liftoff?
         details: >
-          <p>We are currently planning to hold the workshops in-person in your region. The first Liftoff workshop will be held in August - September 2023, and the second Liftoff workshop in May - June 2024.</p>
+          <p>Actualmente estamos planificando realizar los talleres en forma presencial en su región. El primer taller Liftoff se realizará entre agosto y septiembre de 2023, y el segundo entre mayo y junio de 2024.</p>
 
       question20:
-        summary: Who are the advisors and experts?
+        summary: ¿Quiénes son los asesores y expertos?
         details: >
-          <p>Practitioners will be supported by a core team of advisors from OCP who have extensive experience in building social and public contracting reforms. Your advisors will be selected based on your specific needs, and will help you apply best practices in areas such as user engagement, data use, change management, and contract design and management.</p>
+          <p>Los participantes recibirán apoyo de un equipo central de asesores de OCP que tienen vasta experiencia en generar reformas sociales y de contratación pública. Las personas que le asesoren serán seleccionadas sobre la base de sus necesidades específicas y le ayudarán a aplicar las mejores prácticas en áreas tales como involucramiento de usuarios, uso de datos, gestión de cambios, y diseño y gestión de contratos. </p>
 
       question21:
-        summary: What can Lift help me achieve?
+        summary: ¿Qué puede ayudarme a lograr Lift?
         details: >
-          <p>We expect teams to achieve measurable improvements by the end of the program. This will be tracked by key performance indicators that are developed with teams in the first phase of the program. We will support your efforts to gather and analyze procurement data so that you can set baselines and understand your progress.</p>
-          <p>Along the way, we anticipate that most projects will make progress on the following outcomes:</p>
+          <p>Apuntamos a que, al final del programa, los equipos logren mejoras mensurables. Esto se medirá conforme a indicadores de desempeño clave que son diseñados con los equipos en la primera fase del programa. Lo asistiremos con las iniciativas que tome para reunir y analizar datos de contratación de modo que pueda establecer parámetros de base y comprender los avances logrados.</p>
+          <p>A medida que transcurra el proceso, prevemos que la mayoría de los proyectos conseguirán avances en estos resultados:</p>
           <ul>
-          <li>Effectively build leadership support to drive a robust mandate for your project.</li>
-          <li>Improve use of open data and open data systems to manage, monitor, and advance the quality of delivery of public goods, works, and services or expand access to opportunity.</li>
-          <li>Establish new ways of working with public contracts to ensure contracting processes and contracts lead to intended results.</li>
+          <li>Sumar apoyos de líderes que aseguren un mandato sólido para su proyecto.</li>
+          <li>Mejorar el uso de datos abiertos y sistemas de datos abiertos para gestionar, monitorear y mejorar la calidad de la provisión de bienes, obras y servicios públicos o ampliar el acceso a oportunidades.</li>
+          <li>Establecer nuevas formas de trabajar con contratos públicos para que los procesos de contratación y los contratos que se celebren generen los resultados deseados.</li>
           </ul>
-          <p>For inspiration, check out what <a href="https://www.open-contracting.org/implement/lift/">other teams have achieved through Lift</a>.&nbsp;</p>
+          <p>Inspírese consultando qué <a href="https://www.open-contracting.org/implement/lift/">han logrado otros equipos con Lift</a>.&nbsp;</p>
 
       question22:
-        summary: Can I still benefit if I don’t participate?
+        summary: ¿Puedo beneficiarme incluso si no participo?
         details: >
-          <p>Absolutely! Throughout the program, OCP will document any new tools, approaches, and progress stories that emerge. To benefit the wider field, we’ll share this guidance regularly though blogs and events.</p>
-          <p>You can also receive support via OCP’s other resources and engagements. Learn more about these at <a href="https://www.open-contracting.org/resources/">OCP&rsquo;s website</a>.</p>
+          <p>¡Por supuesto! Durante todo el programa, OCP documentará las nuevas herramientas, enfoques y ejemplos de avances que surjan. Para beneficiar al sector en general, compartiremos esta orientación en forma periódica a través de blogs y eventos.</p>
+          <p>También puede recibir apoyo mediante otros recursos e interacciones de OCP. Obtenga más información sobre estos en el <a href="https://www.open-contracting.org/resources/">sitio web de OCP</a>.</p>
 
       question23:
-        summary: Who is behind the Open Contracting Lift program?
+        summary: ¿Quiénes están detrás del programa Lift de Open Contracting?
         details: >
-          <p>The Open Contracting Partnership is a silo-busting collaboration across governments, businesses, civil society, and technologists to open up and transform government contracting worldwide. Bringing open data and open government together, we make sure public money is spent openly, fairly, and effectively on public contracts, the single biggest item of spending by most governments. They are a government’s number one corruption risk, and they are vital to make sure citizens get the services that they deserve.</p>
+          <p>La Alianza para las Contrataciones Abiertas es una colaboración que abre espacios de diálogo entre gobiernos, empresas, la sociedad civil y especialistas en tecnología para transparentar y transformar la contratación pública en todo el mundo. Al combinar los datos abiertos y el gobierno abierto, nos aseguramos de que los fondos públicos se usen de manera abierta, justa y eficaz en los contratos públicos, dado que representan el mayor concepto individual de gasto para la mayoría de los gobiernos. Constituyen el principal riesgo de corrupción para los gobiernos y son esenciales para que los ciudadanos obtengan los servicios que merecen.</p>
 
       question24:
-        summary: What support will the Open Contracting Lift program offer my team?
+        summary: ¿Qué apoyo ofrecerá el programa Lift  de Open Contracting a mi equipo?
         details: >
-          <p>Over this 18 month program, teams will receive:</p>
+          <p>Durante los 18 meses del programa, los equipos obtendrán:</p>
           <ul>
-          <li><strong>Two in-person Lift-off planning workshops</strong> to co-create and refine your project plan with your broader team and critical stakeholders.</li>
-          <li><strong>Planning visit in-person or virtually from OCP staff before or between workshops</strong></li>
-          <li><strong>Regular bi-weekly meetings with Lift advisor.</strong></li>
-          <li><strong>Up to US$35,000 financial support.</strong></li>
-          <li><strong>Technical assistance on open contracting topics</strong> depending on your team’s specific needs, such as vendor engagement, user research, building buy-in with key stakeholders, advocacy, procurement policy, and capacity building.</li>
-          <li><strong>Data support</strong> to help gather and analyze your procurement data to set baseline KPIs and measure your progress, as well as publish your information if this is one of your project goals.   
-          <li><strong>Monitoring, Learning, and Evaluation (MEL) support</strong> to help learn during implementation, and document your project success.</li>
+          <li><strong>Dos talleres de planificación Lift-off presenciales </strong> para crear en forma conjunta y perfeccionar el plan de su proyecto con otros miembros de su equipo y principales actores.</li>
+          <li><strong>Visita de planificación presencial o virtual de personal de OCP antes de los talleres o entre ellos.</strong></li>
+          <li><strong>Reuniones quincenales con el asesor de Lift.</strong></li>
+          <li><strong>Ayuda financiera de hasta USD 35.000.</strong></li>
+          <li><strong>Asistencia técnica sobre temas de contratación abierta, </strong> dsegún las necesidades específicas de su equipo, por ejemplo, participación de los proveedores, investigación de usuarios, promover la aceptación entre los principales actores interesados, incidencia, políticas de contratación y desarrollo de capacidades.</li>
+          <li><strong>Apoyo con datos</strong> para ayudarle a reunir y analizar sus datos de contratación, establecer los KPI de base y medir sus avances, así como publicar su información cuando este sea uno de los objetivos de su proyecto.      
+          <li><strong>Apoyo para el monitoreo, el aprendizaje y la evaluación (MEL)</strong> para facilitar el aprendizaje durante la implementación y documentar el éxito de su proyecto.</li>
           </ul>
-          <p>In addition, teams are eligible for an additional 6 months of MEL and documentation assistance, as well as light-touch technical support, following program completion.</p>
-          <p>Check out the <a href="http://bit.ly/Lift-handbook">Lift Applicant Handbook</a> for more details on what support you can expect from OCP Lift.</p>
+          <p>Los equipos también podrían recibir durante otros 6 meses asistencia para MEL y con la documentación, así como apoyo técnico informal una vez completado el programa.</p>
+          <p>Consulte el <a href="http://bit.ly/Lift-handbook">Manual para postulantes de Lift</a> y conozca más sobre qué apoyo puede esperar a través de Lift de OCP.</p>
 
 ###############################
 # Footer                 ######
