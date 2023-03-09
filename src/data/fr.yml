@@ -162,14 +162,14 @@ apply:
   applyCTA:
     text: Lancez votre candidature
     url: >
-      https://google.com
+      bit.ly/OCP23-Lift-application-fr
 
   heroCTA:
 
     text: Lancez votre candidature
 
     link: >
-      https://google.com
+      bit.ly/OCP23-Lift-application-fr
 
   ## 01. Resources Section
 
@@ -707,7 +707,7 @@ faq:
           <li><strong>une assistance dans le suivi, l’apprentissage et l’évaluation (MEL)</strong> pour vous aider à apprendre pendant la mise en œuvre et à documenter la réussite de votre projet. </li>
           </ul>
           <p>En outre, les équipes peuvent bénéficier de 6 mois supplémentaires d’assistance en matière de suivi, d’apprentissage et d’évaluation, ainsi que d’un soutien technique léger, une fois le programme terminé. </p>
-          <p>Pour plus de détails sur le soutien que vous pouvez attendre d’OCP, consultez le <a href="http://bit.ly/Lift-handbook">Manuel du candidat Lift</a>.</p>
+          <p>Pour plus de détails sur le soutien que vous pouvez attendre d’OCP, consultez le <a href="bit.ly/OCP23-Lift-handbook-fr">Manuel du candidat Lift</a>.</p>
 
 ###############################
 # Footer                 ######
