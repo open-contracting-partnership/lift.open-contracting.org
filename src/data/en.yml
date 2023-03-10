@@ -162,14 +162,7 @@ apply:
   applyCTA:
     text: Start your application
     url: >
-      bit.ly/OCP23-Lift-application
-
-  heroCTA:
-
-    text: Start your application
-
-    link: >
-      bit.ly/OCP23-Lift-application
+      https://bit.ly/OCP23-Lift-application
 
   ## 01. Resources Section
 

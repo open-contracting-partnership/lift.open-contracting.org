@@ -162,14 +162,7 @@ apply:
   applyCTA:
     text: Начать заявку
     url: >
-      bit.ly/OCP23-Lift-application-ru
-
-  heroCTA:
-
-    text: Начать заявку
-
-    link: >
-      bit.ly/OCP23-Lift-application-ru
+      https://bit.ly/OCP23-Lift-application-ru
 
   ## 01. Resources Section
 

@@ -160,16 +160,9 @@ apply:
   heroText: Consulte los recursos debajo para generar su mejor postulación.  <br>La fecha límite para postularse es <b>el 5 de mayo de 2023.</b>.
 
   applyCTA:
-    text: Postúlese
-    url: >
-       bit.ly/OCP23-Lift-application-es
-
-  heroCTA:
-
     text: ¿Listo para comenzar?
-
-    link: >
-       bit.ly/OCP23-Lift-application-es
+    url: >
+       https://bit.ly/OCP23-Lift-application-es
 
   ## 01. Resources Section
 
