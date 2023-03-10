@@ -187,7 +187,7 @@ apply:
         <p>Have more questions? Email Lift Program Manager, <a href="mailto:ksklar@open-contracting.org">ksklar@open-contracting.org</a>.</p>
 
 ###############################
-# Program Page           ######
+# Program Page          #######
 ###############################
 
 program:
@@ -448,7 +448,7 @@ faq:
 
   heroHeading: Everything you <br>need to know.
 
-  heroText: Can’t find the answers you’re looking for? Check out the <a href="bit.ly/OCP23-Lift-handbook">Lift Applicant Handbook</a> or reach out to Kaye Sklar, Lift Program Manager. We will add questions here as we receive them so make sure to check back.
+  heroText: Can’t find the answers you’re looking for? Check out the <a href="https://bit.ly/OCP23-Lift-handbook">Lift Applicant Handbook</a> or reach out to Kaye Sklar, Lift Program Manager. We will add questions here as we receive them so make sure to check back.
 
 
   ### Applications Category
@@ -514,7 +514,7 @@ faq:
         details: >
           <p>Yes! You can receive more guidance on applying to Lift in the following ways:</p>
           <ul>
-          <li>Read the Lift Applicant Handbook</li>
+          <li>Read the <a href="https://bit.ly/OCP23-Lift-handbook">Lift Applicant Handbook</a></li>
           <li>Attend one of the upcoming informational webinars</li>
           <li>Reach out to <a href="https://www.open-contracting.org/about/team/">your country manager</a> to set up a 1-1 session to review your application.</li>
           <li><a href="https://open-contracting.us12.list-manage.com/subscribe?u=4257477995e0a1fa5cb6587b2&id=fc9ec0e34b">Sign up</a> to be notified of additional Q&amp;As and resources&nbsp;</li>
