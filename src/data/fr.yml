@@ -173,8 +173,8 @@ apply:
     applicationTips:
       heading: Obtenez des conseils pour réussir votre candidature.
       text: >
-        <p>La candidature Lift sera ouverte pendant 8 semaines, jusqu’au 5 mai 2023. Lisez le Manuel du candidat Lift et participez à l’un de nos webinaires d’information jusqu’au 24 mars (ou regardez les enregistrements par la suite) pour connaître tous les tenants et aboutissants avant de présenter votre candidature.</p>
-        <p>Vous pouvez également télécharger une version PDF des questions relatives à la candidature ici afin de les examiner avant de vous connecter et de commencer votre formulaire de candidature.<p>
+        <p>La candidature Lift sera ouverte pendant 8 semaines, jusqu’au 5 mai 2023. Lisez le <a href="https://bit.ly/OCP23-Lift-handbook-fr">Manuel du candidat Lift</a> et participez à l’un de nos <a href="https://www.open-contracting.org/events/lift-informational-webinar/">webinaires d’information</a> jusqu’au 24 mars (ou regardez les enregistrements par la suite) pour connaître tous les tenants et aboutissants avant de présenter votre candidature.</p>
+        <p>Vous pouvez également télécharger une <a href="https://docs.google.com/document/d/1-wqoLUfoaLjdiov7rqrg7jjhPsOewQbvSpSeBHqvTKI/edit?usp=sharing">version PDF des questions</a> relatives à la candidature ici afin de les examiner avant de vous connecter et de commencer votre formulaire de candidature.<p>
 
     inspired:
       heading: Soyez inspiré.
@@ -431,7 +431,7 @@ eligibility:
       text: >
         <p>Le personnel OCP évaluera toutes les candidatures écrites. Les candidats les plus compétitifs seront invités à faire une présentation (pitch) et à passer un entretien. Jusqu’à 9 équipes seront sélectionnées pour participer à Lift, et les gagnants seront annoncés en juillet. </p>
         <p>Bien que notre objectif soit de sélectionner les projets ayant le plus fort potentiel d’impact dans le monde, les décisions finales concernant la sélection seront également prises en tenant compte de la diversité régionale et thématique, ainsi que de la capacité de l’équipe OCP et des ressources organisationnelles.</p>
-        <p>Nous voulons vous aider à préparer la candidature la plus solide possible. Veuillez contacter votre responsable régional pour obtenir des informations et des commentaires tout au long du processus de candidature.</p>
+        <p>Nous voulons vous aider à préparer la candidature la plus solide possible. Veuillez contacter votre <a href="https://www.open-contracting.org/about/team/#gavin-hayman">responsable régional</a> pour obtenir des informations et des commentaires tout au long du processus de candidature.</p>
 
     notSelected:
       heading: Si votre équipe n’est pas retenue.
@@ -449,7 +449,7 @@ faq:
 
   heroHeading: Foire <br>aux questions.
 
-  heroText: Tout ce que vous devez savoir. Vous ne trouvez pas les réponses que vous cherchez ? Consultez le <a href="https://docs.google.com/presentation/d/1OEhqnhCB3r_PUNQ1_O9XntzWJ7wu8g4F4ycXKWMJ_DY/edit#slide=id.p">Manuel du candidat</a> au programme Lift ou contactez Kaye Sklar, Responsable principale du programme Lift. Nous ajouterons des questions ici au fur et à mesure que nous les recevrons, alors n’hésitez pas à revenir.
+  heroText: Tout ce que vous devez savoir. Vous ne trouvez pas les réponses que vous cherchez ? Consultez le <a href="https://bit.ly/OCP23-Lift-handbook-fr">Manuel du candidat Lift</a> au programme Lift ou contactez Kaye Sklar, Responsable principale du programme Lift. Nous ajouterons des questions ici au fur et à mesure que nous les recevrons, alors n’hésitez pas à revenir.
 
 
   ### Applications Category
@@ -515,8 +515,8 @@ faq:
         details: >
           <p>Oui ! Vous pouvez obtenir plus de conseils sur la candidature Lift de la manière suivante :</p>
           <ul>
-          <li>Lire le Manuel du candidat Lift</li>
-          <li>Participer à l’un des prochains webinaires d’information</li>
+          <li>Lire le <a href="https://bit.ly/OCP23-Lift-handbook-fr">Manuel du candidat Lift</a></li>
+          <li>Participer à l’un des prochains <a href="https://www.open-contracting.org/events/lift-informational-webinar/">webinaires d’information</a></li>
           <li>Contacter <a href="https://www.open-contracting.org/about/team/">votre responsable pays</a> pour organiser un entretien en tête-à-tête afin d’examiner votre candidature.</li>
           <li><a href="https://open-contracting.us12.list-manage.com/subscribe?u=4257477995e0a1fa5cb6587b2&id=fc9ec0e34b">S’inscrire</a> pour être informé des questions-réponses et des ressources supplémentaires.</li>
           <li>Envoyer un courriel à <a href="mailto:ksklar@open-contracting.org">Kaye Sklar, Responsable principale du programme Lift</a></li>
@@ -700,7 +700,7 @@ faq:
           <li><strong>une assistance dans le suivi, l’apprentissage et l’évaluation (MEL)</strong> pour vous aider à apprendre pendant la mise en œuvre et à documenter la réussite de votre projet. </li>
           </ul>
           <p>En outre, les équipes peuvent bénéficier de 6 mois supplémentaires d’assistance en matière de suivi, d’apprentissage et d’évaluation, ainsi que d’un soutien technique léger, une fois le programme terminé. </p>
-          <p>Pour plus de détails sur le soutien que vous pouvez attendre d’OCP, consultez le <a href="bit.ly/OCP23-Lift-handbook-fr">Manuel du candidat Lift</a>.</p>
+          <p>Pour plus de détails sur le soutien que vous pouvez attendre d’OCP, consultez le <a href="https://bit.ly/OCP23-Lift-handbook-fr">Manuel du candidat Lift</a>.</p>
 
 ###############################
 # Footer                 ######
@@ -729,17 +729,17 @@ footer:
         about:
           title: À propos d’OCP
           link: >
-            https://www.open-contracting.org
+            https://www.open-contracting.org/
           isExternal: true
         newsletter:
           title: Bulletin
           link: >
-            https://google.com
+            http://eepurl.com/b3r8Vb
           isExternal: true
         privacy:
           title: Politique de confidentialité
           link: >
-            https://google.com
+            https://www.open-contracting.org/about/our-privacy-policy/
           isExternal: true
     contact:
       title: Contact
