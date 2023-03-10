@@ -4,8 +4,7 @@
 
 lang: en
 title: Open Contracting Lift
-gtm: GTM-5ZQRJS9
-smcard: meta-img-ocp-lift.jpg
+smcard: socialimage.jpg
 urlprefix:
 
 meta:
@@ -15,21 +14,33 @@ meta:
   canonical: https://lift.open-contracting.org
   ogtitle: Open Contracting Lift
 
-applyCTA:
-  text: 2021 application window now closed
-  url:
-  #### details is optional
-
-
 ###############################
 # Navigation             ######
 ###############################
 
 nav:
-  apply: Apply
   program: Program
+  eligibility: Eligibility
   faq: FAQ
-  language: Language
+  apply: Apply
+
+  languages:
+    en: English
+    es: Español
+    fr: Français
+    ru: Русский
+
+###############################
+# Apply banner           ######
+###############################
+
+applyBanner:
+
+  headline: Ready to <br>get started?
+
+  text: We are looking for a variety of teams that have big ideas for using open contracting to fight corruption and strengthen democratic institutions, protect the environment or improve climate resilience, or promote social inclusion.
+
+  ctaText: Apply now
 
 ###############################
 # Homepage               ######
@@ -41,39 +52,55 @@ home:
 
   hero:
 
-    headline: Elevate public services.
-
-    text: You want to make the recovery from the pandemic fast, fair, and effective. Open Contracting Lift is our impact accelerator program to help teams of bold procurement reformers around the world to go further with their ideas and deliver change. <strong>How will you use open contracting to support an inclusive and effective recovery?</strong>
-
-
-  ## 02. Intro Section
-
-  intro:
-
-    leftCol:
-
-      text: Open Contracting Lift is our program to help teams of bold procurement reformers around the globe propel their project ideas forward and deliver systemic change in a world still struggling with the fiscal, social, and personal challenges of COVID-19.
-
-    rightCol:
-
+    headline:
       text: >
-        <p>Your goal could be to use open contracting to support an inclusive and effective recovery by:</p>
+        Lift <br>up your<br>
+      rotatingWord:
+        word1: reform
+        word2: team
+        word3: community
+        word4: procurement
 
-        <ul>
-        <li><strong>Expanding economic opportunity</strong>: boosting opportunities for women-, minority-owned or local businesses to participate in public procurement, or building the capacity of small, locally-owned businesses to compete and win government contracts.</li>
-        <li><strong>Improving public services and infrastructure:</strong> stocking hospitals fairly with the best medicines and protective equipment, equipping public schools with the supplies and infrastructure they need to serve students and their families, higher quality public housing, or expanding access to affordable and green public transit.</li>
-        <li><strong>Increasing government effectiveness and accountability:</strong> improving integrity through monitoring and advocacy, increasing competition and reducing sole sourcing, using data and insight for decision-making, or working more efficiently to reduce the cost of issuing public contracts.</li>
-        </ul>
-        <p>We recognize that you may be struggling with less capacity or resources because of the pandemic. We are here to help.</p>
-        <p>Over 18 months, you will receive extensive, tailored support from leading experts and peers to deliver better goods, works, and services, and expand economic opportunity for everyone through new or better contracting strategies. We’ll help you transform your great idea into a strong plan for action, build buy-in, and strengthen your capacity during implementation. Teams will be eligible for up to $30,000 worth of direct support depending on team needs and progress, as well as 200 hours of technical assistance and support from OCP. </p>
+    text: Are you a government or social leader trying to improve public integrity, sustainability or equity? Lift is an impact accelerator program designed to help you and your team deliver change through open contracting.
 
-    quote:
-      text: >
-        “Lift helped cut the learning curve. Of course we were starting to learn, but this program helped us learn faster. Plus, the political support and the technical assistance really helped us reach our milestones in terms of opening up the data.”
-      attribution:
+    heading2: >
+      How will you use <br>
+      open contracting to…
 
+    themes:
+      corruption:
+        img: icon-corruption
+        text: >
+          Fight corruption or strengthen democratic institutions?
+      climate:
+        img: icon-climate
+        text: >
+          Protect the environment or improve climate resilience?
+      inclusion:
+        img: icon-inclusion
+        text: >
+          Promote economic and social inclusion
+
+
+  ## 02. About Lift
+
+  about:
+    heading: >
+      About Lift
     text: >
-      <p>We want to hear your new ideas for using open contracting to support an inclusive and effective recovery. We know that your time is more valuable than ever - that is why we made the initial application short. Completing just ten questions could get you 200 hours of support! <p>For inspiration, check out how <a href="https://www.open-contracting.org/implement/lift/">teams around the world have used Lift </a> to help their reform projects go further, faster.</p>
+      <p>As governments and social leaders around the world grapple to address the converging crises of inequality, climate change, and a decline in public trust, every single one of them has a powerful and untapped tool at their disposal: public procurement.</p>
+      <p>Open contracting is a tested approach to reimagine public procurement to deliver systemic change. Lift is our program to help teams of bold reformers to redesign processes, policies, and data to make them goal-driven, user-friendly and human-centered. Your challenge could be…</p>
+
+    graphic:
+      theme1:
+        heading: Corruption, low trust in government, or a lack of representation. 
+        text: You might want to use open contracting to improve your country’s public spending and integrity through implementing better red flagging approaches, increasing competition and reducing sole sourcing. Or you might want to improve monitoring and advocacy by empowering citizens, businesses, journalists and others to track and report procurement failures and making government agencies accountable to responding to them.
+      theme2:
+        heading: Government spending and investments that don’t meet climate goals and needs.
+        text: You might want to use open contracting to expand access to affordable and green public transit, purchase more sustainably-produced or longer-lasting products, or measurably reduce the amount of carbon emissions from public purchasing. Or you might be trying to advance climate mitigation priorities and enable smarter decision-making around how disaster prevention investments are made. 
+      theme3:
+        heading: Purchasing or public services that reinforce social inequities.
+        text: You might want to use open contracting to improve vendor diversity by boosting opportunities for women-, youth- or minority-owned businesses to participate in public procurement, or build the capacity of small, local suppliers to compete and win government contracts. Or you might want to improve service delivery by improving social safety net programs, helping stock hospitals fairly with the best medicines and protective equipment, or equipping public schools with the supplies and infrastructure they need to serve students and their families.
 
   ## 03. Why Apply Section
 
@@ -81,73 +108,45 @@ home:
 
     heading: Why apply?
 
-    text: You want to contribute to a better and more inclusive recovery that serves the needs of marginalized or underrepresented communities. You recognize that shrinking government budgets mean that we must make the most out of every dollar. You see procurement as a lever to deliver better results.
+    text:
+      text1:
+        heading: Advance social, economic, and environmental outcomes in your community.
+        text: You already see public procurement as a lever to deliver social, economic, and environmental outcomes. We can help you create and implement a strong plan for achieving your ambitious goals that benefit your communities using effective public contracting strategies.
+      text2:
+        heading: Learn globally, change locally.
+        text: With 200 hours of technical support over 18 months, you will get tailored guidance on how to use public contracting to deliver better results for your project. Learn about what works and what mistakes to avoid when building buy-in, using open data, and implementing results-driven contracting strategies to achieve your goals. You will also receive up to $35,000 worth of direct support, depending on your team needs and progress.
+      text3:
+        heading: Test, refine, and scale your solutions.
+        text: Our Liftoff workshops will help you develop and refine your plan, and our Measurement, Evaluation, and Learning (MEL) support will help your team document your progress each step of the way, and track and measure your results with procurement data.
+      text4:
+        heading: Join a community of reformers.
+        text: >
+          Co-work with experts who can help you adapt proven solutions to your context. Share your story and progress, and participate in regional and global forums to showcase your projects. For inspiration, check out how teams around the world have used Lift to help their reform projects go further, faster.
 
+  ## 04. Testimonials section
+
+  testimonials:
+    
     quote1:
       text: >
-        “If you want to create more or better impact, this program is perfect.”
-      attribution:
-
-    left:
-      heading: Propel your reform ambitions.
-      text: Get better results from your reform project. Create effective public contracting strategies that will help you achieve your ambitious goals.
-
-    center:
-      heading: Learn globally, change locally.
-      text: With 200 hours of technical support, you will get bespoke guidance on how to use public contracting to deliver better results. Learn about what works and which mistakes to avoid when building buy-in, using open data and implementing results-driven contracting strategies with vendors and stakeholders.
-
-    right:
-      heading: Join a community of reformers.
-      text: Connect with experienced peers who have led successful reforms and overcome similar challenges. Co-work with experts who can help you adapt proven solutions to your context. All applicants will be invited to join an online community to share progress and lessons with fellow practitioners.
-
+        &ldquo;Thanks to the Lift process, we were able to provide a clearer direction and ground our ambition.&rdquo;
+      name: Marcelo Espinel
+      title: Deputy director, Fundación Ciudadanía y Desarrollo
+      img: testimonial-marcelo
+    
     quote2:
       text: >
-        “I would describe Lift as a great partnership, having someone there to back up your crazy idea. Someone who believes in your change, keeps you on track, and holds you accountable (in a good way!) to your own hypothesis and ideas.”
-      attribution:
-
-  ## 04. Who Can Apply Section
-
-  whoApply:
-
-    heading: Who can apply?
-
-    text: You can be a government agency, civil society, media, academic or technology organization, or a social entrepreneur. You can also apply as a coalition of actors. Our strongest teams so far have brought together multiple actors across government agencies and across government and civil society.
-
-    left1:
-      heading: Plans for impact from contracting.
-      text: Lift is open to teams working to improve the quality of public goods, works or services. You wish to serve your citizens better, engage more diverse vendors or help governments save time and money. You have a clear goal in mind and a problem that you are trying to solve—at the national, regional, city, or municipality level.
-
-    right1:
-      heading: Projects with momentum, at all levels of maturity.
-      text: Teams can be working on projects at different stages of development. You could be embarking on a new initiative or working to refine and scale a piloted solution. Projects will need to show demonstrated support from senior leadership to qualify.
-
-    left2:
-      heading: Teams who can drive change.
+        &ldquo;Lift was instrumental in helping us better articulate and scope our project, and establish feasible objectives. Because of the Lift process, we ended up with a plan we could execute, not just an idea.&rdquo;
+      name: Ángeles Ferreyra
+      title: Office of Purchasing and Contracts, Ministry of Finance, City of Buenos Aires
+      img: testimonial-angeles
+    
+    quote3:
       text: >
-        Lift is all about having the capacity to make your big idea a reality. Your team should include at least two key roles: someone who can build political support and someone who can navigate the procurement system. If your project requires expertise in a highly technical area, such as data or technology, you should also have a technical expert on your team. Lift is open to teams from any sector and most countries.
-
-    right2:
-      heading: Teams who bring together allies in reform.
-      text: >
-        We require that Lift reform teams be cross-agency or cross-organizational. This is because we have seen that the strongest reform teams typically work together across sectors and across organizations.
-
-    bottomLinkText: See more about eligibility criteria
-
-    quote:
-      text: >
-        “This opportunity is for people who are reformers that are self-driven, not those expecting OCP to come in and do things for them - OCP is the good partner that stands next to you to push for changes.”
-      attribution:
-
-  ## 05. Apply Section
-
-  apply:
-
-    heading: Apply
-
-    cta:
-      text: Apply now
-      #### details is optional
-      details: Deadline March 19
+        &ldquo;The project truly raised the bar on how we can think about a creative relationship with suppliers and the public, without compromising the principles of transparency or fairness.&rdquo;
+      name: Program participant
+      title: From a bike-share program in Mexico City
+      img: testimonial-bike
 
 ###############################
 # Apply Page             ######
@@ -155,9 +154,16 @@ home:
 
 apply:
 
-  heading: Let us help you with the heavy lifting.
+  pageTitle: Apply
 
-  text: Ready to level up? Review the resources below to create your best application. Deadline to apply is March 19, 2021.
+  heroHeading: Let us help you with the heavy lifting.
+
+  heroText: Review the resources below to create your best application. <br>Deadline to apply is <b>May 5, 2023</b>.
+
+  applyCTA:
+    text: Start your application
+    url: >
+      https://bit.ly/OCP23-Lift-application
 
   ## 01. Resources Section
 
@@ -165,163 +171,131 @@ apply:
 
     heading: Resources
 
-    eligible:
-      heading: Find out if you’re eligible.
-      text: >
-        <p>All applicants should be:</p>
-        <ul>
-        <li>Pursuing a project that aims to use open contracting to promote an inclusive and effective recovery.&nbsp;</li>
-        <li>A team with at least two key members: someone who can build political support and is skilled at navigating bureaucracy (what we call a Relationship Manager) and someone who can navigate the procurement system (what we refer to as a Procurement Expert); and, if the project requires a technology solution, a Technical Expert. We also require that one team member can serve as the Team Leader, who has the authority to coordinate the team and drive the project forward.&nbsp;</li>
-        <li>A team that is cross-departmental or cross-organizational.&nbsp;</li>
-        <li>Able to dedicate significant energy and time to this project so that you can pursue your idea and make consistent progress.</li>
-        <li>Able to deliver the project with existing technical infrastructure and team capacity.&nbsp;</li>
-        <li>Working in a country deemed &ldquo;Good,&rdquo; &ldquo;Satisfactory,&rdquo; &ldquo;Problematic,&rdquo; or &ldquo;Difficult&rdquo; by the <a href="https://rsf.org/en/ranking_table">Press Freedom Index 2020</a>. See the <a href="https://docs.google.com/document/d/1kHdJEyy4UGlvTIAD1WyTAyaRP9R7Z9QylZvEJvGxlSY/edit?usp=sharing">Application Scoring Guide</a> for details.).</li>
-        <li>Have working-level English to benefit from group seminars and exchanges.</li>
-        <li>Committed to participate fully in the 18-month program.</li>
-        </ul>
-
     applicationTips:
       heading: Get tips to ace the application.
       text: >
-        <p>The Lift application will be open for 8 weeks, until March 19, 2021. Read through the <a href="https://docs.google.com/presentation/d/1lHVSnPUozaJdD9EJMXz_MHf05lsB6449yqDcS_aQYbY/edit#slide=id.p">Lift Applicant Handbook</a> and join our <a href="https://www.open-contracting.org/events/">informational webinars </a> for all of the ins-and-outs you&rsquo;ll need to know before you apply.
-        <a href="https://docs.google.com/document/d/1-c63jnsrmUjgxM4LBD3ERqKSEw1LEcNXxnDJnqGK6kY/edit?usp=sharing">View the application questions here.</a> <p>
+        <p>The Lift application will be open for 8 weeks, until May 5, 2023. Read through the <a href="https://bit.ly/OCP23-Lift-handbook">Lift Applicant Handbook</a> and join one our informational webinars through March 24th (or watch the recordings afterwards) for all of the ins-and-outs you’ll need to know before you apply.</p>
+        <p>Also, you can download a <a href="https://docs.google.com/document/d/1vZcDIe_xChy66SeawAWzZSCat8qgylsV3mWwPvXTkmo/edit?usp=sharing">PDF version of the application questions</a> here to review before you sign in and begin your application form.<p>
 
     inspired:
       heading: Be inspired.
       text: >
-        <p>Check out how <a href="https://www.open-contracting.org/implement/lift/">teams around the world</a> have used Lift to help their reforms go farther, faster. In addition, <a href="https://www.open-contracting.org/impact-stories/">these</a> <a href="https://www.open-contracting.org/impact-stories/">case studies</a> showcase how we&rsquo;ve helped governments tackle ambitious reforms.</p>
+        <p>Check out how 
+        <a href="https://www.open-contracting.org/implement/lift/">teams around the world</a> 
+        have used Lift to help their reforms go farther, faster. In addition, 
+        <a href="https://www.open-contracting.org/impact-stories/">these</a> 
+        <a href="https://www.open-contracting.org/impact-stories/">case studies</a> 
+        showcase how we&rsquo;ve helped governments tackle ambitious reforms.</p>
 
     contact:
       heading: Get in touch.
       text: >
         <p>Have more questions? Email Lift Program Manager, <a href="mailto:ksklar@open-contracting.org">ksklar@open-contracting.org</a>.</p>
 
-  ## 02. Selection Section
-
-  selection:
-    heading: Selection
-
-    ### note no <p> tags
-    text: >
-      Applications will be scored up to a total of 25 points against the following key criteria:
-
-    leftCol:
-      heading: The potential impact of the proposed project to improve the quality of public goods, works or services and the strength of the plan for achieving the project objectives
-      subhead:
-
-    centerCol:
-      heading: The team’s power to make change, including political buy-in and support from key stakeholders
-      subhead:
-
-    rightCol:
-      heading: The capacity of the core team to implement the project and mitigate challenges;
-      subhead:
-
-    ### note no <p> tags
-    text2: >
-      For a detailed breakdown of the scoring guidelines, see the&nbsp;<a href="https://docs.google.com/document/d/1kHdJEyy4UGlvTIAD1WyTAyaRP9R7Z9QylZvEJvGxlSY/edit?usp=sharing">Application Scoring Guide</a>.
-
-    process:
-      heading: The Process
-      text: >
-        <p>We have created a three step application process:</p>
-        <ol>
-        <li> <a href="https://docs.google.com/document/d/1-c63jnsrmUjgxM4LBD3ERqKSEw1LEcNXxnDJnqGK6kY/edit?usp=sharing"> Short written application,</a> open to all.&nbsp;</li>
-        <li>Long written application, invite-only. Up to 21 teams will be selected&nbsp;&nbsp;</li>
-        <li>Interviews &amp; exercise, invite-only. Up to 11 teams will be selected&nbsp;&nbsp;&nbsp;</li>
-        </ol>
-        <p>Winners will be announced in June. Up to 7 teams will be selected to participate in Lift.</p>
-        <p>OCP staff will evaluate all short written applications. The long written applications will be shared with an advisory committee of non-OCP experts, who will review the applications and share insights with us.</p>
-
-    notSelected:
-      heading: If your team is not selected.
-      text: >
-        <p>Lift is a highly competitive program. All applicants will be notified as soon as possible if they are not selected to move forward through the application process. We will also provide direct feedback on the submissions and identify alternative ways we can work with you.&nbsp;</p>
-        <p>Lift is just one way that we provide support to our partners. We also organize frequent community calls, which are advertised on our <a href="https://groups.google.com/a/open-contracting.org/forum/?utm_medium=email&amp;utm_source=footer#!forum/standard-discuss">OCDS Google group</a>, <a href="https://www.open-contracting.org/latest-news/">newsletter</a>, <a href="https://twitter.com/opencontracting">Twitter</a> and <a href="https://www.facebook.com/OpenContracting/">Facebook</a> pages and social media. You can reach out to the OCP team at <a href="mailto:info@open-contracting.org">info@open-contracting.org</a> if you have a question about the implementation of the data standard.</p>
-
-  ## 03. Experts Section
-
-  experts:
-    heading: Advisory Committee
-    text: This is the stellar team who will evaluate our top applications.
-
-    bios:
-
-      bio1:
-        name: Michael P. Cañares
-        text: Strategy Advisor, Step Up Consultants
-        img: michael-canares.jpg
-
-      bio2:
-        name: Camilo Cetina
-        text: Main Lead, Integrity & Digital Innovation at CAF – Development Bank of Latin America
-        img: camilo-cetina.jpg
-
-      bio3:
-        name: Amira El-Sayed
-        text: Principal, Civic Empowerment, Luminate
-        img: amira-el-sayed.jpg
-
-      bio4:
-        name: Jáchym Hercher
-        text: Manager at Seznam.cz & former editor of the EU's procurement data standard
-        img: jachym-hercher.jpg
-
-      bio5:
-        name: Elena Hoffnagle
-        text: Project Leader, Government Performance Lab at the Harvard Kennedy School
-        img: elena-hoffnagle.jpg
-
-      bio6:
-        name: Seember Nyager
-        text:
-        img: seember-nyager.jpg
-
 ###############################
-# Program Page           ######
+# Program Page          #######
 ###############################
 
 program:
 
-  heading: How the program works.
+  pageTitle: Program
+
+  heroHeading: How the <br>program works.
+
+  heroText: We are looking for a variety of teams that have big ideas for using open contracting to fight corruption and strengthen democratic institutions, protect the environment or improve climate resilience, or promote social inclusion.
 
   ## 01. Intro Section
 
-  text1: >
-    <p>We are looking for all types of teams that have big ideas for using <a href="https://www.open-contracting.org/why-open-contracting/#what-is-open-contracting">open contracting</a> to support an inclusive and effective recovery from the pandemic.&nbsp;</p>
-    <p>Teams will be selected through a competitive process. Up to seven teams will be selected. One-on-one support will be delivered in English, Spanish, French, or Russian. Group learning and some expert advice will be delivered in English only. Participating teams should have a working-level English proficiency to benefit from the Lift community offerings.&nbsp;</p>
-    <p>The program has two parts. Check out the <a href="https://docs.google.com/presentation/d/1lHVSnPUozaJdD9EJMXz_MHf05lsB6449yqDcS_aQYbY/edit#slide=id.p">Lift Applicant Handbook</a> for more details.</p>
+  intro: 
 
-  leftCol:
-    heading: >
-      Part 1: <span class="teal">Building Foundations</span>
-    subhead: July to September 2021, 3 months
-    text: Teams transform their ideas into a detailed action plan, refine their plan based on stakeholder engagement, and build robust reform strategies for implementation and monitoring impact.
+    text1: >
+      <p>Up to nine teams from around the globe will be selected through a competitive process. One-on-one support can be delivered in English, Spanish, French, Russian, or Bahasa Indonesia.</p>
+      <p>Over this 18 month program, teams will receive:</p>
 
-  rightCol:
-    heading: >
-      Part 2: <span class="blue">Guiding Implementation</span>
-    subhead: October to December 2022, 15 months
-    text: Teams receive hands-on, custom support as they build, test, and embed best contracting practices in their contexts, and monitor their impact.
+    cards:
+      workshops:
+        text: >
+          <b>Two in-person Liftoff workshops</b> to co-create and refine your plan
+        img: card-graphic-workshops
+      meetings:
+        text: >
+          <b>Bi-weekly virtual meetings</b> with Lift advisor
+        img: card-graphic-meetings
+      finance:
+        text: >
+          <b>Up to USD$35k</b> financial support
+        img: card-graphic-finance
+      technical:
+        text: >
+          <b>Technical assistance</b> on open contracting topics 
+        img: card-graphic-technical
+      datatech:
+        text: >
+          <b>Data and tech support</b> to gather and analyze your procurement data
+        img: card-graphic-datatech
+      mel:
+        text: >
+          <b>Monitoring, Learning, and Evaluation (MEL) support</b> to help learn during implementation
+        img: card-graphic-mel
+
+    text2: >
+      <p>Teams may also be eligible for an additional 6 months of MEL and documentation assistance, as well as light-touch technical support following program completion, depending on team needs and progress.</p>
 
   ## 02. What to Expect Section
 
   expect:
     heading: What to expect.
 
-    text: >
-      <ul>
-      <li>Applications open: January 19</li>
-      <li>Informational webinars: February&nbsp;</li>
-      <li>Applications close: March 12&nbsp;</li>
-      <li>Finalists invited to submit full application, all others notified: April 19</li>
-      <li>Interviews: May/June&nbsp;</li>
-      <li>Selected teams announced: June&nbsp;</li>
-      <li>Liftoff Workshop to design/refine projects I: Early/Mid July, TBA</li>
-      <li>Building Foundations phase: July - September 2021&nbsp;</li>
-      <li>Liftoff Workshop II to get ready for implementation: October 2021</li>
-      <li>Implementation phase: October 2021 - December 2022</li>
-      </ul>
+    timeline:
+      application:
+        title: Application
+        activities:
+          activity1:
+            date: March 13, 2023
+            title: Applications open
+          activity2:
+            date: March 20–24, 2023
+            title: Informational webinars
+          activity3:
+            date: May 5, 2023
+            title: Applications close
+      selection:
+        title: Selection
+        activities:
+          activity1:
+            date: May 30, 2023
+            title: Finalists invited to submit full application, all others notified
+          activity2:
+            date: June–July 2023
+            title: Interviews
+          activity3:
+            date: End of July 2023
+            title: Selected teams announced
+      onboarding:
+        title: Onboarding & Planning
+        activities:
+          activity1:
+            date: August 2023
+            title: Onboarding
+          activity2:
+            date: September–October 2023
+            title: Liftoff Workshop I to design and refine projects
+      implementation:
+        title: Implementation
+        activities:
+          activity1:
+            date: May–June 2024
+            title: Liftoff Workshop II to refine for implementation
+          activity2:
+            date: October–November 2024
+            title: 100 day virtual workshop
+          activity3:
+            date: February 2025
+            title: Program end
+
+    disclaimer: >
+      <i>*Dates might change based on team needs and progress.</i>
+      
 
   ## 03. Your Commitment Section
 
@@ -329,31 +303,146 @@ program:
     heading: Your commitment
 
     ### note: no paragraph tags here
-    text: >
+    subheading: >
       Teams should be prepared to commit to:
 
     leftCol:
-      heading: In the application process
+      before:
+        heading: Before you apply
+        text: >
+          <ul>
+          <li>The two project co-leads commit to actively participate in the program for the full 18 months of its duration.</li>
+          <li>Your project fulfills the eligibility criteria for having a clear goal in line with one of the three challenge topics, political leadership support to implement changes, data to measure your progress, and team capacity to do the work and participate in the program activities.</li>
+          </ul>
 
-      text: >
-        <ul>
-        <li>Completing a short, 10 question application to tell us about your reform project, team, and context. This application should take no more than 3 hours.</li>
-        <li>If you are selected to move forward, completing an additional application questionnaire to give us additional details on your project, team, and context. You may also be invited to participate in one round of interviews and to complete a short exercise.&nbsp;</li>
-        </ul>
-        <p>We want to help you put your best application together. <a href="https://lift.open-contracting.org/apply/">Check out our application resources.</a> <p>
+      application:
+        heading: In the application process
+        text: >
+          <ul>
+          <li>Complete a 12-question application to tell us about your reform project, team, and context. This application should take no more than 3 hours.</li>
+          <li>If you are selected to move forward, prepare and deliver a pitch presentation and participate in one round of interviews. </li>
+          </ul>
+          <p>We want to help you put your best application together. Check out our <a href="#">application resources</a> for further guidance.</a> <p>
 
     rightCol:
       heading: During the program
 
       text: >
         <ul>
-        <li>Most importantly, <strong>proactively work to achieve the project milestones</strong> in your plan. This means making weekly progress on your reform project that you create and refine during the Liftoff workshops.&nbsp;&nbsp;</li>
-        <li>4 day <strong>Liftoff workshop</strong> for 4 members of your team to kick off the program in July and an additional 4 day Liftoff workshop to jumpstart implementation in October. These workshops will be delivered either in-person or virtually, depending on the ability of the team to gather safely.&nbsp;</li>
-        <li><strong>Regular check-in calls</strong> with OCP program advisors every 2 weeks, with at least 1 team member from each participating department or organization on the call.&nbsp;&nbsp;&nbsp;</li>
-        <li><strong>Regular team working meetings, without OCP</strong>, to push forward your project.&nbsp;</li>
-        <li>Developing and using a <strong>Monitoring, Learning, and Engagement (MEL) plan</strong> to adapt and track your reform progress.</li>
+        <li>Proactively work to achieve the project milestones in your plan. This means having a solid team with leadership and capacity to make regular progress on your reform project that you will create and refine during the Liftoff workshops. We expect that your team moves forward with your own project without OCP thanks to your project management and team capacity, although we are here to support you. </li>
+        <li>Have regular check-in calls with OCP program advisors every 2 weeks, with at least 1 team member from each participating department or organization on the team.</li>
+        <li>Participate in two Lift-off workshops with your team and critical partners/key outside stakeholders. These workshops last between 2 and 4 days, and are a time for intensive project planning and co-working to achieve progress on critical milestones. These workshops will be delivered in-person in your region. We expect you will help us secure the right participants to make these workshops a success.</li>
+        <li>Develop and use a Monitoring, Learning, and Engagement (MEL) plan to adapt and track your reform progress.</li>
+        <li>Gather data relevant to your project goals to set baseline measurements and understand your progress. We know that collecting procurement data can be challenging, and we will support you in mapping and analyzing this information.</li>
         </ul>
         <p>The more progress you make, the more OCP can support you in terms of technical assistance and funding.</p>
+
+###############################
+# Eligibility Page       ######
+###############################
+
+eligibility:
+
+  pageTitle: Eligibility & Selection
+
+  heroHeading: Find out if Lift is <br>right for you.
+
+  heroText: We’re looking for teams across all sectors, from around the world, who want to drive change through open contracting. Read more to find out if you’re eligible.
+
+  ## 01. Eligibility checklist
+
+  checklistIntro: >
+    All applicants teams should be:
+
+  checklist:
+
+    checklist1: Pursuing a project that aims to use open contracting to achieve one of three goals of anti-corruption, sustainability, or inclusion.
+
+    checklist2: Comprised of a strong team that includes at least four people integral to project implementation, including two team leads, a relationship manager, and procurement and data experts.
+
+    checklist3: Committed to participate fully in the 18-month program.
+
+    checklist4: Working in a country deemed “Good,” “Satisfactory,” “Problematic,” or “Difficult” by the <a href="https://rsf.org/en/index">World Press Freedom Index 2022</a>.
+
+
+  ## 02. Eligibility details
+
+  details:
+    heading: What makes a <br>good Lift candidate?
+
+    text:
+
+      text1:
+        heading: Dynamic, collaborative teams.
+        text: Your team should include a Relationship Manager who is skilled at building political support and navigating bureaucracy, a Procurement Expert who is knowledgeable about navigating the procurement system, a Technical and/or Data Expert who is knowledgeable about procurement data publication, analysis and use and/or is familiar in using technology solutions, and two Team Leads, who have the authority and capacity to coordinate the team and drive the project forward. 
+
+      text2:
+        heading: Goals and plans for impact from open contracting.
+        text: Lift is open to teams around the globe that want to use procurement as a lever for better economic, social, or environmental outcomes. You have a clear goal in mind and a problem that you are trying to solve—at the national, regional, or city level—that addresses one of our challenge question topics. You also have clear beneficiaries in mind and can articulate who in your community will benefit from this project.
+
+      text3:
+        heading: Projects that aim for systemic change.
+        text: Lift is for systemic reform projects that seek to make progress across policy, processes, capacity, and data. It is not for general capacity building on open contracting or advocacy. While training, workshops, and open data publication and tools are important, they cannot be the whole of your Lift project—they should just be a means to reach your systemic goal.
+
+      text4:
+        heading: Projects with buy-in and momentum, at all levels of maturity.
+        text: Your reform project should already have acceptance and support of some senior leadership that can help you move your project forward, make significant changes, and overcome opposition. Teams can be working on projects at different stages of development. You could be embarking on a new initiative, or working to refine and scale a piloted solution. 
+
+      text5:
+        heading: Teams who have the capacity and power to drive change.
+        text: Lift is all about having the capacity to make your big idea a reality. You should have a team who can dedicate significant time to drive this project forward on a weekly basis, team leaders who can commit for the duration of the program, data and IT infrastructure in place, and a budget to fund your time and your essential activities. You are eager to get input from your community on how you can better meet their needs. 
+
+      text6:
+        heading: Teams who bring together allies in reform.
+        text: We have seen that the strongest and most successful reform teams typically work together across sectors and silos, so we are especially looking for cross-departmental or cross-organizational collaborations. We strongly encourage teams to apply as a coalition of actors. As part of the application, we also ask for the commitment of your co-leads for the program duration of 18 months, and prefer that they come from two different agencies, departments, or organizations to promote collaboration in their respective entities. However, stand-alone applicants from civil society/nonprofit organizations or government agencies with outstanding applications and teams will be considered as well. 
+
+      text7:
+        heading: Approaches that could be replicated or scaled.
+        text: In the past, several Lift teams have used the program to test new approaches that they later scaled up in more regions, sectors, or agencies after the program’s end. We are interested in supporting projects that have this potential. Consider if your project includes processes, tools, or changes that you could improve and adapt for others to bring into their work.
+
+
+  ## 03. Selection Section
+
+  selection:
+    heading: Selection
+
+    ### note no <p> tags
+    text: >
+      Applications will be scored against the following key criteria:
+
+    leftCol:
+      heading: The potential impact of the proposed project to improve the quality of public goods, works or services and the strength of the plan for achieving the project objectives
+
+    centerCol:
+      heading: The team’s power to make change, including political buy-in and support from key stakeholders
+
+    rightCol:
+      heading: The capacity of the core team to implement the project and mitigate challenges;
+
+    process:
+      heading: The Process
+      subhead: >
+        We have created a two step application process:
+
+      cards:
+        application:
+          text: >
+            <b>Application</b>—Open
+          img: card-graphic-application
+        pitch:
+          text: >
+            <b>Pitch and interview</b>—Invite-only
+          img: card-graphic-pitch
+      text: >
+        <p>OCP staff will evaluate all written applications. The most competitive applicants will be invited to give a pitch presentation and interview. Up to 9 teams will be selected to participate in Lift, and winners will be announced in July.</p>
+        <p>While our aim is to select projects with the strongest potential for impact around the globe, final decisions about selection will also be made in consideration of regional and topic diversity, as well as OCP team capacity and organizational resources.</p>
+        <p>We want to help you prepare the strongest application possible. Please reach out to <a href="https://www.open-contracting.org/about/team/#gavin-hayman">your regional manager </a>for feedback and input throughout the application process.</p>
+
+    notSelected:
+      heading: If your team is not selected.
+      text: >
+        <p>Lift is a highly competitive program. All applicants will be notified as soon as possible if they are not selected to move forward through the application process. We will also provide direct feedback on the submissions and identify alternative ways we can work with you.&nbsp;</p>
+        <p>Lift is just one way that we provide support to our partners. We also organize frequent community calls, which are advertised on our <a href="https://groups.google.com/a/open-contracting.org/forum/?utm_medium=email&amp;utm_source=footer#!forum/standard-discuss">OCDS Google group</a>, <a href="https://www.open-contracting.org/latest-news/">newsletter</a>, <a href="https://twitter.com/opencontracting">Twitter</a> and <a href="https://www.facebook.com/OpenContracting/">Facebook</a> pages and social media. You can reach out to the OCP team at <a href="mailto:engage@open-contracting.org">engage@open-contracting.org</a> if you have a question about the implementation of the data standard.</p>
 
 ###############################
 # FAQ Page               ######
@@ -361,11 +450,11 @@ program:
 
 faq:
 
-  heading: Everything you need to know.
+  pageTitle: FAQ
 
-  ## 01. Intro Section
+  heroHeading: Everything you <br>need to know.
 
-  text: Can’t find the answers you’re looking for? Check out the Lift Applicant Handbook or reach out to Kaye Sklar, Lift Program Manager. We will add questions here as we receive them so make sure to check back.
+  heroText: Can’t find the answers you’re looking for? Check out the <a href="https://bit.ly/OCP23-Lift-handbook">Lift Applicant Handbook</a> or reach out to Kaye Sklar, Lift Program Manager. We will add questions here as we receive them so make sure to check back.
 
 
   ### Applications Category
@@ -379,51 +468,71 @@ faq:
       question1:
         summary: What makes a good application?
         details: >
-          <p>The best applications will start with a very specific goal or problem that relates to using procurement to power an effective or inclusive recovery. You might want to improve the quality of school meals or school infrastructure, expand access to reliable public transportation, make public purchases more environmentally-friendly, or aim to give more contracting opportunities to women- or minority-owned businesses. In your application, be as specific as possible about how better contracting processes will help you achieve these goals.</p>
+          <p>The best applications will start with a very specific goal or problem that relates to using procurement to:</p>
 
-          <p>Note that Lift is not for general capacity building on open contracting or advocacy. While training, workshops, and OCDS publication and tools and advocacy are important, they cannot be the whole of your Lift project—they should just be a means to serve your goal.</p>
+          <ul>
+            <li>Fight corruption and strengthen democratic institutions</li>
+            <li>Protect the environment or improve climate resilience</li>
+            <li>Promote economic and social inclusion</li>
+          </ul>
 
-          <p>Also, we encourage you to be clear about how you will measure and track progress against your goals. For example, potential metrics might be the number of women-owned businesses who win contracts, feedback from residents about the quality of food or the cleanliness of public parks, infrastructure projects completed on time and within budget, etc.</p>
+          <p>In your application, be as specific as possible about how better contracting processes will help you achieve these goals.</p>
+
+          <p>Lift is for systemic reform projects that seek to make progress across policy, processes, capacity, and data. It is not for general capacity building on open contracting or advocacy. While training, workshops, and open data publication and tools are important, they cannot be the whole of your Lift project—they should just be a means to reach your goal.</p>
+
+          <p>Also, we encourage you to be clear and specific about how you will measure and track progress against your goals. For example, potential metrics might be a reduction of sole sourcing, the amount of carbon emissions from infrastructure projects, the number of locally-owned women-led businesses who win contracts, etc.</p>
 
       question2:
         summary: What are the key questions that I should think about before submitting an application?
         details: >
-          <p>We require that you answer all questions and submit a complete application. <a href="https://docs.google.com/document/d/1-c63jnsrmUjgxM4LBD3ERqKSEw1LEcNXxnDJnqGK6kY/edit?usp=sharing">View the application questions here. </a>To make the best application possible, focus especially on developing concrete answers to these four questions:</p>
+          <p>We require that you answer all questions and submit a complete application. To make the best application possible, focus especially on developing concrete answers to these four questions:</p>
           <ul>
           <li>What is the problem that you are seeking to address through Lift?&nbsp;</li>
           <ul>
-          <li>Tip: Focus on a specific goal or problem relating to the quality of public goods, works, or services, or access to opportunity. Explain how this problem relates to an inclusive and effective recovery from the pandemic.&nbsp;</li>
+          <li>Tip: Focus on a specific goal or problem relating to our challenge question: how will you use open contracting to…</li>
+          <ul>
+          <li>Fight corruption and strengthen democratic institutions?</li>
+          <li>Protect the environment or improve climate resilience?</li>
+          <li>Promote economic and social inclusion?</li>
+          </ul>
           </ul>
           <li>What is the solution to this problem?</li>
           <ul>
-          <li>Tip: Think beyond implementing the OCDS, rolling out a new platform or tool, or running workshops. Instead, explain what the future that you want to see is and the concrete outcomes you anticipate by the Lift program&rsquo;s end in June of 2022.</li>
+          <li>Tip: Lift is for systemic reform projects. Think beyond rolling out a new platform or tool, or running workshops, or publishing data. Instead, explain what the future that you want to see is, and the concrete outcomes you anticipate by the Lift program’s end.</li>
           </ul>
           <li>What are your &lsquo;powers&rsquo; to make change happen, and who in power will help you make this change happen?&nbsp;</li>
           <ul>
-          <li>Tip: Lift is for teams that can achieve measurable improvements in public goods, works, and services or expand economic opportunity as part of supporting an inclusive and effective recovery. This requires that Lift teams have the power to make change. You might have to change regulations or policies, upgrade data or IT infrastructure or rethink processes - doing so often requires political buy-in and robust mandates for change. Consider what organizational strategies or key relationships that give you the power to pursue your work.&nbsp;</li>
+          <li>Lift is for teams that can achieve measurable impact. This requires Lift teams to have the power to make change. You might have to change regulations or policies, upgrade data or IT infrastructure, or rethink processes – doing so often requires political buy-in and robust mandates for change. Consider what organizational strategies or key relationships that give you the power to pursue your goal.</li>
           </ul>
           <li>Who is on your core team, and why are they involved?</li>
           </ul>
-          <p>Tip: Lift is for teams that have skills and represent the agencies or organizations that are integral for project success. For example, if your project is about improving the quality of public housing through procurement reform, it would be smart to have someone on the team who is from the public housing agency.</p>
+          <p>Tip: Lift is for teams that have skills and represent the agencies or organizations that are integral for project success. For example, if your project is about improving the quality of public housing through procurement reform, it would be good to have someone on the team who is from the public housing agency.</p>
 
       question3:
+        summary: What are good measurable targets/goals or KPIs for my project?
+        details: >
+          <p>We encourage you to have measurable goals associated with your project that allow you to have baseline, progress milestones and end-of-program targets. Quantitative data can be incredibly helpful in ensuring that you work towards measurable progress. But we also know that it can be difficult to have high-quality data readily accessible to calculate key performance indicators (KPIs.) We will work with you as part of Lift to unlock and use more data and define KPIs. We are especially interested in measuring direct impact on communities, so if possible, please share an estimate of how many individuals might benefit from the reform.</p>
+
+          <p>We compiled a <a href="https://docs.google.com/document/d/1CHnLhqQ0wKahNIdlBY31hzil5W_LU-6zki3UZLrxLyE/edit#heading=h.ve6tj07iugp9">list of potential KPIs</a> that you might want to include in your Lift application.</p>
+
+      question4:
         summary: I’m interested in applying. Can I get help with the application?
         details: >
           <p>Yes! You can receive more guidance on applying to Lift in the following ways:</p>
           <ul>
-          <li><a href="https://docs.google.com/presentation/d/1lHVSnPUozaJdD9EJMXz_MHf05lsB6449yqDcS_aQYbY/edit#slide=id.p">Read</a> the Lift Applicant Handbook</li>
-          <li><a href="https://www.open-contracting.org/events/">Attend</a> one of the upcoming informational webinars, or <a href="https://www.youtube.com/watch?v=kRoVyAFEMXA&amp;list=PL7sSifLpWd8jwmCtslEW16WRMTu1Tp7To">watch</a> the recordings of the first webinars&nbsp;</li>
-          <li>Sign up for an <a href="mailto:ksklar@open-contracting.org""> office hour</a></li>
+          <li>Read the <a href="https://bit.ly/OCP23-Lift-handbook">Lift Applicant Handbook</a></li>
+          <li>Attend one of the upcoming <a href="https://www.open-contracting.org/events/lift-informational-webinar/">informational webinars</a></li>
+          <li>Reach out to <a href="https://www.open-contracting.org/about/team/">your country manager</a> to set up a 1-1 session to review your application.</li>
           <li><a href="https://open-contracting.us12.list-manage.com/subscribe?u=4257477995e0a1fa5cb6587b2&id=fc9ec0e34b">Sign up</a> to be notified of additional Q&amp;As and resources&nbsp;</li>
+          <li>Email our <a href="mailto:ksklar@open-contracting.org">Senior Program Manager for Lift, Kaye Sklar</a></li>
           </ul>
-          <p>Email <a href="mailto:ksklar@open-contracting.org">Kaye Sklar</a></p>
-
-      question4:
+          
+      question5:
         summary: Can I apply in a language other than English?
         details: >
-          <p>Yes. We will accept applications in Spanish, French, Russian, and English.</p>
+          <p>Yes. We will accept applications in English, Spanish, French, Russian, and we will conduct interviews in all of the previously listed languages, in addition to Bahasa Indonesia. Technical support throughout the program will be available in all five of these languages as well.</p>
 
-      question5:
+      question6:
         summary: Can I submit more than one project?
         details: >
           No, we want you to bring us your best and sharpest idea.
@@ -436,27 +545,27 @@ faq:
 
     questions:
 
-      question6:
+      question7:
         summary: At what stage or scale should my project be to apply? Does it have to be an idea, prototype, or MVP? Should it be focused locally or globally?
         details: >
-          <p>Lift is open to projects at different stages of development and scale. You could be embarking on a new initiative, or working to refine and scale a piloted solution. We require that your project has leadership support, which might include a budget for your work, a political champion, or a formal mandate. You could also be solving problems in your region, country, or city. Your project does not need to be able to scale globally.</p>
+          <p>Lift is open to projects at different stages of development and scale. You could be embarking on a new initiative, or working to refine and scale a piloted solution. In the past we have seen that Lift is especially helpful to test and refine new approaches that then can be scaled in more sectors, agencies, regions, or countries after the project ends. We require your project to have leadership support, which should include a budget for your work, a political champion, or a formal mandate. You could also be solving problems in your region, country, or city. Your project does not need to be able to scale globally.</p>
 
       question8:
         summary: Are there any sectors or topics Lift is particularly interested in?
         details: >
-          <p>No, we are open to a wide range of sectors. You qualify for Lift as long as you are working for a more inclusive and effective recovery through increased openness in procurement, regardless of sector. For example, your focus could be on education, health, infrastructure, transportation, or expanding economic opportunity.</p>
+          <p>No, we are open to a wide range of sectors. You qualify for Lift as long as you are working on a project relevant to our challenge question topics.</p>
 
       question9:
         summary: Can my project be for implementing the Open Contracting Data Standard (OCDS) or OC4IDS?
         details: >
-          <p>We are looking for projects that go beyond implementing OCDS or OC4IDS. Your project should be focused on improving a public good, work, or service and using the OCDS as a tool to achieve that goal. However, implementing OCDS or OC4IDS may be one part of your project.</p>
-          <p>If your focus is solely on implementing OCDS or OC4IDS, Lift is not for you. But please reach out to our helpdesk at data@open-contracting.org who is happy to support anyone interested in implementing OCDS.</p>
+          <p>We are looking for projects that go beyond implementing <a href="https://www.open-contracting.org/data-standard/">OCDS</a> or <a href="https://standard.open-contracting.org/infrastructure/latest/en/">OC4IDS</a>. Your project should be focused on our challenge question topics. However, implementing OCDS or OC4IDS may be one part of your project.</a>
+          <p>If your focus is solely on implementing OCDS or OC4IDS, Lift is not for you. Please review OCDS and OC4IDS documentation and resources for more information on implementing the data standard.</p>
 
       question10:
         summary: Is adopting and/or implementing the Open Contracting Data Standard (OCDS) or OC4IDS required to be eligible for the program?
         details: >
-          <p>No, but we do expect that your reform initiative involves making information or data more accessible. Lift can provide support in implementing <a href="https://www.open-contracting.org/data-standard/">OCDS</a> or OC4IDS if it is part of your project.</p>
-          <p>Want to learn more about OCDS or OC4IDS? Visit the <a href="https://www.open-contracting.org/data-standard/">OCP website</a> for information and resources.</p>
+          <p>No, but we do expect that your reform initiative involves making information or data more accessible, and we will work with you on this. We also expect your project to have quantitative KPIs or targets, and that you measure a baseline and progress along the way. We can help you with this. Lift can provide support in implementing <a href="https://www.open-contracting.org/data-standard/">OCDS</a> or <a href="https://standard.open-contracting.org/infrastructure/latest/en/">OC4IDS</a> if it is part of your project.</p>
+          <p>Want to learn more about OCDS or OC4IDS? Visit the <a href="https://www.open-contracting.org/data-standard/">OCP</a> website for information and resources.</p>
 
   ### Team Category
 
@@ -469,36 +578,37 @@ faq:
       question11:
         summary: How can I be sure my team is the right fit for this program?
         details: >
-          <p>This impact-oriented program is best suited for teams who are:&nbsp;</p>
+          <p>This program is best suited for teams who are:</p>
           <ol>
-          <li>Focused on improving the quality of public goods, works, or services,</li>
-          <li>Experienced in building political support and navigating the procurement system,</li>
+          <li>Focused on achieving impact in one of the three topic areas of Lift</li>
+          <li>Experienced in building political support and navigating procurement systems,</li>
           <li>Working in a context with the technical infrastructure in place to deliver on their project, and</li>
-          <li>Able and committed to investing the time required over the course of the program.</li>
+          <li>Able and committed to invest the time required over the course of the program.</li>
           </ol>
-          <p>Open Contracting Lift is not for teams who only want support on tool development or <a href="http://standard.open-contracting.org/">Open Contracting Data Standard</a> implementation.</p>
-          <p>For a full list of eligibility requirements, see <a href="http://lift.reboot.org/apply.html">Apply</a>.</p>
+          <p>Open Contracting Lift is not for teams who only want support on tool development, advocacy, capacity building, or <a href="http://standard.open-contracting.org/">Open Contracting Data Standard</a> implementation.</p>
+          <p>For a full list of eligibility requirements, see <a href="https://lift.open-contracting.org/eligibility/">Apply</a>.</p>
 
       question12:
         summary: How big should my team be? What key roles and skills should my team have to be successful in the program?
         details: >
           <p>Applicant teams should include, at minimum:</p>
           <ol>
-          <li><strong>Relationship Manager</strong>, who is skilled at navigating bureaucracy and building political buy-in,</li>
-          <li><strong>Procurement Expert</strong>, who has deep knowledge of the procurement system</li>
+          <li>A <strong>Relationship Manager</strong>, who is skilled at building political support and navigating bureaucracy.</li>
+          <li>A <strong>Procurement Expert</strong>, who is knowledgeable about navigating the procurement system.</li>
+          <li>A <strong>Technical and/or Data Expert</strong> who is knowledgeable about procurement data publication, analysis and use, and/or is familiar in using procurement technology solutions.</li>
+          <li>We also require <strong>two Team Leads</strong> who have the authority and capacity to coordinate the team and drive the project forward. If the team is cross-governmental or cross-organizational, we expect these leads would come from their respective entities to promote collaboration.</li>
           </ol>
-          <p>In addition, one of your team members should be the <strong>Team Leader</strong>, who has the authority and capacity to coordinate the team and drive the project forward. If your project requires a technical solution, your team should also have a <strong>technical expert</strong> who can help build your solution.</p>
-          <p>We suggest you keep your teams to 3 to 10 people for easy management.</p>
+          <p>We suggest you keep your teams to 4 to 8 people for easier management. Note: One person can fill multiple roles. For example, the Data Expert may also be a Team Lead.</p>
 
       question13:
         summary: Should my team be from one organization or a collaboration of multiple organizations?
         details: >
-          <p>While we welcome teams from one organization, we are particularly interested in teams that represent collaborative partnerships. In the past we have seen that teams that bring together many diverse actors from different stakeholder groups and government agencies are more effective in achieving change.</p>
+          <p>While we are open to stand-alone applications from civil society/nonprofit organizations or government agencies with outstanding project ideas and team capacity, we are particularly interested in teams that represent collaborative partnerships between government and non-government stakeholders. In the past, we have seen that teams that bring together many diverse actors from different stakeholder groups and government agencies are more effective in achieving change.</p>
 
       question14:
         summary: How many teams will you select?
         details: >
-          <p>We will select up to 7 teams for the program.</p>
+          <p>We will select up to 9 teams for the program.</p>
 
   ### Context / Country Category
 
@@ -511,9 +621,9 @@ faq:
       question15:
         summary: How do you determine country eligibility? Are there any particular countries Lift is interested in?
         details: >
-          <p>Lift uses Reporters Sans Frontiers&rsquo; <a href="https://rsf.org/en/ranking_table?sort=desc&amp;order=Ranking">World Press Freedom Index 2020</a>. Lift is open to countries deemed &ldquo;Good,&rdquo; &ldquo;Satisfactory,&rdquo; &ldquo;Problematic,&rdquo; or &ldquo;Difficult&rdquo; by this index. Lift will not work in countries that are deemed to be in a &ldquo;very serious situation&rdquo; (color: black) according to the index.</p>
-          <p>Lift will consider working in countries that are deemed to be in a &ldquo;difficult situation&rdquo; (color: red) according to the index when applicants can demonstrate during the application process that there is collaboration amongst selected government and civil society actors and a partially safe space that civil society can work in.</p>
-          <p>We are not looking for any particular countries, but for a geographic spread so that the Lift cohort includes a diverse mix of contexts.&nbsp;</p>
+          <p>Lift uses Reporters Sans Frontiers’ <a href="https://rsf.org/en/index">World Press Freedom Index 2022</a>. Lift is open to countries deemed “Good,” “Satisfactory,” “Problematic,” or “Difficult” by this index. Lift will not work in countries that are deemed to be in a “Very Serious” situation (color: dark red) according to the index.</p>
+          <p>Lift will consider working in countries that are deemed to be in a “difficult situation” (color: red) according to the index when applicants can demonstrate during the application process that there is collaboration amongst selected government and civil society actors and at least a partially safe space that civil society can work in.</p>
+          <p>We are not looking for any particular countries, but for a strong geographic spread.</p>
 
   ### Funding / Costs Category
 
@@ -531,12 +641,14 @@ faq:
       question17:
         summary: Are there any costs to participating in the program?
         details: >
-          <p>There is no financial cost to participate, though you will be expected to dedicate about 1 day per week of staff time to the program. Lift will cover all of your program-related travel expenses to in-person Lift events. All applicants should already have funding for essential project activities and staff time.</p>
+          <p>There is no financial cost to participate, though you will be expected to dedicate about 1 day per week of staff time to the program. All applicants should already have funding for essential project activities and staff time.</p>
 
       question18:
-        summary: Is there funding available upon completion of the program?
+        summary: Is there funding available through the program?
         details: >
-          <p>Participating teams are eligible for up to $30,000 USD of support to fund activities or deliverables depending on team needs and progress over the course of the program, as well as 200 hours of technical assistance and support from OCP. All funding decisions will be made in collaboration with the team and OCP Lift.</p>
+          <p>Participating teams are eligible for up to $35,000 USD of support from Lift to fund activities or deliverables depending on team needs and progress over the course of the program, as well as 200 hours of technical assistance and support from OCP.</p>
+          <p>How these funds are spent is flexible and is decided on a project-by-project basis, although these funds are not intended for core operating expenses such as staff salaries. All funding decisions will be made in collaboration with the team, your Lift advisor, and Open Contracting Partnership.</p>
+          <p>We are glad to co-fundraise with partners if additional funds are needed. Teams that demonstrate outstanding progress may be eligible for additional OCP support.</p>
 
   ### How the program works Category
 
@@ -549,7 +661,7 @@ faq:
       question19:
         summary: Where will the Liftoff workshops be held?
         details: >
-          <p>We are currently planning to hold the kickoff workshop either remotely or in-person in your region, depending on health considerations. The second Liftoff workshop in October may be held either in-person in your region, or may be cohort-wide gathering in a location to be determined. The final decision will depend on where applicants are from and which location would be most feasible for their visas and travel, as well as if international travel is safe and feasible at that time. </p>
+          <p>We are currently planning to hold the workshops in-person in your region. The first Liftoff workshop will be held in August - September 2023, and the second Liftoff workshop in May - June 2024.</p>
 
       question20:
         summary: Who are the advisors and experts?
@@ -559,11 +671,11 @@ faq:
       question21:
         summary: What can Lift help me achieve?
         details: >
-          <p>We expect teams to achieve measurable impact by the end of the program, resulting in a more inclusive and effective recovery. This will be tracked by key performance indicators that are developed with participating teams in the first phase of the program.</p>
+          <p>We expect teams to achieve measurable improvements by the end of the program. This will be tracked by key performance indicators that are developed with teams in the first phase of the program. We will support your efforts to gather and analyze procurement data so that you can set baselines and understand your progress.</p>
           <p>Along the way, we anticipate that most projects will make progress on the following outcomes:</p>
           <ul>
-          <li>Effectively build leadership support to drive a robust mandate for your project.&nbsp;</li>
-          <li>Improve use of open data and open data systems to manage, monitor, and advance the quality of delivery of public goods, works, and services or expand access to opportunity.&nbsp;</li>
+          <li>Effectively build leadership support to drive a robust mandate for your project.</li>
+          <li>Improve use of open data and open data systems to manage, monitor, and advance the quality of delivery of public goods, works, and services or expand access to opportunity.</li>
           <li>Establish new ways of working with public contracts to ensure contracting processes and contracts lead to intended results.</li>
           </ul>
           <p>For inspiration, check out what <a href="https://www.open-contracting.org/implement/lift/">other teams have achieved through Lift</a>.&nbsp;</p>
@@ -571,40 +683,80 @@ faq:
       question22:
         summary: Can I still benefit if I don’t participate?
         details: >
-          <p>Absolutely! Throughout the program, OCP will document any new tools, approaches, and progress stories that emerge. To benefit the wider field, we&rsquo;ll share this guidance regularly though blogs and events.&nbsp;</p>
-          <p>You can also receive support via OCP&rsquo;s other resources and engagements. Learn more about these at <a href="https://www.open-contracting.org/resources/">OCP&rsquo;s website</a>.</p>
+          <p>Absolutely! Throughout the program, OCP will document any new tools, approaches, and progress stories that emerge. To benefit the wider field, we’ll share this guidance regularly though blogs and events.</p>
+          <p>You can also receive support via OCP’s other resources and engagements. Learn more about these at <a href="https://www.open-contracting.org/resources/">OCP&rsquo;s website</a>.</p>
 
       question23:
         summary: Who is behind the Open Contracting Lift program?
         details: >
-          <p>The Open Contracting Partnership (OCP) is a silo-busting collaboration between government, business, civil society, and technologists to open up the documents and data behind government contracting and deal-making. We work across sectors and along the whole process of government contracting to save governments money and time, deliver better goods and services to citizens, and create a better business environment for all. Learn more at <a href="open-contracting.org">open-contracting.org</a>.</p>
+          <p>The Open Contracting Partnership is a silo-busting collaboration across governments, businesses, civil society, and technologists to open up and transform government contracting worldwide. Bringing open data and open government together, we make sure public money is spent openly, fairly, and effectively on public contracts, the single biggest item of spending by most governments. They are a government’s number one corruption risk, and they are vital to make sure citizens get the services that they deserve.</p>
 
       question24:
         summary: What support will the Open Contracting Lift program offer my team?
         details: >
-          <p>During <strong>Part 1: Building Foundations</strong>, which takes place from July 2020 to September 2020, OCP will support your efforts to build strong reform plans that are grounded in user research and have strong buy-in from key stakeholders, as well as develop robust reform strategies for implementation and monitoring impact.&nbsp;</p>
-          <p>During <strong>Part 2: Implementation</strong>, which takes place from October to December 2022, OCP will support your work to implement your plans, overcome barriers, and build deep institutional support for your reforms, as well as celebrate your progress along the way.&nbsp;&nbsp;</p>
-          <p>Check out the <a href="https://docs.google.com/presentation/d/1lHVSnPUozaJdD9EJMXz_MHf05lsB6449yqDcS_aQYbY/edit?usp=sharing">Lift Applicant Handbook</a> for more detail on how each part works and what support you can expect from OCP Lift.</p>
+          <p>Over this 18 month program, teams will receive:</p>
+          <ul>
+          <li><strong>Two in-person Lift-off planning workshops</strong> to co-create and refine your project plan with your broader team and critical stakeholders.</li>
+          <li><strong>Planning visit in-person or virtually from OCP staff before or between workshops</strong></li>
+          <li><strong>Regular bi-weekly meetings with Lift advisor.</strong></li>
+          <li><strong>Up to US$35,000 financial support.</strong></li>
+          <li><strong>Technical assistance on open contracting topics</strong> depending on your team’s specific needs, such as vendor engagement, user research, building buy-in with key stakeholders, advocacy, procurement policy, and capacity building.</li>
+          <li><strong>Data support</strong> to help gather and analyze your procurement data to set baseline KPIs and measure your progress, as well as publish your information if this is one of your project goals.   
+          <li><strong>Monitoring, Learning, and Evaluation (MEL) support</strong> to help learn during implementation, and document your project success.</li>
+          </ul>
+          <p>In addition, teams are eligible for an additional 6 months of MEL and documentation assistance, as well as light-touch technical support, following program completion.</p>
+          <p>Check out the <a href="https://bit.ly/OCP23-Lift-handbook">Lift Applicant Handbook</a> for more details on what support you can expect from OCP Lift.</p>
 
 ###############################
 # Footer                 ######
 ###############################
 
 footer:
-  about:
-    heading: About
-    text: >
-      <a href="https://www.open-contracting.org/about/">About the Open Contracting Partnership</a>
+  nav: 
+    resources:
+      title: Resources
+      links:
+        program:
+          title: Program
+          link: program
+        eligibility:
+          title: Eligibility
+          link: eligibility
+        faq:
+          title: FAQ
+          link: faq
+        apply:
+          title: Apply
+          link: apply
+    company:
+      title: Organization
+      links:
+        about:
+          title: About OCP
+          link: >
+            https://www.open-contracting.org/
+          isExternal: true
+        newsletter:
+          title: Newsletter
+          link: >
+            http://eepurl.com/b3r8Vb
+          isExternal: true
+        privacy:
+          title: Privacy policy
+          link: >
+            https://www.open-contracting.org/about/our-privacy-policy/
+          isExternal: true
+    contact:
+      title: Contact
+      links:
+        mail:
+          title: engage@open-contracting.org
+          link: >
+            mailto:engage@open-contracting.org
+          isExternal: true
+  address: >
+    1100 13th Street NW, Suite 800, 20005 Washington, D.C., USA<br>
+    Open Contracting Partnership is an independent non-profit public charity 501(c)(3).
 
-  contact:
-    heading: Contact
-    text: >
-      For more info email <a href="mailto:info@open-contracting.org">info@open-contracting.org</a>
-
-  privacy:
-    heading: Privacy
-    text: >
-      <a href="https://www.open-contracting.org/terms-of-use/">Privacy policy</a>
-
-  form:
-    heading: Stay in Touch
+  license: >
+    This work by the Open Contracting Partnership, unless otherwise noted, is licensed <br>under a Creative Commons Attribution 4.0 International License.

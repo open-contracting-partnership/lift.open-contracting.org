@@ -1,210 +1,82 @@
 <main>
-  <div class="container">
-    <section class="photoBG">
-      <picture class="heroPhoto">
-        <source srcset="{{@root.root}}assets/img/bg_mobile.jpg" media="(max-width: 600px)" type="image/jpeg">
-        <img class="blurry-load" src="{{@root.root}}assets/img/bg-load.jpg" data-large="{{@root.root}}assets/img/bg.jpg" alt="" />
-      </picture>
-      <div class="landingText">
-        <div class="landingText__column landingText__column--left">
-        </div>
-        <div class="landingText__column landingText__column--right" data-aos="fade-up" data-aos-delay="100">
-          <h1>
-            {{home.hero.headline}}
-          </h1>
-          <p>
-            {{{home.hero.text}}}
-          </p>
-          <div class="buttonWrap">
-            {{> applyCTA}}
-
-            {{#if home.hero.secondaryButton.text}}
-            <a href="{{{home.hero.secondaryButton.link}}}">
-              <div class="button button--secondary">
-                  {{{home.hero.secondaryButton.text}}}
-              </div>
-            </a>
-            {{/if}}
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section--angled greyBG section--noHeading">
-      <div class="subSection">
-        <div class="subSection__column">
-        <h2 class="subSection__column__highlight">
-          {{home.intro.leftCol.text}}
-        </h2>
-
-        </div>
-        <div class="subSection__column">
-          {{{home.intro.rightCol.text}}}
-        </div>
-      </div>
-      <div class="x_section--textOnly">
-        <blockquote>
-          {{{home.intro.quote.text}}}
-          {{#if home.intro.quote.attribution}}
-            <p class="attribution">
-              {{{home.intro.quote.attribution}}}
-            </p>
-          {{/if}}
-        </blockquote>
-      </div>
-      <div class="section--textOnly">
-        {{{home.intro.text}}}
-      </div>
-    </section>
-    <section class="section--angled">
-      <h1>
-        {{{home.whyApply.heading}}}
-      </h1>
-      <div class="section--textOnly">
-        <p>
-          {{{home.whyApply.text}}}
-        </p>
-      </div>
-      <blockquote>
-        {{{home.whyApply.quote1.text}}}
-        {{#if home.whyApply.quote1.attribution}}
-          <p class="attribution">
-            {{{home.whyApply.quote1.attribution}}}
-          </p>
-        {{/if}}
-      </blockquote>
-      <div class="subSection whyApplyIcons">
-        <div class="subSection__column subSection__column--centered" data-aos="fade-up" data-aos-delay="200">
-          <picture class="icon">
-            <source srcset="{{@root.root}}assets/img/icon_propel.webp" type="image/webp">
-            <source srcset="{{@root.root}}assets/img/icon_propel.png" type="image/png">
-            <img src="{{@root.root}}assets/img/icon_propel.png" alt="icon" />
-          </picture>
-          <h2>
-            {{home.whyApply.left.heading}}
-          </h2>
-          <p>
-            {{home.whyApply.left.text}}
-          </p>
-        </div>
-        <div class="subSection__column subSection__column--centered" data-aos="fade-up" data-aos-delay="500">
-          <picture class="icon">
-            <source srcset="{{@root.root}}assets/img/icon_global.webp" type="image/webp">
-            <source srcset="{{@root.root}}assets/img/icon_global.png" type="image/png">
-            <img src="{{@root.root}}assets/img/icon_global.png" alt="icon" />
-          </picture>
-          <h2>
-            {{home.whyApply.center.heading}}
-          </h2>
-          <p>
-            {{home.whyApply.center.text}}
-          </p>
-        </div>
-        <div class="subSection__column subSection__column--centered" data-aos="fade-up" data-aos-delay="800">
-          <picture class="icon">
-            <source srcset="{{@root.root}}assets/img/icon_community.webp" type="image/webp">
-            <source srcset="{{@root.root}}assets/img/icon_community.png" type="image/png">
-            <img src="{{@root.root}}assets/img/icon_community0.png" alt="icon" />
-          </picture>
-          <h2>
-            {{home.whyApply.right.heading}}
-          </h2>
-          <p>
-            {{home.whyApply.right.text}}
-          </p>
-        </div>
-      </div>
-      <blockquote>
-        {{{home.whyApply.quote2.text}}}
-        {{#if home.whyApply.quote2.attribution}}
-          <p class="attribution">
-            {{{home.whyApply.quote2.attribution}}}
-          </p>
-        {{/if}}
-      </blockquote>
-    </section>
-    <section class="section--angled darkBG whoCanApply">
-      <div class="section--textOnly">
-        <h1>
-          {{home.whoApply.heading}}
+  <section class="homepageHero">
+    <div class="container container--grid">
+      <div class="homepageHero__heroText">
+        <h1 class="display">
+          {{{home.hero.headline.text}}}
+          <span class="wordWrap">
+            {{#each home.hero.headline.rotatingWord}}
+            <span>{{this}}</span>
+            {{/each}}
+          </span>
         </h1>
-        <p class="centered">
-          {{home.whoApply.text}}
+        <p>
+          {{{home.hero.text}}}
         </p>
       </div>
-      <div class="subSection">
-        <div class="subSection__column subSection__column--centered" data-aos="fade-up" data-aos-delay="200">
-          <picture class="icon">
-            <source srcset="{{@root.root}}assets/img/icon_measure.webp" type="image/webp">
-            <source srcset="{{@root.root}}assets/img/icon_measure.png" type="image/png">
-            <img src="{{@root.root}}assets/img/icon_measure.png" alt="icon" />
-          </picture>
-          <h2>
-            {{home.whoApply.left1.heading}}
-          </h2>
-          <p>
-            {{home.whoApply.left1.text}}
-          </p>
+      <div class="animatedGraphic">
+        <script
+          src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player
+          src="https://lottie.host/a8b87a9e-76d7-46a4-bad8-0e8355499037/nUAdELupeK.json"
+          background="transparent" speed="1" autoplay></lottie-player>
+      </div>
+      <div class="grid--span10 marginTop centered">
+        <h2>{{{home.hero.heading2}}}</h2>
+        <div class="container--grid">
+          {{#each home.hero.themes}}
+          <div class="homepageHero__theme">
+            <picture>
+              <source srcset="{{@root.root}}assets/img/{{this.img}}.svg"
+                type="image/svg+xml">
+              <img src="{{@root.root}}assets/img/{{this.img}}.png" alt="icon" />
+            </picture>
+            <p>{{this.text}}</p>
+          </div>
+          {{/each}}
         </div>
-        <div class="subSection__column subSection__column--centered" data-aos="fade-up" data-aos-delay="500">
-          <picture class="icon">
-            <source srcset="{{@root.root}}assets/img/icon_momentum.webp" type="image/webp">
-            <source srcset="{{@root.root}}assets/img/icon_momentum.png" type="image/png">
-            <img src="{{@root.root}}assets/img/icon_momentum.png" alt="icon" />
-          </picture>
-          <h2>
-            {{home.whoApply.right1.heading}}
-          </h2>
-          <p>
-            {{home.whoApply.right1.text}}
-          </p>
+        <a href="{{@root.root}}{{urlprefix}}apply"
+          class="ctaButton ctaButton--primary">{{{ applyBanner.ctaText}}}</a>
+      </div>
+    </div>
+  </section>
+  <section class="tealBG aboutLift">
+    <div class="container container--grid">
+      <div class="grid--span10 aboutLift__intro">
+        <h2 class="centered color--white">{{home.about.heading}}</h2>
+        {{{home.about.text}}}
+      </div>
+      <div class="aboutLift__graphic grid--spanAll">
+        {{#each home.about.graphic}}
+        <div id="{{@key}}" class="aboutLift__graphic__theme">
+          <h4>{{this.heading}}</h4>
+          <p>{{this.text}}</p>
+        </div>
+        {{/each}}
+        <div id="graph1"></div>
+        <div id="graph2"></div>
+        <div id="graph3"></div>
+      </div>
+    </div>
+  </section>
+  <section class="greyBG">
+    <div class="container container--grid">
+      <div class="grid--span10">
+        <h2 class="centered color--white">{{home.whyApply.heading}}</h2>
+        <div class="whyApply container--grid">
+          {{#each home.whyApply.text}}
+          <div>
+            <h3>{{this.heading}}</h3>
+            <p>{{this.text}}</p>
+          </div>
+          {{/each}}
         </div>
       </div>
-      <div class="subSection">
-        <div class="subSection__column subSection__column--centered" data-aos="fade-up" data-aos-delay="200">
-          <picture class="icon">
-            <source srcset="{{@root.root}}assets/img/icon_contract.webp" type="image/webp">
-            <source srcset="{{@root.root}}assets/img/icon_contract.png" type="image/png">
-            <img src="{{@root.root}}assets/img/icon_contract.png" alt="icon" />
-          </picture>
-          <h2>
-            {{home.whoApply.left2.heading}}
-          </h2>
-          <p>
-            {{home.whoApply.left2.text}}
-          </p>
-        </div>
-        <div class="subSection__column subSection__column--centered" data-aos="fade-up" data-aos-delay="500">
-          <picture class="icon">
-            <source srcset="{{@root.root}}assets/img/icon_handshake.webp" type="image/webp">
-            <source srcset="{{@root.root}}assets/img/icon_handshake.png" type="image/png">
-            <img src="{{@root.root}}assets/img/icon_handshake.png" alt="icon" />
-          </picture>
-          <h2>
-            {{home.whoApply.right2.heading}}
-          </h2>
-          <p>
-            {{home.whoApply.right2.text}}
-          </p>
-        </div>
-      </div>
-      <p class="centered marginBottom"><a href="{{@root.root}}{{urlprefix}}apply">
-        {{home.whoApply.bottomLinkText}}
-      </a></p>
-      <blockquote>
-        {{{home.whoApply.quote.text}}}
-        {{#if home.whoApply.quote.attribution}}
-          <p class="attribution">
-            {{{home.whoApply.quote.attribution}}}
-          </p>
-        {{/if}}
-      </blockquote>
-    </section>
-
-    <section class="section--angled section--noBorder section--flatBottom greenBG">
-      <h1>{{home.apply.heading}}</h1>
-      <div class="flex flex--centered">
-        {{> applyCTA}}
-      </div>
-    </section>
-  </div>
+    </div>
+  </section>
+  <section class="darkBG testimonials">
+    <div class="container">
+      {{> testimonials}}
+    </div>
+  </section>
 </main>

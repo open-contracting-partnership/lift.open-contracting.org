@@ -1,66 +1,93 @@
 <main>
-  <div class="container">
-    <section>
-      <div class="section--textOnly">
-        <div class="heroText">
-          <h1>
-            {{program.heading}}
-          </h1>
-          {{{program.text1}}}
-        </div>
-        <div class="subSection">
-          <div class="subSection__column">
-            <h3>
-              {{{program.leftCol.heading}}}<br />
-              <span class="subheading">
-                {{{program.leftCol.subhead}}}
-              </span>
-            </h3>
-            <p>
-              {{program.leftCol.text}}
-            </p>
-          </div>
-          <div class="subSection__column">
-            <h3>
-              {{{program.rightCol.heading}}}<br />
-              <span class="subheading">
-                {{{program.rightCol.subhead}}}
-              </span>
-            </h3>
-            <p>
-              {{program.rightCol.text}}
-            </p>
-          </div>
-        </div>
+  <section class="pageHero">
+    <div class="container">
+      {{> heroBumperGraphic}}
+      <div class="textWrap">
+        <div class="overline">{{program.pageTitle}}</div>
+        <h1>{{{program.heroHeading}}} </h1>
+        <p>{{{program.heroText}}}</p>
       </div>
-    </section>
-    <section class="section--angled greyBG">
-      <h1>{{program.expect.heading}}</h1>
-      <div class="section--textOnly">
-        {{{program.expect.text}}}
+    </div>
+  </section>
+  <section>
+    <div class="container container--grid container--centered">
+      <div class="grid--span8">
+        {{{program.intro.text1}}}
       </div>
-    </section>
-    <section id="your-commitment" class="section--angled section--noBorder section--flatBottom">
-      <h1>
+      <ul class="grid--span10 programCards">
+        {{#each program.intro.cards}}
+        <li class="card">
+          {{#if this.img}}
+          <picture class="">
+            <img 
+              srcset="{{@root.root}}assets/img/{{this.img}}@2x.png 2x"
+              src="{{@root.root}}assets/img/{{this.img}}.png" alt="icon" 
+            />
+          </picture>
+          {{/if}}
+          {{{this.text}}}
+        </li>
+        {{/each}}
+      </ul>
+      <div class="grid--span8">
+        {{{program.intro.text2}}}
+      </div>
+    </div>
+  </section>
+  <section class="tealBG">
+    <div class="container">
+      <h2 class="color--white centered">{{program.expect.heading}}</h2>
+      <div class="timeline">
+        {{#each program.expect.timeline}}
+        <div class="timeline__phase">
+          <h4>{{this.title}}</h4>
+          {{#each this.activities}}
+          <div class="timeline__activityRow">
+            <div class="timeline__date">
+              {{this.date}}
+            </div>
+            <div class="timeline__activity">
+              {{this.title}}
+            </div>
+          </div>
+          {{/each}}
+        </div>
+        {{/each}}
+      </div>
+      <p class="centered">{{{program.expect.disclaimer}}}</p>
+    </div>
+  </section>
+  <section class="greyBG">
+    <div class="container">
+      {{> bumperGraphicBottom}}
+      <h2 class="centered">
         {{program.commitment.heading}}
-      </h1>
+      </h2>
       <p class="centered">
-        {{{program.commitment.text}}}
+        {{{program.commitment.subheading}}}
       </p>
-      <div class="container subSection">
+      <div class="subSection marginTop">
         <div class="subSection__column">
-          <h2>
-            {{program.commitment.leftCol.heading}}
-          </h2>
-          {{{program.commitment.leftCol.text}}}
+          <div>
+            <h3>
+              {{program.commitment.leftCol.before.heading}}
+            </h3>
+            {{{program.commitment.leftCol.before.text}}}
+          </div>
+          <div>
+            <h3>
+              {{program.commitment.leftCol.application.heading}}
+            </h3>
+            {{{program.commitment.leftCol.application.text}}}
+          </div>
         </div>
         <div class="subSection__column">
-          <h2>
+          <h3>
             {{program.commitment.rightCol.heading}}
-          </h2>
+          </h3>
           {{{program.commitment.rightCol.text}}}
         </div>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
 </main>

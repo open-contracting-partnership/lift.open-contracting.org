@@ -1,0 +1,31 @@
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        {{#each home.testimonials}}
+        <div class="swiper-slide">
+            <div class="testimonialWrap">
+                <figure>
+                    <blockquote>
+                        {{{this.text}}}
+                    </blockquote>
+                    <figcaption>
+                        {{this.name}}<br>
+                        <span class="testimonial__title">{{this.title}}</span>
+                    </figcaption>
+                </figure>
+                <picture>
+                    <source
+                        srcset="{{@root.root}}assets/img/{{this.img}}@2x.png 2x,
+                                {{@root.root}}assets/img/{{this.img}}.png 1x">
+                    <img src="{{@root.root}}assets/img/{{this.img}}.png"
+                        alt="{{this.name}} {{this.title}}" />
+                </picture>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>

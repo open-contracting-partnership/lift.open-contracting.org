@@ -1,143 +1,42 @@
 <main>
-  <div class="container">
-    <section>
-      <div class="section--textOnly">
-        <div class="heroText">
-          <h1>
-            {{apply.heading}}
-          </h1>
-          <p>
-            {{apply.text}}
-          </p>
-        </div>
+  <section class="pageHero">
+    <div class="container">
+      {{> heroBumperGraphic}}
+      <div class="textWrap">
+        <div class="overline">{{apply.pageTitle}}</div>
+        <h1>{{{apply.heroHeading}}}</h1>
+        <p>{{{apply.heroText}}}</p>
+        <a class="ctaButton ctaButton--primary" href="{{apply.applyCTA.url}}">
+          {{apply.applyCTA.text}}
+        </a>
       </div>
-    </section>
-    <section class="section--angled section--noBorder greyBG">
-      <h1>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <h2 class="centered">
         {{apply.resources.heading}}
-      </h1>
-      <div class="subSection">
-        <div class="subSection__column card">
-          <h2>
-            {{apply.resources.eligible.heading}}
-          </h2>
-          {{{apply.resources.eligible.text}}}
+      </h2>
+      <div class="applyGrid">
+        <div class="card applyGrid__tallCard">
+          <h3>
+            {{apply.resources.applicationTips.heading}}
+          </h3>
+          {{{apply.resources.applicationTips.text}}}
         </div>
-        <div class="subSection__column">
-          <div class="card">
-            <h2>
-              {{apply.resources.applicationTips.heading}}
-            </h2>
-            {{{apply.resources.applicationTips.text}}}
-          </div>
-          <div class="card">
-            <h2>
-              {{apply.resources.inspired.heading}}
-            </h2>
-            {{{apply.resources.inspired.text}}}
-          </div>
-          <div class="card">
-            <h2>
-              {{apply.resources.contact.heading}}
-            </h2>
-            {{{apply.resources.contact.text}}}
-          </div>
+        <div class="card">
+          <h3>
+            {{apply.resources.inspired.heading}}
+          </h3>
+          {{{apply.resources.inspired.text}}}
+        </div>
+        <div class="card">
+          <h3>
+            {{apply.resources.contact.heading}}
+          </h3>
+          {{{apply.resources.contact.text}}}
         </div>
       </div>
-    </section>
-
-    <section class="section--angled darkBG">
-      <h1>
-        {{apply.selection.heading}}
-      </h1>
-      <p class="centered">
-        {{apply.selection.text}}
-      </p>
-      <div class="subSection">
-        <div class="subSection__column subSection__column--centered" data-aos="fade-up" data-aos-delay="200">
-          <picture class="icon">
-            <source srcset="{{@root.root}}assets/img/icon_vision.webp" type="image/webp">
-            <source srcset="{{@root.root}}assets/img/icon_vision.png" type="image/png">
-            <img src="{{@root.root}}assets/img/icon_vision.png" alt="icon" />
-          </picture>
-          <h2>
-            {{apply.selection.leftCol.heading}}
-            <span class="subheading">
-              {{{apply.selection.leftCol.subhead}}}
-            </span>
-          </h2>
-        </div>
-        <div class="subSection__column subSection__column--centered" data-aos="fade-up" data-aos-delay="500">
-          <picture class="icon">
-            <source srcset="{{@root.root}}assets/img/icon_gears.webp" type="image/webp">
-            <source srcset="{{@root.root}}assets/img/icon_gears.png" type="image/png">
-            <img src="{{@root.root}}assets/img/icon_gears.png" alt="icon" />
-          </picture>
-          <h2>
-            {{apply.selection.centerCol.heading}}
-            <span class="subheading">
-              {{{apply.selection.centerCol.subhead}}}
-            </span>
-          </h2>
-        </div>
-        <div class="subSection__column subSection__column--centered" data-aos="fade-up" data-aos-delay="800">
-          <picture class="icon">
-            <source srcset="{{@root.root}}assets/img/icon_capacity.webp" type="image/webp">
-            <source srcset="{{@root.root}}assets/img/icon_capacity.png" type="image/png">
-            <img src="{{@root.root}}assets/img/icon_capacity.png" alt="icon" />
-          </picture>
-          <h2>
-            {{apply.selection.rightCol.heading}}
-            <span class="subheading">
-              {{{apply.selection.rightCol.subhead}}}
-            </span>
-          </h2>
-        </div>
-      </div>
-      <div class="section--textOnly">
-        <p class="centered">
-          {{{apply.selection.text2}}}
-        </p>
-        <h2 class="centered marginTop">
-          {{apply.selection.process.heading}}
-        </h2>
-        {{{apply.selection.process.text}}}
-        <h2 class="centered">
-          {{apply.selection.notSelected.heading}}
-        </h2>
-        {{{apply.selection.notSelected.text}}}
-      </div>
-    </section>
-    <section class="section--angled greyBG section--flatBottom">
-      <h1>
-        {{apply.experts.heading}}
-      </h1>
-      <p class="centered">
-        {{apply.experts.text}}
-      </p>
-      <div class="subSection bios">
-        {{#each apply.experts.bios}}
-        <div class="subSection__column subSection__column--centered">
-          <div class="bioPhoto">
-            {{#if this.img}}
-            <img src="{{@root.root}}assets/img/{{this.img}}" alt="{{this.name}}"/>
-            {{/if}}
-          </div>
-          <h2>
-            {{this.name}}
-          </h2>
-          <p>
-            {{this.text}}
-          </p>
-        </div>
-        {{/each}}
-      </div>
-    </section>
-    <section class="section--angled section--noBorder section--flatBottom greenBG">
-      <h1>{{apply.apply.heading}}</h1>
-      <div class="flex flex--centered">
-        {{> applyCTA}} 
-      </div>
-    </section>
-  </div>
+    </div>
+  </section>
 </main>

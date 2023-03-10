@@ -1,4 +1,4 @@
-# Open Contracting Lift
+# Open Contracting Lift 
 
 ## Installation
 
@@ -34,21 +34,11 @@ text: >
   Characters that need to be escaped: colons
 ```
 
-### The Apply CTA
-
-The *Apply Now* CTA is used throughout the site. Rather than having each use be an independent instance there is an `applyCTA` object in each data file. This contains the CTA text, url, and an optional details line (the small text that appears below the main text).
-
 ### FAQ Page
 
 Questions use Panini's `{{#each}}` function. This allows the YAML file to define the number of questions without need to modify any HTML files. `{{#each}}` requires a unique key for each element which is why questions are appended with a number e.g. `Question1`, `Question2`. When adding a new question please make sure to follow this format. Note that the order is determined by the order in which questions appear in the YAML file. Numbers don't affect order, only serve as a unique key for each.  
 
 Details for each question are often lengthy and use multiple paragraphs and lists. Because of this they should be added with HTML tags in the YAML file and being on a new indented line preceeded by a `>` character.
-
-### Advisory Committee
-
-Like the FAQ page, the Advisory Committees section uses the `{{#each function}}`. This allows a variable number of experts to be included. To add a new expert create a new, properly indented line in the YAML files (start with English then copy/paste to other language files). 
-
-Each expert bio takes a name, text, and optional photo input. Photos should be added to the `src/assets/img` folder. The filename should be added to the data file. Not the extension just the file name e.g. `first-last.jpg`.
 
 ### Committing changes via Github
 
