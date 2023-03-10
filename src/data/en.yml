@@ -36,7 +36,7 @@ nav:
 
 applyBanner:
 
-  headline: Ready to <br>get started?
+  headline: Ready to <br>get started? <b>This is a Github Actions test.</b>
 
   text: We are looking for a variety of teams that have big ideas for using open contracting to fight corruption and strengthen democratic institutions, protect the environment or improve climate resilience, or promote social inclusion.
 
