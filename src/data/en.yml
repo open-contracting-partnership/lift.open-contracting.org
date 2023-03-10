@@ -120,7 +120,8 @@ home:
         text: Our Liftoff workshops will help you develop and refine your plan, and our Measurement, Evaluation, and Learning (MEL) support will help your team document your progress each step of the way, and track and measure your results with procurement data.
       text4:
         heading: Join a community of reformers.
-        text: Co-work with experts who can help you adapt proven solutions to your context. Share your story and progress, and participate in regional and global forums to showcase your projects. For inspiration, check out how teams around the world have used Lift to help their reform projects go further, faster.
+        text: >
+          Co-work with experts who can help you adapt proven solutions to your context. Share your story and progress, and participate in regional and global forums to showcase your projects. For inspiration, check out how teams around the world have used Lift to help their reform projects go further, faster.
 
   ## 04. Testimonials section
 
@@ -173,13 +174,18 @@ apply:
     applicationTips:
       heading: Get tips to ace the application.
       text: >
-        <p>The Lift application will be open for 8 weeks, until May 5, 2023. Read through the <a href="https://www.open-contracting.org/implement/lift/">Lift Applicant Handbook</a> and join one our informational webinars through March 24th (or watch the recordings afterwards) for all of the ins-and-outs you’ll need to know before you apply.</p>
-        <p>Also, you can download a PDF version of the application questions here to review before you sign in and begin your application form.<p>
+        <p>The Lift application will be open for 8 weeks, until May 5, 2023. Read through the <a href="https://bit.ly/OCP23-Lift-handbook">Lift Applicant Handbook</a> and join one our informational webinars through March 24th (or watch the recordings afterwards) for all of the ins-and-outs you’ll need to know before you apply.</p>
+        <p>Also, you can download a <a href="https://docs.google.com/document/d/1vZcDIe_xChy66SeawAWzZSCat8qgylsV3mWwPvXTkmo/edit?usp=sharing">PDF version of the application questions</a> here to review before you sign in and begin your application form.<p>
 
     inspired:
       heading: Be inspired.
       text: >
-        <p>Check out how <a href="https://www.open-contracting.org/implement/lift/">teams around the world</a> have used Lift to help their reforms go farther, faster. In addition, <a href="https://www.open-contracting.org/impact-stories/">these</a> <a href="https://www.open-contracting.org/impact-stories/">case studies</a> showcase how we&rsquo;ve helped governments tackle ambitious reforms.</p>
+        <p>Check out how 
+        <a href="https://www.open-contracting.org/implement/lift/">teams around the world</a> 
+        have used Lift to help their reforms go farther, faster. In addition, 
+        <a href="https://www.open-contracting.org/impact-stories/">these</a> 
+        <a href="https://www.open-contracting.org/impact-stories/">case studies</a> 
+        showcase how we&rsquo;ve helped governments tackle ambitious reforms.</p>
 
     contact:
       heading: Get in touch.
@@ -430,7 +436,7 @@ eligibility:
       text: >
         <p>OCP staff will evaluate all written applications. The most competitive applicants will be invited to give a pitch presentation and interview. Up to 9 teams will be selected to participate in Lift, and winners will be announced in July.</p>
         <p>While our aim is to select projects with the strongest potential for impact around the globe, final decisions about selection will also be made in consideration of regional and topic diversity, as well as OCP team capacity and organizational resources.</p>
-        <p>We want to help you prepare the strongest application possible. Please reach out to your regional manager for feedback and input throughout the application process.</p>
+        <p>We want to help you prepare the strongest application possible. Please reach out to <a href="https://www.open-contracting.org/about/team/#gavin-hayman">your regional manager </a>for feedback and input throughout the application process.</p>
 
     notSelected:
       heading: If your team is not selected.
@@ -515,7 +521,7 @@ faq:
           <p>Yes! You can receive more guidance on applying to Lift in the following ways:</p>
           <ul>
           <li>Read the <a href="https://bit.ly/OCP23-Lift-handbook">Lift Applicant Handbook</a></li>
-          <li>Attend one of the upcoming informational webinars</li>
+          <li>Attend one of the upcoming <a href="https://www.open-contracting.org/events/lift-informational-webinar/">informational webinars</a></li>
           <li>Reach out to <a href="https://www.open-contracting.org/about/team/">your country manager</a> to set up a 1-1 session to review your application.</li>
           <li><a href="https://open-contracting.us12.list-manage.com/subscribe?u=4257477995e0a1fa5cb6587b2&id=fc9ec0e34b">Sign up</a> to be notified of additional Q&amp;As and resources&nbsp;</li>
           <li>Email our <a href="mailto:ksklar@open-contracting.org">Senior Program Manager for Lift, Kaye Sklar</a></li>
@@ -699,7 +705,7 @@ faq:
           <li><strong>Monitoring, Learning, and Evaluation (MEL) support</strong> to help learn during implementation, and document your project success.</li>
           </ul>
           <p>In addition, teams are eligible for an additional 6 months of MEL and documentation assistance, as well as light-touch technical support, following program completion.</p>
-          <p>Check out the <a href="http://bit.ly/Lift-handbook">Lift Applicant Handbook</a> for more details on what support you can expect from OCP Lift.</p>
+          <p>Check out the <a href="https://bit.ly/OCP23-Lift-handbook">Lift Applicant Handbook</a> for more details on what support you can expect from OCP Lift.</p>
 
 ###############################
 # Footer                 ######
@@ -728,7 +734,7 @@ footer:
         about:
           title: About OCP
           link: >
-            https://google.com
+            https://www.open-contracting.org/
           isExternal: true
         newsletter:
           title: Newsletter
@@ -738,7 +744,7 @@ footer:
         privacy:
           title: Privacy policy
           link: >
-            https://google.com
+            https://www.open-contracting.org/about/our-privacy-policy/
           isExternal: true
     contact:
       title: Contact
