@@ -15,7 +15,6 @@
   "author": "Adam Parker",
   "license": "MIT License",
   "dependencies": {
-    "aos": "^2.3.4",
     "foundation-sites": "^6.7.5",
     "jquery": "^3.5.1",
     "lazysizes": "^5.1.2",
