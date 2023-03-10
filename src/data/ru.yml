@@ -173,8 +173,8 @@ apply:
     applicationTips:
       heading: Подсказки, чтобы написать отличную заявку
       text: >
-        <p>Заявку на программу Lift можно будет подать в течение 8 недель, до 5 мая 2023 года. Прочтите <a href="https://docs.google.com/presentation/d/1OEhqnhCB3r_PUNQ1_O9XntzWJ7wu8g4F4ycXKWMJ_DY/edit#slide=id.p">Инструкцию для кандидата на программу Lift</a> и присоединяйтесь к нашим информационным вебинарам до 24 марта (или посмотрите их в записи), чтобы узнать все, что будет полезно перед подачей заявки.</p>
-        <p>Кроме того, вы можете загрузить PDF-версию вопросов для заявки здесь, чтобы просмотреть их, прежде чем залогиниться и начать заполнять форму на сайте.<p>
+        <p>Заявку на программу Lift можно будет подать в течение 8 недель, до 5 мая 2023 года. Прочтите <a href="https://bit.ly/OCP23-Lift-handbook-ru">Инструкцию для кандидата на программу Lift</a> и присоединяйтесь к <a href="https://www.open-contracting.org/events/lift-informational-webinar/">нашим информационным вебинарам</a>  до 24 марта (или посмотрите их в записи), чтобы узнать все, что будет полезно перед подачей заявки.</p>
+        <p>Кроме того, <a href="https://docs.google.com/document/d/1cnfK1sqFIZxe8Xx8j2JhkZMrZuBbey4iCVg4i-v0xFg/edit?usp=sharing">вы можете загрузить PDF-версию</a> вопросов для заявки здесь, чтобы просмотреть их, прежде чем залогиниться и начать заполнять форму на сайте.<p>
 
     inspired:
       heading: Вдохновляйтесь
@@ -515,7 +515,7 @@ faq:
         details: >
           <p>Да! Вот как можно получить дополнительные инструкции, чтобы подать заявку на программу Lift:</p>
           <ul>
-          <li>Прочтите Инструкцию для кандидата на программу Lift.</li>
+          <li>Прочтите <a href="https://bit.ly/OCP23-Lift-handbook-ru">Инструкцию для кандидата на программу Lift</a>.</li>
           <li>Запишитесь на один из будущих информационных вебинаров.</li>
           <li>Обратитесь к <a href="https://www.open-contracting.org/about/team/">менеджеру по вашей стране</a>, чтобы назначить индивидуальную встречу и рассмотреть вашу заявку.</li>
           <li><a href="https://open-contracting.us12.list-manage.com/subscribe?u=4257477995e0a1fa5cb6587b2&id=fc9ec0e34b">Зарегистрируйтесь</a>, чтобы получать уведомления, дополнительные ответы и ресурсы.&nbsp;</li>
@@ -729,17 +729,17 @@ footer:
         about:
           title: Информация об OCP
           link: >
-            https://google.com
+            https://www.open-contracting.org/
           isExternal: true
         newsletter:
           title: Рассылка
           link: >
-            https://google.com
+            http://eepurl.com/b3r8Vb
           isExternal: true
         privacy:
           title: Политика конфиденциальности
           link: >
-            https://google.com
+             https://www.open-contracting.org/about/our-privacy-policy/
           isExternal: true
     contact:
       title: Свяжитесь с нами
