@@ -142,8 +142,8 @@ home:
 
     quote3:
       text: >
-        [quote here]
-      name:
+        &ldquo;The project truly raised the bar on how we can think about a creative relationship with suppliers and the public, without compromising the principles of transparency or fairness.&rdquo;
+      name: Sascha Haselmayer
       title:
       img: testimonial-bike
 
