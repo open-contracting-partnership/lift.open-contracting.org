@@ -138,12 +138,12 @@ home:
         &ldquo;Lift fue fundamental para nosotros. Nos ayudó a definir mejor y establecer el alcance de nuestro proyecto y a fijar objetivos posibles. Gracias al proceso de Lift, elaboramos un plan que podíamos ejecutar, no solo una idea.&rdquo;
       name: Ángeles Ferreyra
       title: Dirección de Compras y Contrataciones del Ministerio de Hacienda y Finanzas de la Ciudad de Buenos Aires
-      img: testimonial-marcelo
+      img: testimonial-angeles
     
     quote3:
       text: >
         &ldquo;El proyecto realmente elevó la vara respecto de cómo podemos pensar en una relación creativa con los proveedores y con el público, sin comprometer los principios de transparencia o equidad.&rdquo;
-      name:
+      name: Sascha Haselmayer
       title:
       img: testimonial-bike
 
@@ -316,7 +316,7 @@ program:
           <li>Completar una postulación de 12 preguntas contándonos sobre su proyecto de reforma, equipo y contexto. Preparar esta postulación no debería llevarle más de 3 horas.</li>
           <li>Si es seleccionado para avanzar, deberá preparar y presentar una propuesta y participar en una ronda de entrevistas.  </li>
           </ul>
-          <p>Queremos ayudarle a preparar la mejor postulación posible. Consulte sobre más orientación en nuestros  <a href="#">recursos</a> para la postulación.</a> <p>
+          <p>Queremos ayudarle a preparar la mejor postulación posible. Consulte sobre más orientación en nuestros  <a href="https://lift.open-contracting.org/es/apply/">recursos</a> para la postulación.</a> <p>
 
     rightCol:
       heading: Durante el programa 
@@ -579,7 +579,7 @@ faq:
           <li>Pueden invertir el tiempo necesario durante el transcurso del programa y están decididos a hacerlo.</li>
           </ol>
           <p>Open Contracting Lift no es para equipos que solo necesitan asistencia para desarrollar herramientas, generar incidencia, adquirir capacidades o implementar el <a href="http://standard.open-contracting.org/">Estándar de Datos para las Contrataciones Abiertas</a> implementation.</p>
-          <p>Consulte una lista completa de requisitos de elegibilidad en la sección <a href="https://lift.open-contracting.org/eligibility/">Postularse</a>.</p>
+          <p>Consulte una lista completa de requisitos de elegibilidad en la sección <a href="https://lift.open-contracting.org/es/eligibility/">Postularse</a>.</p>
 
       question12:
         summary: ¿Cuál debe ser el tamaño de mi equipo? ¿Qué roles y habilidades claves debería tener mi equipo para tener éxito en el programa?

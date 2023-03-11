@@ -142,8 +142,8 @@ home:
 
       quote3:
         text: >
-          [quote here]
-        name:
+          &ldquo;The project truly raised the bar on how we can think about a creative relationship with suppliers and the public, without compromising the principles of transparency or fairness.&rdquo;
+        name: Sascha Haselmayer
         title:
         img: testimonial-bike
 
@@ -317,7 +317,7 @@ program:
           <li>Заполнить заявку из 12 вопросов, чтобы рассказать нам о вашем проекте реформы, команде и контексте. Заявка займет не более 3 часов.</li>
           <li>Если вас выбрали для дальнейшего продвижения, подготовьте и проведите презентацию и примите участие в одном раунде собеседований. </li>
           </ul>
-          <p>Мы хотим помочь вам как можно лучше заполнить заявку. Ознакомьтесь с нашими <a href="#">ресурсами для подачи заявки</a>, чтобы узнать больше.</a> <p>
+          <p>Мы хотим помочь вам как можно лучше заполнить заявку. Ознакомьтесь с нашими <a href="https://lift.open-contracting.org/ru/apply/">ресурсами для подачи заявки</a>, чтобы узнать больше.</a> <p>
 
     rightCol:
       heading: Во время программы
@@ -581,7 +581,7 @@ faq:
           <li>Способны и стремятся посвятить программе достаточное количество времени.</li>
           </ol>
           <p>Open Contracting Lift не подходит для команд, которым нужна только поддержка в разработке инструментов, адвокации, наращивании потенциала или внедрении стандарта данных <a href="http://standard.open-contracting.org/">Open Contracting Data Standard</a>.</p>
-          <p>Полный список требований можно просмотреть в разделе <a href="https://lift.open-contracting.org/eligibility/">«Подать заявку»</a>.</p>
+          <p>Полный список требований можно просмотреть в разделе <a href="https://lift.open-contracting.org/ru/eligibility/">«Подать заявку»</a>.</p>
 
       question12:
         summary: Насколько большой должна быть команда? Какие ключевые позиции и навыки должны быть у моей команды, чтобы достичь успеха в программе?

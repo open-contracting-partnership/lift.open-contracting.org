@@ -142,8 +142,8 @@ home:
 
     quote3:
       text: >
-        [quote here]
-      name:
+        &ldquo;The project truly raised the bar on how we can think about a creative relationship with suppliers and the public, without compromising the principles of transparency or fairness.&rdquo;
+      name: Sascha Haselmayer
       title:
       img: testimonial-bike
 
@@ -316,7 +316,7 @@ program:
           <li>Remplir une demande en 12 questions pour nous parler de votre projet de réforme, de votre équipe et de votre contexte. Cette demande ne devrait pas prendre plus de 3 heures.</li>
           <li>Si vous êtes sélectionné pour la suite du processus, préparer et faire une présentation en mode pitch et participer à une série d’entretiens. </li>
           </ul>
-          <p>Nous voulons vous aider à préparer votre meilleure candidature. Consulter nos ressources de candidature pour obtenir des conseils supplémentaires. </a> <p>
+          <p>Nous voulons vous aider à préparer votre meilleure candidature. Consulter nos <a href="https://lift.open-contracting.org/fr/apply/">ressources de candidature</a> pour obtenir des conseils supplémentaires. </a> <p>
 
     rightCol:
       heading: Pendant le programme 
@@ -581,7 +581,7 @@ faq:
           <li>capables et engagées à investir le temps nécessaire au cours du programme.</li>
           </ol>
           <p>Open Contracting Lift n’est pas destiné aux équipes uniquement intéressées par une assistance dans l’élaboration d’outils, le plaidoyer, le renforcement des capacités ou la mise en œuvre du <a href="http://standard.open-contracting.org/">Standard de Données sur la Commande Publique Ouverte.</a></p>
-          <p>Pour une liste complète des conditions d’admissibilité, voir <a href="https://lift.open-contracting.org/eligibility/">présenter sa candidature</a>.</p>
+          <p>Pour une liste complète des conditions d’admissibilité, voir <a href="https://lift.open-contracting.org/fr/eligibility/">présenter sa candidature</a>.</p>
 
       question12:
         summary: Quelle doit être la taille de mon équipe ? Quels rôles et compétences clés mon équipe doit-elle avoir pour réussir dans le programme ?
