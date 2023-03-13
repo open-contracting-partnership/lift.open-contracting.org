@@ -1,2 +1,8 @@
 .DS_Store
 node_modules
+
+# Site is built with Github actions, so built files shouldn't be in the repo
+dist/**
+docs/**
+# Track CNAME changes
+!docs/CNAME
