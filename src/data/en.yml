@@ -79,7 +79,7 @@ home:
       inclusion:
         img: icon-inclusion
         text: >
-          Promote economic and social inclusion
+          Promote economic and social inclusion?
 
 
   ## 02. About Lift
@@ -264,7 +264,7 @@ program:
         activities:
           activity1:
             date: May 30, 2023
-            title: Finalists invited to submit full application, all others notified
+            title: Finalists invited to interview, all others notified
           activity2:
             date: June–July 2023
             title: Interviews
@@ -356,7 +356,7 @@ eligibility:
 
   checklist:
 
-    checklist1: Pursuing a project that aims to use open contracting to achieve one of three goals of anti-corruption, sustainability, or inclusion.
+    checklist1: Pursuing a project that aims to use open contracting to achieve one of three goals — anti-corruption, sustainability, or inclusion.
 
     checklist2: Comprised of a strong team that includes at least four people integral to project implementation, including two team leads, a relationship manager, and procurement and data experts.
 
@@ -417,7 +417,7 @@ eligibility:
       heading: The team’s power to make change, including political buy-in and support from key stakeholders
 
     rightCol:
-      heading: The capacity of the core team to implement the project and mitigate challenges;
+      heading: The capacity of the core team to implement the project and mitigate challenges
 
     process:
       heading: The Process
