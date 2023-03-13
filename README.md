@@ -20,7 +20,7 @@ The `partials` files are the smallest unit of templates that allow for content v
 
 ## The Docs Folder
 
-The `docs` folder serves the static HTML. The files in this folder are generated, therefore they should never be edited directly as any changes will be overwritten by files in `src` when the site is built. 
+The `docs` folder serves the static HTML. The files in this folder are generated through Github Actions and do not need to be commited to the repo.
 
 ## Managing Web Copy
 
@@ -42,4 +42,4 @@ Details for each question are often lengthy and use multiple paragraphs and list
 
 ### Committing changes via Github
 
-After making any changes to the site the final step is always to run `npm run build`. This will package and optimize files for the `docs` folder. Only after successfully building the site are files ready to be committed to the repository. 
+Changes made to the `src` files on the `master` branch will generate a new site build. The build will package and optimize files for and push them to the `gh-pages` branch. It typically takes about 2 mintues to complete, and you can view the build status and history on [the Actions page](https://github.com/open-contracting-partnership/lift.open-contracting.org/actions).
