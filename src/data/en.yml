@@ -40,7 +40,7 @@ applyBanner:
 
   text: We are looking for a variety of teams that have big ideas for using open contracting to fight corruption and strengthen democratic institutions, protect the environment or improve climate resilience, or promote social inclusion.
 
-  ctaText: Apply now
+  ctaText: 2023 application window now closed
 
 ###############################
 # Homepage               ######
@@ -158,7 +158,7 @@ apply:
 
   heroHeading: Let us help you with the heavy lifting.
 
-  heroText: Review the resources below to create your best application. <br>Deadline to apply is <b>May 5, 2023</b>.
+  heroText: Review the resources below to create your best application. <br>Deadline to apply was <b>May 5, 2023</b>.
 
   applyCTA:
     text: Start your application
