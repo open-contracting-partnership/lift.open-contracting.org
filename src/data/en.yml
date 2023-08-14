@@ -263,22 +263,22 @@ program:
         title: Selection
         activities:
           activity1:
-            date: May 30, 2023
+            date: June 2023
             title: Finalists invited to interview, all others notified
           activity2:
-            date: June–July 2023
+            date: July 2023
             title: Interviews
           activity3:
-            date: End of July 2023
+            date: End of August 2023
             title: Selected teams announced
       onboarding:
         title: Onboarding & Planning
         activities:
           activity1:
-            date: August 2023
+            date: September 2023
             title: Onboarding
           activity2:
-            date: September–October 2023
+            date: October-November 2023
             title: Liftoff Workshop I to design and refine projects
       implementation:
         title: Implementation
@@ -290,7 +290,7 @@ program:
             date: October–November 2024
             title: 100 day virtual workshop
           activity3:
-            date: February 2025
+            date: April 2025
             title: Program end
 
     disclaimer: >
