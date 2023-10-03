@@ -5,4 +5,4 @@ node_modules
 dist/**
 docs/**
 # Track CNAME changes
-!docs/CNAME
+!docs/_headers
